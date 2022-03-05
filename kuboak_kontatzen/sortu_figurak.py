@@ -1,15 +1,12 @@
+"""This module contains the functions that create cube figures."""
 import argparse
 import os
 import random
 
 import matplotlib.cm as cm
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D  # <--- This is important for 3D plotting
 import numpy as np
 from tqdm import trange
-
-# Global Variables
-REPEATED = 0
 
 
 def neighbors_in_front(x, y, heights, shape):
@@ -64,17 +61,17 @@ def sort_by_heights(heights, shape):
                 return new_heights
 
         neighborhood = neighbors_in_front(x, y, new_heights, shape)
-        pos_list.extend([(x_new, y_new) for x_new, y_new in neighborhood if new_heights[x_new][y_new] == 0])
+        pos_list.extend([(x_new, y_new) for x_new,
+                         y_new in neighborhood if new_heights[x_new][y_new] == 0])
 
     return new_heights
 
 
-def figure_name(heights, shape, specify_layers=False):
+def figure_name(heights, shape):
     """
     Creates figure filename given its column heights and shape
     :param heights: [x_len, y_len] matrix, each value specifying the number of cubes in a column
     :param shape: (x_len, y_len, z_len) tuple
-    :param specify_layers: true if layers will be specified, false otherwise
     :return: filename of figure
     """
     x_len, y_len, z_len = shape
@@ -84,19 +81,15 @@ def figure_name(heights, shape, specify_layers=False):
         hex_row = [str(hex(elem))[-1] for elem in row]
         name += '_' + ''.join(hex_row)
 
-    if specify_layers:
-        name += '_l'
-
     return name + ".png"
 
 
-def create_random_figure(args):
+def create_random_figure(args, repeated):
     """
     Creates a random figure given input values such as dimension lengths or color palettes
     :param args: input values
+    :param repeated: number of times we tried to create a figure that already exists
     """
-    global REPEATED
-
     x_len = args.x_len
     y_len = args.y_len
     z_len = args.z_len
@@ -117,24 +110,19 @@ def create_random_figure(args):
     heights = sort_by_heights(heights, shape)
 
     # C) Check if this figure has already been created or has no cubes (by checking its filename)
-    if random.random() < args.prob_layers:
-        specify_layers = True
-    else:
-        specify_layers = False
-
-    filename = figure_name(heights, shape, specify_layers)
-    figure_path = os.path.join(args.output_path, filename)
+    filename = figure_name(heights, shape)
+    figure_path = f"{args.output_path}\\{filename}"
 
     if os.path.exists(figure_path) or heights.sum() == 0:
-        if REPEATED < args.max_repeats:
-            REPEATED += 1
-            create_random_figure(args)
+        if repeated < args.max_repeats:
+            repeated += 1
+            create_random_figure(args, repeated)
     else:
-
         # D) Create voxels and rearrange them to create the picture
         voxels = []
         for i in range(z_len):
-            layer = np.array([[True if elem > i else False for elem in heights[x]] for x in range(x_len)])
+            layer = np.array(
+                [[True if elem > i else False for elem in heights[x]] for x in range(x_len)])
             voxels.append(layer)
         voxels = np.array(voxels)
 
@@ -149,7 +137,8 @@ def create_random_figure(args):
         # Assign colors to each voxel
         for i in range(z_len):
             r, g, b, a = cmap(i / z_len)
-            str_rgb = '#{:02x}{:02x}{:02x}'.format(int(r * 255), int(g * 255), int(b * 255))
+            str_rgb = '#{:02x}{:02x}{:02x}'.format(
+                int(r * 255), int(g * 255), int(b * 255))
             colors[i][voxels[i]] = str_rgb
 
         # Swap axes to visualize better
@@ -160,40 +149,35 @@ def create_random_figure(args):
         dpi = 96
         fig = plt.figure(figsize=(600/dpi, 400/dpi), dpi=dpi)
 
-        ax = fig.gca(projection='3d')
-        ax.set(xlim=(0, y_len), ylim=(0, x_len), zlim=(0, z_len))  # Little trick to plot cubes correctly
+        ax = fig.add_subplot(projection='3d')
+        # Little trick to plot cubes correctly
+        ax.set(xlim=(0, y_len), ylim=(0, x_len), zlim=(0, z_len))
 
-        ax.set_xticks(np.arange(0, x_len, 1))
-        ax.set_yticks(np.arange(0, y_len, 1))
+        # set up the axes labels for the plot
+        ax.set_xlabel('x')
+        ax.set_ylabel('y')
+        ax.set_zlabel('z')
 
-        ax.set_xticklabels([])
-        ax.set_yticklabels([])
+        # set up the axes ticks for the plot
+        ax.set_xticks(np.arange(0, x_len + 1, 1))
+        ax.set_yticks(np.arange(0, y_len + 1, 1))
+        ax.set_zticks(np.arange(0, z_len + 1, 1))
 
-        # Define z_ticks
-        if specify_layers:
-            layer = 1
-            z_labels = []
-            placeholder_labels = [str(item) for item in ax.get_zticklabels()]
-            for i, elem in enumerate(placeholder_labels):
-                if i % (len(placeholder_labels) // z_len) == (len(placeholder_labels) // z_len) // 2:
-                    z_labels.append(f"{layer}. Geruza")
-                    layer += 1
-                else:
-                    z_labels.append("")
-            ax.set_zticks(np.arange(0, z_len, 0.5))
-            ax.set_zticklabels(z_labels)
-            ax.get_zaxis().set_tick_params(direction='out', pad=9)
-        else:
-            ax.set_zticks(np.arange(0, z_len, 1))
-            ax.set_zticklabels([])
+        # set up the axes tick labels for the plot
+        ax.set_xticklabels(np.arange(0, x_len + 1, 1))
+        ax.set_yticklabels(np.arange(0, y_len + 1, 1))
+        ax.set_zticklabels(np.arange(0, z_len + 1, 1))
+
+        ax.get_xaxis().set_tick_params(direction='out', pad=0)
+        ax.get_yaxis().set_tick_params(direction='out', pad=0)
+        ax.get_zaxis().set_tick_params(direction='out', pad=0)
 
         ax.view_init(35, -125)
         ax.voxels(voxels, facecolors=colors, edgecolor='k')
-        ax.set(xlim=(0, y_len), ylim=(0, x_len), zlim=(0, z_len))
 
-        # plt.show()
+        fig.canvas.draw()
         fig.tight_layout()
-        plt.savefig(os.path.join(args.output_path, filename), bbox_inches='tight')
+        plt.savefig(figure_path, bbox_inches='tight')
         plt.close()
 
 
@@ -210,12 +194,14 @@ def parse_arguments():
         default=4,
         help="Number of cubes in axis X.",
     )
+
     parser.add_argument(
         "--y_len",
         type=int,
         default=4,
         help="Number of cubes in axis Y.",
     )
+
     parser.add_argument(
         "--z_len",
         type=int,
@@ -226,22 +212,17 @@ def parse_arguments():
     parser.add_argument(
         "--n",
         type=int,
-        default=100,
+        default=1,
         help="Number of created pictures.",
     )
+
     parser.add_argument(
         "--prob",
         type=float,
         default=0.75,
         help="Probability to stack a cube on top of another. Value between 0 and 1 (not inclusive).",
     )
-    parser.add_argument(
-        "--prob_layers",
-        type=float,
-        default=0.25,
-        help="Probability to specify layers in figures (0.25 by default). "
-             "Will be set to 0 if z_len is higher than 4.",
-    )
+
     parser.add_argument(
         "--max_repeats",
         type=int,
@@ -261,7 +242,7 @@ def parse_arguments():
     parser.add_argument(
         "--output_path",
         type=str,
-        default='./figurak',
+        default='images',
         help="Path for output files.",
     )
 
@@ -306,23 +287,16 @@ def check_args(args):
         args.prob = 0.75
         print("WARNING: Probability of spawning a cube should be between 0.0 and 1.0 (not inclusive). Default: 0.75.")
 
-    if args.z_len < 2 or args.z_len > 4:
-        args.prob_layers = 0.0
-        print("WARNING: Layers will not be listed if z_len is not between 2 and 4.")
-    elif args.prob_layers < 0.0 or args.prob_layers > 1.0:
-        args.prob_layers = 0.25
-        print("WARNING: Probability of specifying layers should be between 0.0 and 1.0 (inclusive). Default: 0.25.")
-
     return args
 
 
 def main():
-
+    """Main function"""
     args = parse_arguments()
     args = check_args(args)
 
     for _ in trange(args.n, desc="Images"):
-        create_random_figure(args)
+        create_random_figure(args, repeated=0)
 
 
 if __name__ == '__main__':
