@@ -1,18 +1,10 @@
+"""This module is used to generate questions for cube figures."""
 import argparse
 import os
 import random
 import csv
 import numpy as np
 from tqdm import tqdm
-
-# Global variables
-TYPE = "Kuboak Kontatzen"
-QUESTIONS = [
-    "Zenbat kubo daude guztira? (Ikusgai ez daudenak barne)",   # ID: 0
-    "Zenbat kubo daude ikusgai?",                               # ID: 1
-    "Zenbat kubo EZ daude ikusgai?",                            # ID: 2
-    "Zenbat kubo daude %s. geruzan?",                           # ID: 3 (only if layers are specified)
-]
 
 
 def parse_filename(filename):
@@ -59,7 +51,8 @@ def visible_cubes(heights, shape):
                 neighborhood.append(0)
 
             if len(neighborhood) > 0:
-                value += max([heights[cur_x][cur_y] - min(neighborhood), int(heights[cur_x][cur_y] > 0)])
+                value += max([heights[cur_x][cur_y] -
+                              min(neighborhood), int(heights[cur_x][cur_y] > 0)])
             else:
                 value += heights[cur_x][cur_y]
 
@@ -77,7 +70,7 @@ def create_answers(heights, shape, question_type, layer=0):
     """
     x_len, y_len, z_len = shape
 
-    # COMPUTE VALID ANSWER
+    # compute the correct answer
     if question_type == 0:
         correct_answer = int(heights.sum())
         incorrect_answer_variation = round((x_len * y_len * z_len) ** 0.5)
@@ -88,13 +81,19 @@ def create_answers(heights, shape, question_type, layer=0):
         correct_answer = int(heights.sum()) - visible_cubes(heights, shape)
         incorrect_answer_variation = round((x_len * y_len * z_len) ** 0.5)
     elif question_type == 3:
+        correct_answer = int((heights[layer - 1, :]).sum())
+        incorrect_answer_variation = round((y_len * z_len) ** 0.5)
+    elif question_type == 4:
+        correct_answer = int((heights[:, layer - 1]).sum())
+        incorrect_answer_variation = round((x_len * z_len) ** 0.5)
+    elif question_type == 5:
         correct_answer = int((heights >= layer).sum())
         incorrect_answer_variation = round((x_len * y_len) ** 0.5)
     else:
-        raise ValueError(f"ERROR: Question type {question_type} not defined!")  # Shouldn't reach here
+        # Shouldn't reach here
+        raise ValueError(f"ERROR: Question type {question_type} not defined!")
 
-    if incorrect_answer_variation < 2:
-        incorrect_answer_variation = 2
+    incorrect_answer_variation = max(incorrect_answer_variation, 2)
 
     # COMPUTE INCORRECT ANSWERS
     # Choose if the incorrect answer will be both higher, both lower or one higher and another lower
@@ -105,33 +104,41 @@ def create_answers(heights, shape, question_type, layer=0):
     if answer_position == "lower":
         while len(incorrect_answers) < 2:
             if correct_answer == 0:
-                sample = random.randint(correct_answer + 1, correct_answer + incorrect_answer_variation)
+                sample = random.randint(
+                    correct_answer + 1, correct_answer + incorrect_answer_variation)
                 while sample in incorrect_answers:
-                    sample = random.randint(correct_answer + 1, correct_answer + incorrect_answer_variation)
+                    sample = random.randint(
+                        correct_answer + 1, correct_answer + incorrect_answer_variation)
                 incorrect_answers.append(sample)
             if correct_answer == 1:
                 incorrect_answers.append([0, 2])
             else:
-                sample = random.randint(max([(correct_answer - incorrect_answer_variation), 0]), correct_answer - 1)
+                sample = random.randint(
+                    max([(correct_answer - incorrect_answer_variation), 0]), correct_answer - 1)
                 while sample in incorrect_answers:
-                    sample = random.randint(max([(correct_answer - incorrect_answer_variation), 0]), correct_answer - 1)
+                    sample = random.randint(
+                        max([(correct_answer - incorrect_answer_variation), 0]), correct_answer - 1)
                 incorrect_answers.append(sample)
     elif answer_position == "middle":
-        sample = random.randint(max([(correct_answer - incorrect_answer_variation), 0]), correct_answer - 1)
+        sample = random.randint(
+            max([(correct_answer - incorrect_answer_variation), 0]), correct_answer - 1)
         incorrect_answers.append(sample)
-        sample = random.randint(correct_answer + 1, correct_answer + incorrect_answer_variation)
+        sample = random.randint(
+            correct_answer + 1, correct_answer + incorrect_answer_variation)
         incorrect_answers.append(sample)
     else:
         while len(incorrect_answers) < 2:
-            sample = random.randint(correct_answer + 1, correct_answer + incorrect_answer_variation)
+            sample = random.randint(
+                correct_answer + 1, correct_answer + incorrect_answer_variation)
             while sample in incorrect_answers:
-                sample = random.randint(correct_answer + 1, correct_answer + incorrect_answer_variation)
+                sample = random.randint(
+                    correct_answer + 1, correct_answer + incorrect_answer_variation)
             incorrect_answers.append(sample)
 
     return int(correct_answer), int(incorrect_answers[0]), int(incorrect_answers[1])
 
 
-def create_questions(path, q_type):
+def create_questions(path):
     """
     Creates question(s) for a list of figures in a given path
     :param path: directory of the figures
@@ -139,57 +146,47 @@ def create_questions(path, q_type):
     :return: list of question, answers and figure filename (5 values)
     """
     question_list = []
-    question_type = 0
     list_of_images = [file for file in os.listdir(path) if '.png' in file]
     n = len(list_of_images)
 
-    if q_type != "random" and q_type != "all":
-        question_type = int(q_type)
+    category = "Cubes"
+    questions = [
+        "How many cubes in total?",
+        "How many visible cubes?",
+        "How many non visible cubes?",
+    ]
 
     for file in tqdm(list_of_images, desc='Questions', total=n):
 
         heights, shape = parse_filename(file)
         x_len, y_len, z_len = shape
 
-        if "_l.png" in file:  # if layers are specified in this file
+        for q_type, question in enumerate(questions):
+            correct_answer, incorrect_answer_1, incorrect_answer_2 = create_answers(heights, shape,
+                                                                                    q_type)
+            question_list.append(
+                [category, question, correct_answer, incorrect_answer_1, incorrect_answer_2, file])
 
-            if q_type != "all":
+        for x in range(1, x_len + 1):
+            question = f"How many cubes in layer x {x}?"
+            correct_answer, incorrect_answer_1, incorrect_answer_2 = create_answers(
+                heights, shape, 3, x)
+            question_list.append(
+                [category, question, correct_answer, incorrect_answer_1, incorrect_answer_2, file])
 
-                layer = random.randint(1, z_len)
-                question = QUESTIONS[3] % layer
-                correct_answer, incorrect_answer_1, incorrect_answer_2 = create_answers(heights, shape, 3, layer)
+        for y in range(1, y_len + 1):
+            question = f"How many cubes in layer y {y}?"
+            correct_answer, incorrect_answer_1, incorrect_answer_2 = create_answers(
+                heights, shape, 4, y)
+            question_list.append(
+                [category, question, correct_answer, incorrect_answer_1, incorrect_answer_2, file])
 
-                question_list.append([TYPE, question, correct_answer, incorrect_answer_1, incorrect_answer_2, file])
-
-            else:  # q_type == "all"
-
-                for layer in range(1, z_len + 1):
-                    question = QUESTIONS[3] % layer
-                    correct_answer, incorrect_answer_1, incorrect_answer_2 = create_answers(heights, shape, 3, layer)
-
-                    question_list.append([TYPE, question, correct_answer, incorrect_answer_1, incorrect_answer_2, file])
-
-        else:  # if layers are NOT specified in this file
-
-            if q_type != "all":
-
-                if q_type == "random":
-                    question_type = random.randint(0, 2)
-
-                question = QUESTIONS[question_type]
-                correct_answer, incorrect_answer_1, incorrect_answer_2 = create_answers(heights, shape, question_type)
-
-                question_list.append([TYPE, question, correct_answer, incorrect_answer_1, incorrect_answer_2, file])
-
-            else:  # q_type == "all"
-
-                for question_type in range(len(QUESTIONS) - 1):
-
-                    question = QUESTIONS[question_type]
-                    correct_answer, incorrect_answer_1, incorrect_answer_2 = create_answers(heights, shape,
-                                                                                            question_type)
-
-                    question_list.append([TYPE, question, correct_answer, incorrect_answer_1, incorrect_answer_2, file])
+        for z in range(1, z_len + 1):
+            question = f"How many cubes in layer z {z}?"
+            correct_answer, incorrect_answer_1, incorrect_answer_2 = create_answers(
+                heights, shape, 5, z)
+            question_list.append(
+                [category, question, correct_answer, incorrect_answer_1, incorrect_answer_2, file])
 
     return question_list
 
@@ -200,11 +197,13 @@ def write_questions(question_list, filename):
     :param question_list: question list to be saved
     :param filename: name of the output filename
     """
-    with open(filename, 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        writer.writerow(['Mota', 'Galdera', 'Erantzun zuzena', 'Erantzun okerra 1', 'Erantzun okerra 2', 'Fitxategia'])
-        for q in question_list:
-            writer.writerow(q)
+    with open(filename, 'w', encoding='UTF-8', newline='') as csvfile:
+        writer = csv.writer(csvfile, delimiter=',',
+                            quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        writer.writerow(['type', 'question', 'correct',
+                         'wrong1', 'wrong2', 'image'])
+        for question in question_list:
+            writer.writerow(question)
 
 
 def parse_arguments():
@@ -215,22 +214,16 @@ def parse_arguments():
     parser = argparse.ArgumentParser()
 
     parser.add_argument(
-        "--type",
-        type=str,
-        default="all",
-        choices=["all", "random", "0", "1", "2"],
-        help="Type of generated questions for figures with no layer listed in image."
-    )
-    parser.add_argument(
         "--image_path",
         type=str,
-        default='./figurak',
+        default='images',
         help="Path for input images.",
     )
+
     parser.add_argument(
         "--filename",
         type=str,
-        default='galderak.csv',
+        default='questions.csv',
         help="Path for output file.",
     )
 
@@ -238,8 +231,9 @@ def parse_arguments():
 
 
 def main():
+    """Main function"""
     args = parse_arguments()
-    question_list = create_questions(args.image_path, args.type)
+    question_list = create_questions(args.image_path)
     write_questions(question_list, args.filename)
 
 

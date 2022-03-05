@@ -154,8 +154,8 @@ def create_random_figure(args, repeated):
         ax.set(xlim=(0, y_len), ylim=(0, x_len), zlim=(0, z_len))
 
         # set up the axes labels for the plot
-        ax.set_xlabel('x')
-        ax.set_ylabel('y')
+        ax.set_xlabel('y')
+        ax.set_ylabel('x')
         ax.set_zlabel('z')
 
         # set up the axes ticks for the plot
