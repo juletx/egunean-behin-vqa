@@ -17,12 +17,12 @@ def parse_filename(filename):
     values = name.split('_')
     x_len, y_len, z_len = int(values[1]), int(values[2]), int(values[3])
 
-    heights = np.zeros((x_len, y_len))
+    heights = np.zeros((x_len, y_len), dtype=int)
     shape = (x_len, y_len, z_len)
 
     for x in range(x_len):
         for y in range(y_len):
-            heights[x][y] = int(values[x + 4][y], 16)
+            heights[x][y] = int(values[x + 4][y])
 
     return heights, shape
 

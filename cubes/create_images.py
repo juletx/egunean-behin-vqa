@@ -78,8 +78,8 @@ def figure_name(heights, shape):
     name = f"fig_{x_len}_{y_len}_{z_len}"
 
     for row in heights:
-        hex_row = [str(hex(elem))[-1] for elem in row]
-        name += '_' + ''.join(hex_row)
+        row_str = [str(elem) for elem in row]
+        name += '_' + ''.join(row_str)
 
     return name + ".png"
 
@@ -97,7 +97,7 @@ def create_random_figure(args, repeated):
     prob = args.prob
 
     # A) Decide height of each column of cubes
-    heights = np.zeros((x_len, y_len))
+    heights = np.zeros((x_len, y_len), dtype=int)
 
     for i in range(z_len):
         for x in range(x_len):
