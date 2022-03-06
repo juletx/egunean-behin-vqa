@@ -1,76 +1,19 @@
 type,question,correct,wrong1,wrong2,image
-Figures,How many triangles?,6,8,7,fig_2_2_2_4_0_7_2_3_2.png
-Figures,How many squares?,11,6,9,fig_2_2_2_4_0_7_2_3_2.png
-Figures,How many circles?,7,8,4,fig_2_2_2_4_0_7_2_3_2.png
-Figures,How many red figures?,8,4,5,fig_2_2_2_4_0_7_2_3_2.png
-Figures,How many green figures?,5,4,1,fig_2_2_2_4_0_7_2_3_2.png
-Figures,How many blue figures?,11,3,5,fig_2_2_2_4_0_7_2_3_2.png
-Figures,How many red triangles?,2,4,1,fig_2_2_2_4_0_7_2_3_2.png
-Figures,How many green triangles?,2,5,9,fig_2_2_2_4_0_7_2_3_2.png
-Figures,How many blue triangles?,2,3,7,fig_2_2_2_4_0_7_2_3_2.png
-Figures,How many red squares?,4,6,3,fig_2_2_2_4_0_7_2_3_2.png
-Figures,How many green squares?,0,5,8,fig_2_2_2_4_0_7_2_3_2.png
-Figures,How many blue squares?,7,9,1,fig_2_2_2_4_0_7_2_3_2.png
-Figures,How many red circles?,2,4,1,fig_2_2_2_4_0_7_2_3_2.png
-Figures,How many green circles?,3,2,4,fig_2_2_2_4_0_7_2_3_2.png
-Figures,How many blue circles?,2,1,8,fig_2_2_2_4_0_7_2_3_2.png
-Figures,How many triangles?,6,8,4,fig_2_2_2_4_1_6_2_2_3.png
-Figures,How many squares?,11,3,5,fig_2_2_2_4_1_6_2_2_3.png
-Figures,How many circles?,7,4,8,fig_2_2_2_4_1_6_2_2_3.png
-Figures,How many red figures?,8,3,9,fig_2_2_2_4_1_6_2_2_3.png
-Figures,How many green figures?,5,4,6,fig_2_2_2_4_1_6_2_2_3.png
-Figures,How many blue figures?,11,1,3,fig_2_2_2_4_1_6_2_2_3.png
-Figures,How many red triangles?,2,5,9,fig_2_2_2_4_1_6_2_2_3.png
-Figures,How many green triangles?,2,3,8,fig_2_2_2_4_1_6_2_2_3.png
-Figures,How many blue triangles?,2,7,1,fig_2_2_2_4_1_6_2_2_3.png
-Figures,How many red squares?,4,9,5,fig_2_2_2_4_1_6_2_2_3.png
-Figures,How many green squares?,1,2,3,fig_2_2_2_4_1_6_2_2_3.png
-Figures,How many blue squares?,6,1,5,fig_2_2_2_4_1_6_2_2_3.png
-Figures,How many red circles?,2,1,8,fig_2_2_2_4_1_6_2_2_3.png
-Figures,How many green circles?,2,8,4,fig_2_2_2_4_1_6_2_2_3.png
-Figures,How many blue circles?,3,8,1,fig_2_2_2_4_1_6_2_2_3.png
-Figures,How many triangles?,8,9,1,fig_2_3_3_3_3_4_3_2_1.png
-Figures,How many squares?,10,6,7,fig_2_3_3_3_3_4_3_2_1.png
-Figures,How many circles?,6,1,7,fig_2_3_3_3_3_4_3_2_1.png
-Figures,How many red figures?,8,7,2,fig_2_3_3_3_3_4_3_2_1.png
-Figures,How many green figures?,8,5,3,fig_2_3_3_3_3_4_3_2_1.png
-Figures,How many blue figures?,8,7,3,fig_2_3_3_3_3_4_3_2_1.png
-Figures,How many red triangles?,2,9,8,fig_2_3_3_3_3_4_3_2_1.png
-Figures,How many green triangles?,3,8,7,fig_2_3_3_3_3_4_3_2_1.png
-Figures,How many blue triangles?,3,5,1,fig_2_3_3_3_3_4_3_2_1.png
-Figures,How many red squares?,3,2,5,fig_2_3_3_3_3_4_3_2_1.png
-Figures,How many green squares?,3,4,5,fig_2_3_3_3_3_4_3_2_1.png
-Figures,How many blue squares?,4,2,3,fig_2_3_3_3_3_4_3_2_1.png
-Figures,How many red circles?,3,2,4,fig_2_3_3_3_3_4_3_2_1.png
-Figures,How many green circles?,2,4,6,fig_2_3_3_3_3_4_3_2_1.png
-Figures,How many blue circles?,1,7,4,fig_2_3_3_3_3_4_3_2_1.png
-Figures,How many triangles?,9,4,7,fig_2_3_4_2_7_3_1_2_0.png
-Figures,How many squares?,12,8,4,fig_2_3_4_2_7_3_1_2_0.png
-Figures,How many circles?,3,4,2,fig_2_3_4_2_7_3_1_2_0.png
-Figures,How many red figures?,5,6,1,fig_2_3_4_2_7_3_1_2_0.png
-Figures,How many green figures?,12,7,4,fig_2_3_4_2_7_3_1_2_0.png
-Figures,How many blue figures?,7,4,2,fig_2_3_4_2_7_3_1_2_0.png
-Figures,How many red triangles?,2,1,9,fig_2_3_4_2_7_3_1_2_0.png
-Figures,How many green triangles?,3,4,7,fig_2_3_4_2_7_3_1_2_0.png
-Figures,How many blue triangles?,4,9,6,fig_2_3_4_2_7_3_1_2_0.png
-Figures,How many red squares?,2,8,4,fig_2_3_4_2_7_3_1_2_0.png
-Figures,How many green squares?,7,1,4,fig_2_3_4_2_7_3_1_2_0.png
-Figures,How many blue squares?,3,7,5,fig_2_3_4_2_7_3_1_2_0.png
-Figures,How many red circles?,1,5,2,fig_2_3_4_2_7_3_1_2_0.png
-Figures,How many green circles?,2,1,3,fig_2_3_4_2_7_3_1_2_0.png
-Figures,How many blue circles?,0,9,7,fig_2_3_4_2_7_3_1_2_0.png
-Figures,How many triangles?,7,6,1,fig_2_4_1_2_5_4_2_3_1.png
-Figures,How many squares?,11,9,3,fig_2_4_1_2_5_4_2_3_1.png
-Figures,How many circles?,6,3,5,fig_2_4_1_2_5_4_2_3_1.png
-Figures,How many red figures?,6,3,9,fig_2_4_1_2_5_4_2_3_1.png
-Figures,How many green figures?,12,7,5,fig_2_4_1_2_5_4_2_3_1.png
-Figures,How many blue figures?,6,5,7,fig_2_4_1_2_5_4_2_3_1.png
-Figures,How many red triangles?,2,7,5,fig_2_4_1_2_5_4_2_3_1.png
-Figures,How many green triangles?,4,1,2,fig_2_4_1_2_5_4_2_3_1.png
-Figures,How many blue triangles?,1,6,9,fig_2_4_1_2_5_4_2_3_1.png
-Figures,How many red squares?,2,7,1,fig_2_4_1_2_5_4_2_3_1.png
-Figures,How many green squares?,5,7,6,fig_2_4_1_2_5_4_2_3_1.png
-Figures,How many blue squares?,4,9,8,fig_2_4_1_2_5_4_2_3_1.png
-Figures,How many red circles?,2,4,9,fig_2_4_1_2_5_4_2_3_1.png
-Figures,How many green circles?,3,5,9,fig_2_4_1_2_5_4_2_3_1.png
-Figures,How many blue circles?,1,6,9,fig_2_4_1_2_5_4_2_3_1.png
+Figures,How many figures?,24,29,26,fig_6_4_417148_466526_041585_724774.png
+Figures,How many colums?,6,4,8,fig_6_4_417148_466526_041585_724774.png
+Figures,How many rows?,4,3,2,fig_6_4_417148_466526_041585_724774.png
+Figures,How many triangles?,6,5,8,fig_6_4_417148_466526_041585_724774.png
+Figures,How many squares?,9,7,11,fig_6_4_417148_466526_041585_724774.png
+Figures,How many circles?,9,11,8,fig_6_4_417148_466526_041585_724774.png
+Figures,How many red figures?,4,5,3,fig_6_4_417148_466526_041585_724774.png
+Figures,How many green figures?,13,15,17,fig_6_4_417148_466526_041585_724774.png
+Figures,How many blue figures?,7,9,10,fig_6_4_417148_466526_041585_724774.png
+Figures,How many red triangles?,1,3,0,fig_6_4_417148_466526_041585_724774.png
+Figures,How many green triangles?,3,4,1,fig_6_4_417148_466526_041585_724774.png
+Figures,How many blue triangles?,2,4,1,fig_6_4_417148_466526_041585_724774.png
+Figures,How many red squares?,0,1,2,fig_6_4_417148_466526_041585_724774.png
+Figures,How many green squares?,6,4,5,fig_6_4_417148_466526_041585_724774.png
+Figures,How many blue squares?,3,5,4,fig_6_4_417148_466526_041585_724774.png
+Figures,How many red circles?,3,5,4,fig_6_4_417148_466526_041585_724774.png
+Figures,How many green circles?,4,3,6,fig_6_4_417148_466526_041585_724774.png
+Figures,How many blue circles?,2,0,3,fig_6_4_417148_466526_041585_724774.png

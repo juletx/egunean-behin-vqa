@@ -1,8 +1,10 @@
 """This module generates questions for images."""
 import argparse
+from collections import defaultdict
 import os
 import csv
 import random
+import numpy as np
 
 
 def write_questions(questions, filename):
@@ -31,16 +33,46 @@ def wrong_answers(correct):
         list: list of wrong answers.
     """
     answers = [correct]
-    answers.append(random.choice([i for i in range(1, 10) if i not in answers]))
-    answers.append(random.choice([i for i in range(1, 10) if i not in answers]))
-    return answers[1:]
+    wrong_var = round((correct) ** 0.5)
+    wrong_var = max(wrong_var, 2)
+    while len(answers) < 3:
+        wrong = random.randint(
+            max(correct - wrong_var, 0), correct + wrong_var)
+        if wrong not in answers:
+            answers.append(wrong)
+    return answers[1], answers[2]
+
+
+def parse_filename(filename):
+    """Parse image filename to get figures matrix and lengths.
+
+    Args:
+        filename (str): name of the image file
+
+    Returns:
+        figure_matrix: np.ndarray of figures
+        x_len: length of the x axis
+        y_len: length of the y axis
+    """
+    name = filename.split('.')[0]
+    values = name.split('_')[1:]
+    x_len, y_len = int(values[0]), int(values[1])
+
+    figure_matrix = np.zeros((y_len, x_len), dtype=int)
+
+    for x in range(x_len):
+        for y in range(y_len):
+            figure_matrix[y][x] = int(values[y + 2][x])
+
+    return figure_matrix, x_len, y_len
 
 
 def create_questions(image_path):
     """Create questions for each image in the images_path directory.
 
-    15 questions are created for each image. 3 questions about figure shape.
-    3 questions about figure color. 9 questions about figure shape and color.
+    18 questions are created for each image. 3 questions about figure, column and row count.
+    3 questions about figure shape. 3 questions about figure color. 
+    9 questions about figure shape and color.
 
     Args:
         image_path (str): path to the directory with images.
@@ -55,29 +87,51 @@ def create_questions(image_path):
     questions = []
 
     for image in images:
-        counts = list(map(int, image.split('.')[0].split('_')[1:]))
+        figure_matrix, x_len, y_len = parse_filename(image)
+
+        question = "How many figures?"
+        correct = x_len * y_len
+        wrong1, wrong2 = wrong_answers(correct)
+        questions.append([category, question, correct,
+                          wrong1, wrong2, image])
+
+        question = "How many colums?"
+        correct = x_len
+        wrong1, wrong2 = wrong_answers(correct)
+        questions.append([category, question, correct,
+                          wrong1, wrong2, image])
+
+        question = "How many rows?"
+        correct = y_len
+        wrong1, wrong2 = wrong_answers(correct)
+        questions.append([category, question, correct,
+                          wrong1, wrong2, image])
+
+        unique, count = np.unique(figure_matrix, return_counts=True)
+        counts = dict(zip(unique, count))
+        counts = defaultdict(int, counts)
 
         for i, figure in enumerate(figures):
             question = f"How many {figure}s?"
-            correct = sum(counts[i * 3:(i+1) * 3])
-            wrong = wrong_answers(correct)
+            correct = counts[i * 3] + counts[i * 3 + 1] + counts[i * 3 + 2]
+            wrong1, wrong2 = wrong_answers(correct)
             questions.append([category, question, correct,
-                              wrong[0], wrong[1], image])
+                              wrong1, wrong2, image])
 
         for i, color in enumerate(colors):
             question = f"How many {color} figures?"
             correct = counts[i] + counts[i + 3] + counts[i + 6]
-            wrong = wrong_answers(correct)
+            wrong1, wrong2 = wrong_answers(correct)
             questions.append([category, question, correct,
-                              wrong[0], wrong[1], image])
+                              wrong1, wrong2, image])
 
         for i, figure in enumerate(figures):
             for j, color in enumerate(colors):
                 question = f"How many {color} {figure}s?"
                 correct = counts[i * 3 + j]
-                wrong = wrong_answers(correct)
+                wrong1, wrong2 = wrong_answers(correct)
                 questions.append(
-                    [category, question, correct, wrong[0], wrong[1], image])
+                    [category, question, correct, wrong1, wrong2, image])
 
     return questions
 
@@ -96,6 +150,7 @@ def parse_arguments():
         default='images',
         help="Path for input images.",
     )
+
     parser.add_argument(
         "--filename",
         type=str,
