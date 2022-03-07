@@ -1,4 +1,6 @@
+"""This module creates maze images"""
 import random
+import argparse
 
 # Create a maze using the depth-first algorithm described at
 # https://scipython.com/blog/making-a-maze/
@@ -62,17 +64,17 @@ class Maze:
     def __str__(self):
         """Return a (crude) string representation of the maze."""
 
-        maze_rows = ['-' * nx*2]
-        for y in range(ny):
+        maze_rows = ['-' * self.nx*2]
+        for y in range(self.ny):
             maze_row = ['|']
-            for x in range(nx):
+            for x in range(self.nx):
                 if self.maze_map[x][y].walls['E']:
                     maze_row.append(' |')
                 else:
                     maze_row.append('  ')
             maze_rows.append(''.join(maze_row))
             maze_row = ['|']
-            for x in range(nx):
+            for x in range(self.nx):
                 if self.maze_map[x][y].walls['S']:
                     maze_row.append('-+')
                 else:
@@ -90,7 +92,7 @@ class Maze:
         height = 400
         width = int(height * aspect_ratio)
         # Scaling factors mapping maze coordinates to image coordinates
-        scy, scx = height / ny, width / nx
+        scy, scx = height / self.ny, width / self.nx
 
         def write_wall(f, x1, y1, x2, y2):
             """Write a single wall to the SVG image file handle f."""
@@ -116,12 +118,12 @@ class Maze:
             # Draw the "South" and "East" walls of each cell, if present (these
             # are the "North" and "West" walls of a neighbouring cell in
             # general, of course).
-            for x in range(nx):
-                for y in range(ny):
-                    if maze.cell_at(x, y).walls['S']:
+            for x in range(self.nx):
+                for y in range(self.ny):
+                    if self.cell_at(x, y).walls['S']:
                         x1, y1, x2, y2 = x*scx, (y+1)*scy, (x+1)*scx, (y+1)*scy
                         write_wall(f, x1, y1, x2, y2)
-                    if maze.cell_at(x, y).walls['E']:
+                    if self.cell_at(x, y).walls['E']:
                         x1, y1, x2, y2 = (x+1)*scx, y*scy, (x+1)*scx, (y+1)*scy
                         write_wall(f, x1, y1, x2, y2)
             # Draw the North and West maze border, which won't have been drawn
@@ -148,8 +150,8 @@ class Maze:
         neighbours = []
         for direction, (dx, dy) in delta:
             x2, y2 = cell.x + dx, cell.y + dy
-            if (0 <= x2 < nx) and (0 <= y2 < ny):
-                neighbour = maze.cell_at(x2, y2)
+            if (0 <= x2 < self.nx) and (0 <= y2 < self.ny):
+                neighbour = self.cell_at(x2, y2)
                 if neighbour.has_all_walls():
                     neighbours.append((direction, neighbour))
         return neighbours
@@ -159,7 +161,7 @@ class Maze:
         # Total number of cells.
         n = self.nx * self.ny
         cell_stack = []
-        current_cell = self.cell_at(ix, iy)
+        current_cell = self.cell_at(self.ix, self.iy)
         # Total number of visited cells during maze construction.
         nv = 1
 
@@ -265,48 +267,94 @@ class Maze:
                 if road:  # Zuzena bada, sortu galdera... 0,0 = Beti berdetik hasi
                     end = 1
                     # print("Zuzen")
-                    if road == 1:
-                        return (self, "Gorria (H-M)")
-                    elif road == 2:
-                        return (self, "Urdina (I-E)")
-                    elif road == 3:
-                        return (self, "Horia (H-E)")
+                    return (self, road)
                 k += 1
 
 
-# LABERINTOAREN TAMAINA AUKERATU
-# Maze dimensions (ncols, nrows)
-nx, ny = 12, 8
-# Maze entry position
-ix, iy = 0, 0
+def create_image(output_path, i, nx, ny, start):
+    """Create an image of the maze.
 
-n = 10  # galderaKop
+    Args:
+        output_path (str): path for the output images.
+        i (int): index of the maze.
+        nx (int): number of cells in axis x.
+        ny (int): number of cells in axis y.
+        start (int): start position.
+    """
+    if start == 0:
+        ix, iy = 0, 0
+    elif start == 1:
+        ix, iy = nx-1, 0
+    elif start == 2:
+        ix, iy = 0, ny-1
+    elif start == 3:
+        ix, iy = nx-1, ny-1
 
-with open("galderak.csv", "w", encoding="UTF-8") as out:
-    out.write("%s,%s,%s,%s,%s,%s,%s,%s,%s%s" % ('Mota', 'Galdera', 'Irudia', 'Zuzena', 'Oker1',
-                                                'Oker2', 'Jatorria', 'Esteka', 'Egilea', '\n'))  # csv fitxategian idatzi goiburua
-
-    i = 0
-    while i < n:
+    maze = Maze(nx, ny, ix, iy)
+    maze.make_maze()
+    maze, end = maze.close_road()
+    while end == start:
         maze = Maze(nx, ny, ix, iy)
         maze.make_maze()
-        maze, zuzena = maze.close_road()
+        maze, end = maze.close_road()
 
-        if zuzena != 0:
-            erantzuna = zuzena
-            mazename = f'figurak/maze{i}.svg'
-            maze.write_svg(mazename)
-            if erantzuna == "Horia (H-E)":
-                Oker1, Oker2 = "Gorria (H-M)", "Urdina (I-E)"
-            elif erantzuna == "Gorria (H-M)":
-                Oker1, Oker2 = "Horia (H-E)", "Urdina (I-E)"
-            else:
-                Oker1, Oker2 = "Horia (H-E)", "Gorria (H-M)"
-            out.write(
-                f"Laberintoa,Ertz berdetik (I-M) abiatuta topatu gertueneko irteera.,{mazename},{erantzuna},{Oker1},{Oker2},,,Gorka Urbizu Garmendia\n")
-            print(erantzuna)
-            i += 1
+    mazename = f"{output_path}\\fig_{i}_{nx}_{ny}_{start}_{end}.svg"
+    maze.write_svg(mazename)
 
 
-# IRUDIEK PNG izan beharko balute, linux-en horrela lortu genitzake.
-# inkscape -z -e out.png -w 600 -h 400 maze.svg
+def parse_arguments():
+    """Parse command line arguments.
+
+    Returns:
+        args: parsed arguments.
+    """
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "--nx",
+        type=int,
+        default=12,
+        help="Number of figures in axis X.",
+    )
+
+    parser.add_argument(
+        "--ny",
+        type=int,
+        default=8,
+        help="Number of figures in axis Y.",
+    )
+
+    parser.add_argument(
+        "--start",
+        type=int,
+        default=0,
+        help="Number of figures in axis Y.",
+    )
+
+    parser.add_argument(
+        "--n",
+        type=int,
+        default=1,
+        help="Number of images created.",
+    )
+
+    parser.add_argument(
+        "--output_path",
+        type=str,
+        default='images',
+        help="Path for output files.",
+    )
+
+    return parser.parse_args()
+
+
+def main():
+    """Main function."""
+    args = parse_arguments()
+    for i in range(args.n):
+        print(i)
+        create_image(args.output_path, i, args.nx, args.ny, args.start)
+
+
+if __name__ == '__main__':
+    main()
