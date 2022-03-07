@@ -91,14 +91,10 @@ class Maze:
         # Height and width of the maze image (excluding padding), in pixels
         height = 400
         width = int(height * aspect_ratio)
+        height_pad = height + 2 * padding
+        width_pad = width + 2 * padding
         # Scaling factors mapping maze coordinates to image coordinates
         scy, scx = height / self.ny, width / self.nx
-
-        def write_wall(f, x1, y1, x2, y2):
-            """Write a single wall to the SVG image file handle f."""
-
-            print('<line x1="{}" y1="{}" x2="{}" y2="{}"/>'
-                  .format(x1, y1, x2, y2), file=f)
 
         # Write the SVG image file for maze
         with open(filename, 'w', encoding='UTF-8') as f:
@@ -106,10 +102,7 @@ class Maze:
             print('<?xml version="1.0" encoding="utf-8"?>', file=f)
             print('<svg xmlns="http://www.w3.org/2000/svg"', file=f)
             print('	xmlns:xlink="http://www.w3.org/1999/xlink"', file=f)
-            print('	width="{:d}" height="{:d}" viewBox="{} {} {} {}">'
-                  .format(width+2*padding, height+2*padding,
-                          -padding, -padding, width+2*padding, height+2*padding),
-                  file=f)
+            print(f'	width="{width_pad}" height="{height_pad}" viewBox="{-padding} {-padding} {width_pad} {height_pad}">', file=f)
             print('<defs>\n<style type="text/css"><![CDATA[', file=f)
             print('line {', file=f)
             print('	stroke: #000000;\n	stroke-linecap: square;', file=f)
@@ -122,14 +115,14 @@ class Maze:
                 for y in range(self.ny):
                     if self.cell_at(x, y).walls['S']:
                         x1, y1, x2, y2 = x*scx, (y+1)*scy, (x+1)*scx, (y+1)*scy
-                        write_wall(f, x1, y1, x2, y2)
+                        print(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}"/>', file=f)
                     if self.cell_at(x, y).walls['E']:
                         x1, y1, x2, y2 = (x+1)*scx, y*scy, (x+1)*scx, (y+1)*scy
-                        write_wall(f, x1, y1, x2, y2)
+                        print(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}"/>', file=f)
             # Draw the North and West maze border, which won't have been drawn
             # by the procedure above.
-            print('<line x1="0" y1="0" x2="{}" y2="0"/>'.format(width), file=f)
-            print('<line x1="0" y1="0" x2="0" y2="{}"/>'.format(height), file=f)
+            print(f'<line x1="0" y1="0" x2="{width}" y2="0"/>', file=f)
+            print(f'<line x1="0" y1="0" x2="0" y2="{height}"/>', file=f)
             print(
                 '<circle cx="25" cy="25" r="15" stroke="black" stroke-width="3" fill="green" />', file=f)
             print(
@@ -212,7 +205,7 @@ class Maze:
         #print(self.cell_at(x, y).walls["E"])
         nora = 0
         for n in nor:
-            if self.cell_at(x, y).walls[n] == False:
+            if not self.cell_at(x, y).walls[n]:
                 nora = n
                 x += delta[nora][0]
                 y += delta[nora][1]
@@ -220,7 +213,7 @@ class Maze:
                 break
         i = 0
         while [x, y] != [0, 0] and i < 100000:
-            if self.cell_at(x, y).walls[nora] == False:  # if paretarik ez
+            if not self.cell_at(x, y).walls[nora]:  # if paretarik ez
                 #print(f"{x} {y} {nora}")
                 # if [x,y,nora] not in road: #if cell horretatik norazko hori hartu gabe
                 road.append([x, y, nora])
@@ -233,8 +226,8 @@ class Maze:
         # print(road)
         results = [0, 0, 0]
         for cell in road:
-            for i in range(len(exits)):
-                if [cell[0], cell[1]] == exits[i]:
+            for i, ex in enumerate(exits):
+                if [cell[0], cell[1]] == ex:
                     results[i] += 1
         # print(results)
         if results.count(0) == 2:
@@ -290,9 +283,7 @@ def create_image(output_path, i, nx, ny, start):
     elif start == 3:
         ix, iy = nx-1, ny-1
 
-    maze = Maze(nx, ny, ix, iy)
-    maze.make_maze()
-    maze, end = maze.close_road()
+    end = start
     while end == start:
         maze = Maze(nx, ny, ix, iy)
         maze.make_maze()
@@ -352,7 +343,6 @@ def main():
     """Main function."""
     args = parse_arguments()
     for i in range(args.n):
-        print(i)
         create_image(args.output_path, i, args.nx, args.ny, args.start)
 
 
