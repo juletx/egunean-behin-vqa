@@ -1,5 +1,7 @@
 # Egunean Behin Visual Question Answering Dataset
 
+![Egunean Behin](egunean_behin.jpeg)
+
 This is a Visual Question Answering dataset based on questions from the game [Egunean Behin](https://www.codesyntax.com/eu/proiektuak/egunean-behin). Egunean Behin is a popular Basque quiz game. The game consists on answering 10 daily multiple choice questions. Appart from the questions from the game, more types of questions were generated for each image.
 
 Questions were translated to English because VQA models are mainly trained on English questions. Questions could easily be translated to other languages.
