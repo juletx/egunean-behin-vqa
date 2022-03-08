@@ -1,5 +1,5 @@
 type,question,correct,wrong1,wrong2,image
-Maze,How many cells?,96,92,105,fig_0_12_8_0_1.svg
-Maze,How many colums?,12,9,13,fig_0_12_8_0_1.svg
-Maze,How many rows?,8,5,11,fig_0_12_8_0_1.svg
-Maze,Which is the exit starting from green?,red,yellow,blue,fig_0_12_8_0_1.svg
+Maze,How many cells?,96,98,87,fig_0_12_8_0_2.png
+Maze,How many colums?,12,11,9,fig_0_12_8_0_2.png
+Maze,How many rows?,8,7,5,fig_0_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,fig_0_12_8_0_2.png

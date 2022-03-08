@@ -82,3 +82,7 @@ For example, these are the generated questions for the previous image.
 | Figures | How many red circles?     | 3       | 5      | 4      | fig_6_4_417148_466526_041585_724774.png |
 | Figures | How many green circles?   | 4       | 3      | 6      | fig_6_4_417148_466526_041585_724774.png |
 | Figures | How many blue circles?    | 2       | 0      | 3      | fig_6_4_417148_466526_041585_724774.png |
+
+## License
+
+This code is licensed under [GNU General Public License v3.0](LICENSE). The code is based on https://github.com/egunean-behin/egunean_behin_figurak which is licensed under GNU GPL v3.0.

@@ -1,6 +1,8 @@
 """This module creates maze images"""
+import os
 import random
 import argparse
+from cairosvg import svg2png
 
 # Create a maze using the depth-first algorithm described at
 # https://scipython.com/blog/making-a-maze/
@@ -290,7 +292,10 @@ def create_image(output_path, i, nx, ny, start):
         maze, end = maze.close_road()
 
     mazename = f"{output_path}\\fig_{i}_{nx}_{ny}_{start}_{end}.svg"
+    mazename_png = f"{output_path}\\fig_{i}_{nx}_{ny}_{start}_{end}.png"
     maze.write_svg(mazename)
+    svg2png(url=mazename, write_to=mazename_png)
+    os.remove(mazename)
 
 
 def parse_arguments():

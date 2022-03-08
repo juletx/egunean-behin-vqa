@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Create images
 
-The library `matplotlib` is used to create 3 dimenssion images that contain cubes. The size of the image is controlled with parameters `x_len`, `y_len` and `z_len`. Cubes are stacked on top of each other with a probability of `prob`. Cubes in each layer are colored with the selected `colormap`. Images are saved in `output_path`. We can select the number of images that we want to generate with parameter `n`. These are the default parameters:
+The library `matplotlib` is used to create 3 dimenssion images that contain cubes. The size of the image is controlled with parameters `x_len`, `y_len` and `z_len`. Cubes are stacked on top of each other with a probability of `prob`. Cubes in each layer are colored with the selected `colormap`. We can select the number of images that we want to generate with parameter `n`. These are the default parameters:
 
 ```bash
 python sortu_figurak.py \
@@ -33,9 +33,11 @@ python sortu_figurak.py \
 --output_path images
 ```
 
+Images will be saved to `output_path` with a name that contains all the necessary data to create questions. The first two digits correspond to `x_len`, `y_len` and `z_len`. The next digits correspond to the number of cubes in each position.
+
 For example, the name for the following image is `fig_4_4_3_0002_0013_1133_3333.png`.
 
-![Figures](images/fig_4_4_3_0002_0013_1133_3333.png)
+![Cubes](images/fig_4_4_3_0002_0013_1133_3333.png)
 
 ## Create questions
 
@@ -72,3 +74,7 @@ For example, these are the generated questions for the previous image.
 | Cubes | How many cubes in layer z 1? | 11      | 10     | 12     | fig_4_4_3_0002_0013_1133_3333.png |
 | Cubes | How many cubes in layer z 2? | 8       | 4      | 11     | fig_4_4_3_0002_0013_1133_3333.png |
 | Cubes | How many cubes in layer z 3? | 7       | 11     | 10     | fig_4_4_3_0002_0013_1133_3333.png |
+
+## License
+
+This code is licensed under [GNU General Public License v3.0](LICENSE). The code is based on https://github.com/salanueva/kuboak_kontatzen which is licensed under GNU GPL v3.0.
