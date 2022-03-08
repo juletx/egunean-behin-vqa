@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Create images
 
-To create these questions we have used the Python Image Library (PIL). The size of the image is 600 x 400. There are 3 types of figures (triangle, squares, circle) and 3 colors (red, green and blue).
+To create these questions we have used the Python Image Library (`PIL`). The size of the image is 600 x 400. There are 3 types of figures (triangle, squares, circle) and 3 colors (red, green and blue).
 
 `x_len * y_len` random figures and colors will be drawn in the image. The radius of the figures is controlled with the parameter `r`. We can select the number of images that we want to generate with parameter `n`. These are the default parameters:
 
@@ -49,7 +49,7 @@ For example, the name for the following image is `fig_6_4_417148_466526_041585_7
 Questions are created for each image created previously in `image_path`. The data for the questions is obtained from the filename. Questions and correct answers are generated using this data. Wrong answers are created randomly based on the correct answer. A random integer in a range close to the correct answer is selected. Questions are saved in the `filename` csv file. These are the default parameters:
 
 ```bash
-python create_images.py \
+python create_questions.py \
 --image_path images \
 --filename questions.csv
 ```
