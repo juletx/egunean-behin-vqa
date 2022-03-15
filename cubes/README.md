@@ -2,7 +2,6 @@
 
 The aim of this code is to generate questions about counting cubes in 3 dimenssion images. See example images in folder `images` and questions in `questions.csv`.
 
-![Egunean Behin Cubes](egunean_behin_cubes.png)
 ## Create virtual environment
 
 Although it is optional to create a virtual environment, it is a good idea to use a different environment (Conda or Virtualenv) to avoid problems with your system's Python environment. In this case, using virtualenv creates and activates a new environment.
