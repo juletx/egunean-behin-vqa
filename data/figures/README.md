@@ -40,9 +40,9 @@ Each figure is asssigned a number:
 - 3 red square, 4 green square, 5 blue square
 - 6 red circle, 7 green circle, 8 blue circle
 
-For example, the name for the following image is `fig_6_4_417148_466526_041585_724774.png`.
+For example, the name for the following image is `figures_6_4_417148_466526_041585_724774.png`.
 
-![Figures](images/fig_6_4_417148_466526_041585_724774.png)
+![Figures](images/figures_6_4_417148_466526_041585_724774.png)
 
 ## Create questions
 
@@ -64,24 +64,24 @@ For example, these are the generated questions for the previous image.
 
 | type    | question                  | correct | wrong1 | wrong2 | image                                   |
 | ------- | ------------------------- | ------- | ------ | ------ | --------------------------------------- |
-| Figures | How many figures?         | 24      | 29     | 26     | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many colums?          | 6       | 4      | 8      | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many rows?            | 4       | 3      | 2      | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many triangles?       | 6       | 5      | 8      | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many squares?         | 9       | 7      | 11     | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many circles?         | 9       | 11     | 8      | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many red figures?     | 4       | 5      | 3      | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many green figures?   | 13      | 15     | 17     | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many blue figures?    | 7       | 9      | 10     | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many red triangles?   | 1       | 3      | 0      | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many green triangles? | 3       | 4      | 1      | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many blue triangles?  | 2       | 4      | 1      | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many red squares?     | 0       | 1      | 2      | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many green squares?   | 6       | 4      | 5      | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many blue squares?    | 3       | 5      | 4      | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many red circles?     | 3       | 5      | 4      | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many green circles?   | 4       | 3      | 6      | fig_6_4_417148_466526_041585_724774.png |
-| Figures | How many blue circles?    | 2       | 0      | 3      | fig_6_4_417148_466526_041585_724774.png |
+| Figures | How many figures?         | 24      | 29     | 26     | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many colums?          | 6       | 4      | 8      | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many rows?            | 4       | 3      | 2      | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many triangles?       | 6       | 5      | 8      | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many squares?         | 9       | 7      | 11     | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many circles?         | 9       | 11     | 8      | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many red figures?     | 4       | 5      | 3      | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many green figures?   | 13      | 15     | 17     | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many blue figures?    | 7       | 9      | 10     | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many red triangles?   | 1       | 3      | 0      | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many green triangles? | 3       | 4      | 1      | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many blue triangles?  | 2       | 4      | 1      | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many red squares?     | 0       | 1      | 2      | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many green squares?   | 6       | 4      | 5      | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many blue squares?    | 3       | 5      | 4      | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many red circles?     | 3       | 5      | 4      | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many green circles?   | 4       | 3      | 6      | figures_6_4_417148_466526_041585_724774.png |
+| Figures | How many blue circles?    | 2       | 0      | 3      | figures_6_4_417148_466526_041585_724774.png |
 
 ## License
 

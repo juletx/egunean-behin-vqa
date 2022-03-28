@@ -291,8 +291,8 @@ def create_image(output_path, i, nx, ny, start):
         maze.make_maze()
         maze, end = maze.close_road()
 
-    mazename = f"{output_path}\\fig_{i}_{nx}_{ny}_{start}_{end}.svg"
-    mazename_png = f"{output_path}\\fig_{i}_{nx}_{ny}_{start}_{end}.png"
+    mazename = f"{output_path}\\maze_{i}_{nx}_{ny}_{start}_{end}.svg"
+    mazename_png = f"{output_path}\\maze_{i}_{nx}_{ny}_{start}_{end}.png"
     maze.write_svg(mazename)
     svg2png(url=mazename, write_to=mazename_png)
     os.remove(mazename)

@@ -75,7 +75,7 @@ def figure_name(heights, shape):
     :return: filename of figure
     """
     x_len, y_len, z_len = shape
-    name = f"fig_{x_len}_{y_len}_{z_len}"
+    name = f"cubes_{x_len}_{y_len}_{z_len}"
 
     for row in heights:
         row_str = [str(elem) for elem in row]

@@ -36,7 +36,7 @@ def figure_name(figure_matrix, x_len, y_len):
     Returns:
         str: figure name.
     """
-    name = f"fig_{x_len}_{y_len}"
+    name = f"figures_{x_len}_{y_len}"
 
     for row in figure_matrix:
         row_str = [str(elem) for elem in row]

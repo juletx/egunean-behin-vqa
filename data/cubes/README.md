@@ -35,9 +35,9 @@ python sortu_figurak.py \
 
 Images will be saved to `output_path` with a name that contains all the necessary data to create questions. The first two digits correspond to `x_len`, `y_len` and `z_len`. The next digits correspond to the number of cubes in each position.
 
-For example, the name for the following image is `fig_4_4_3_0002_0013_1133_3333.png`.
+For example, the name for the following image is `cubes_4_4_3_0002_0013_1133_3333.png`.
 
-![Cubes](images/fig_4_4_3_0002_0013_1133_3333.png)
+![Cubes](images/cubes_4_4_3_0002_0013_1133_3333.png)
 
 ## Create questions
 
@@ -60,20 +60,20 @@ For example, these are the generated questions for the previous image.
 
 | type  | question                     | correct | wrong1 | wrong2 | image                             |
 | ----- | ---------------------------- | ------- | ------ | ------ | --------------------------------- |
-| Cubes | How many cubes in total?     | 26      | 22     | 21     | fig_4_4_3_0002_0013_1133_3333.png |
-| Cubes | How many visible cubes?      | 17      | 16     | 11     | fig_4_4_3_0002_0013_1133_3333.png |
-| Cubes | How many non visible cubes?  | 9       | 13     | 10     | fig_4_4_3_0002_0013_1133_3333.png |
-| Cubes | How many cubes in layer x 1? | 2       | 0      | 1      | fig_4_4_3_0002_0013_1133_3333.png |
-| Cubes | How many cubes in layer x 2? | 4       | 3      | 6      | fig_4_4_3_0002_0013_1133_3333.png |
-| Cubes | How many cubes in layer x 3? | 8       | 11     | 10     | fig_4_4_3_0002_0013_1133_3333.png |
-| Cubes | How many cubes in layer x 4? | 12      | 15     | 13     | fig_4_4_3_0002_0013_1133_3333.png |
-| Cubes | How many cubes in layer y 1? | 4       | 6      | 7      | fig_4_4_3_0002_0013_1133_3333.png |
-| Cubes | How many cubes in layer y 2? | 4       | 3      | 1      | fig_4_4_3_0002_0013_1133_3333.png |
-| Cubes | How many cubes in layer y 3? | 7       | 9      | 8      | fig_4_4_3_0002_0013_1133_3333.png |
-| Cubes | How many cubes in layer y 4? | 11      | 8      | 13     | fig_4_4_3_0002_0013_1133_3333.png |
-| Cubes | How many cubes in layer z 1? | 11      | 10     | 12     | fig_4_4_3_0002_0013_1133_3333.png |
-| Cubes | How many cubes in layer z 2? | 8       | 4      | 11     | fig_4_4_3_0002_0013_1133_3333.png |
-| Cubes | How many cubes in layer z 3? | 7       | 11     | 10     | fig_4_4_3_0002_0013_1133_3333.png |
+| Cubes | How many cubes in total?     | 26      | 22     | 21     | cubes_4_4_3_0002_0013_1133_3333.png |
+| Cubes | How many visible cubes?      | 17      | 16     | 11     | cubes_4_4_3_0002_0013_1133_3333.png |
+| Cubes | How many non visible cubes?  | 9       | 13     | 10     | cubes_4_4_3_0002_0013_1133_3333.png |
+| Cubes | How many cubes in layer x 1? | 2       | 0      | 1      | cubes_4_4_3_0002_0013_1133_3333.png |
+| Cubes | How many cubes in layer x 2? | 4       | 3      | 6      | cubes_4_4_3_0002_0013_1133_3333.png |
+| Cubes | How many cubes in layer x 3? | 8       | 11     | 10     | cubes_4_4_3_0002_0013_1133_3333.png |
+| Cubes | How many cubes in layer x 4? | 12      | 15     | 13     | cubes_4_4_3_0002_0013_1133_3333.png |
+| Cubes | How many cubes in layer y 1? | 4       | 6      | 7      | cubes_4_4_3_0002_0013_1133_3333.png |
+| Cubes | How many cubes in layer y 2? | 4       | 3      | 1      | cubes_4_4_3_0002_0013_1133_3333.png |
+| Cubes | How many cubes in layer y 3? | 7       | 9      | 8      | cubes_4_4_3_0002_0013_1133_3333.png |
+| Cubes | How many cubes in layer y 4? | 11      | 8      | 13     | cubes_4_4_3_0002_0013_1133_3333.png |
+| Cubes | How many cubes in layer z 1? | 11      | 10     | 12     | cubes_4_4_3_0002_0013_1133_3333.png |
+| Cubes | How many cubes in layer z 2? | 8       | 4      | 11     | cubes_4_4_3_0002_0013_1133_3333.png |
+| Cubes | How many cubes in layer z 3? | 7       | 11     | 10     | cubes_4_4_3_0002_0013_1133_3333.png |
 
 ## License
 

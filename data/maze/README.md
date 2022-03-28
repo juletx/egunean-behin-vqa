@@ -40,9 +40,9 @@ python create_images.py \
 
 Images will be saved to `output_path` with a name that contains all the necessary data to create questions. The first digit correspond to the image index. The next two digits correspond to `nx` and `ny`. The next digits correspond to the startand end positions of the maze.
 
-For example, the name for the following image is `fig_0_12_8_0_2.png`.
+For example, the name for the following image is `maze_0_12_8_0_2.png`.
 
-![Maze](images/fig_0_12_8_0_2.png)
+![Maze](images/maze_0_12_8_0_2.png)
 
 ## Create questions
 
@@ -63,10 +63,10 @@ For example, these are the generated questions for the previous image.
 
 | type | question                               | correct | wrong1 | wrong2 | image              |
 | ---- | -------------------------------------- | ------- | ------ | ------ | ------------------ |
-| Maze | How many cells?                        | 96      | 98     | 87     | fig_0_12_8_0_2.png |
-| Maze | How many colums?                       | 12      | 11     | 9      | fig_0_12_8_0_2.png |
-| Maze | How many rows?                         | 8       | 7      | 5      | fig_0_12_8_0_2.png |
-| Maze | Which is the exit starting from green? | blue    | red    | yellow | fig_0_12_8_0_2.png |
+| Maze | How many cells?                        | 96      | 98     | 87     | maze_0_12_8_0_2.png |
+| Maze | How many colums?                       | 12      | 11     | 9      | maze_0_12_8_0_2.png |
+| Maze | How many rows?                         | 8       | 7      | 5      | maze_0_12_8_0_2.png |
+| Maze | Which is the exit starting from green? | blue    | red    | yellow | maze_0_12_8_0_2.png |
 
 ## License
 
