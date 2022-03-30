@@ -33,6 +33,7 @@
 
 \usepackage{graphicx}
 \graphicspath{{../images/}}
+\usepackage{booktabs}
 
 \title{Testing Egunean Behin Visual Question Answering Dataset with BLIP}
 
@@ -69,12 +70,18 @@ Each question has one correct and two wrong answers. These can be used for multi
 \section{Introduction}
 
 Egunean Behin is a popular Basque quiz game. The game consists on answering 10 daily multiple choice questions.
-Questions were translated to English because VQA models like BLIP \cite{li2022blip} are mainly trained on English questions.
+Questions were translated to English because state-of-the-art VQA models are mainly trained on English questions.
 Three types of questions from the game were selected: figures, cubes and maze. All the images and questions were generated automatically.
 There are multiple questions for each image. Questions require counting figures, colors, cubes and understanding the dimensions of the pictures.
 Each question has one correct and two wrong answers. These can be used for multiple choice question answering.
 
+This dataset can be used to test VQA models in an out of domain setting. It could also be used to fine-tune a model to answer these types of questions if enough data is generated. The code can be used to generate as many images as necessary.
+
+In this work we will test state-of-the-art BLIP \cite{li2022blip} model on this dataset in a zero-shot setting. This will show the difficulty of each question type and the ability of the model to generalize to different types of images.
+
 \section{Related Work}
+
+This section explains related work on vision language pre-training and dataset bootstrapping. These are important to understand the limitations of previous methods and the solutions proposed in BLIP \cite{li2022blip}.
 
 \subsection{Vision-language Pre-training}
 
@@ -100,11 +107,7 @@ On the other hand, Captioning and Filtering (CapFilt) is a new dataset bootstrap
 
 BLIP achieves state-of-the-art performance on five vision-language tasks:  image-text retrieval, image captioning, visual question answering, visual reasoning, and visual dialog. It also achieves state-of-the-art zero-shot performance on two video-language tasks: text-to-video retrieval and video question answering.
 
-\subsection{Visual Question Answering (VQA)}
-
-Visual Question Answering \cite{antol2015vqa} is a popular vision and language task. Given an image and a question about the image, the task is to provide an accurate answer. VQA dataset is commonly used as a benchmark to evaluate VQA systems. Questions are generally open-ended but multiple choices are provided for some questions. If we compare it to image captioning, VQA requires a more detailed understanding of the image and more complex reasoning \cite{antol2015vqa}.
-
-\section{Material and Methods}
+\section{Methods}
 
 This section first introduces the new model architecture MED and its pre-training objectives, then explains dataset bootstrapping and finally finetuning architecture.
 
@@ -126,11 +129,13 @@ of encoder-decoder.}
 
 (3) Image-grounded text decoder is trained with a language modeling (LM) loss to generate captions for given images. It replaces the bi-directional self-attention layers in the text encoder with causal self-attention layers. A \texttt{[Decode]} token is used to as the beginning of a sequence.
 
-In order to perform efficient pre-training and improve multi-task learning, the text encoder and text decoder share all parameters except for the SA layers.
+In order to perform efficient pre-training and improve multi-task learning, the text encoder and text decoder share all parameters except for the self-attention layers. This is enough to capture differences between encoding and decoding tasks.
 
 \subsection{Dataset Bootstraping}
 
-The learning framework can be seen in Figure \ref{fig:blip_framework}.
+As human-annotated image-text pairs are scarce, vision-language pre-training relies on large-scale image-text pairs automatically collected from the web. However, the texts often do not accurately describe the visual content of the image, making them a noisy supervision. 
+
+To address this, BLIP adds two modules, a captioner and a filter. The learning framework can be seen in Figure \ref{fig:blip_framework}. Both the captioner and the filter are initialized from the same pre-trained MED model, and finetuned individually on the COCO \cite{lin2014microsoft} dataset.
 
 \begin{figure*}
     \centering
@@ -139,9 +144,15 @@ The learning framework can be seen in Figure \ref{fig:blip_framework}.
     \label{fig:blip_framework}
 \end{figure*}
 
+The captioner is an image-grounded text decoder. Given the web images, it to generates synthetic captions as additional training samples. The filter is an image-grounded text encoder. It removes noisy captions which do not match their corresponding images. Filtered image-text pairs are combined with the human-annotated pairs to form a new dataset, which is used to pre-train a new model.
+
 \subsection{Finetuning}
 
-On different downstream tasks, different paths of the pre-trained model are finetuned to achieve different objectives. The finetuning architecture for VQA can be seen in Figure \ref{fig:vqa_example}.
+On each downstream task, different paths of the pre-trained model are finetuned to achieve different objectives. As the task of our dataset is visual question answering, we will mainly focus on that task.
+
+VQA \cite{antol2015vqa} is a popular vision and language task. Given an image and a question about the image, the task is to provide an accurate answer. VQA\footnote{\url{https://visualqa.org}} dataset is commonly used as a benchmark to evaluate VQA systems. Questions are generally open-ended but multiple choices are provided for some questions. Visual Genome \cite{krishna2017visual} is another popular image-text dataset that was used to finetune the model.
+
+The finetuning architecture for VQA can be seen in Figure \ref{fig:vqa_example}. Image Encoder, Image-grounded Question Encoder and Answer Decoder are used for this task.
 
 \begin{figure*}
     \centering
@@ -149,6 +160,110 @@ On different downstream tasks, different paths of the pre-trained model are fine
     \caption{BLIP VQA finetuning architecture.}
     \label{fig:vqa_example}
 \end{figure*}
+
+If we compare it to image captioning, VQA requires a more detailed understanding of the image and more complex reasoning \cite{antol2015vqa}. The finetuning architecture for image captioning can be seen in Figure \ref{fig:vqa_example}. The architecture is simpler, only the Image Encoder and Image-grounded Text Decoder are needed.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{captioning_example.png}
+    \caption{BLIP image captioning finetuning architecture.}
+    \label{fig:captioning_example}
+\end{figure}
+
+\section{Data}
+
+Three types of questions from Egunean Behin game were selected: figures, cubes and maze. There are multiple questions for each image. Questions require counting figures, colors, cubes and understanding the dimensions of the pictures.
+
+All the images and questions were generated automatically in two steps. First, we generate as many images as we want. Then, we generate multiple questions for each image.
+
+\subsection{Figures}
+
+Images have geometric figures of different types and colors. Figures are selected randomly to create many different images. Images are saved to with a name that contains all the necessary data to create questions. The first two digits correspond to dimension of the image. The next digits correspond to the figures in each position of the image. For example, the name of the image in Figure \ref{fig:figures_example} is figures\_6\_4\_417148\_466526\_041585\_724774.png.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{figures_6_4_417148_466526_041585_724774.png}
+    \caption{Figures image example.}
+    \label{fig:figures_example}
+\end{figure}
+
+18 questions of different types are created for each image. 3 questions about figure, column and row count. 3 questions about figure shape. 3 questions about figure color. 9 questions about figure shape and color combined. Table \ref{tab:figures_example} shows example questions and answers for Figure \ref{fig:figures_example}.
+
+\begin{table}
+\centering
+\begin{tabular}{llll}
+\toprule
+Question                  & C       & W1     & W2     \\ \midrule
+How many figures?         & 24      & 29     & 26     \\
+How many colums?          & 6       & 4      & 8      \\
+How many rows?            & 4       & 3      & 2      \\ \midrule
+How many triangles?       & 6       & 5      & 8      \\
+How many squares?         & 9       & 7      & 11     \\
+How many circles?         & 9       & 11     & 8      \\ \midrule
+How many red figures?     & 4       & 5      & 3      \\
+How many green figures?   & 13      & 15     & 17     \\
+How many blue figures?    & 7       & 9      & 10     \\ \midrule
+How many red triangles?   & 1       & 3      & 0      \\ 
+How many green triangles? & 3       & 4      & 1      \\
+How many blue triangles?  & 2       & 4      & 1      \\
+How many red squares?     & 0       & 1      & 2      \\
+How many green squares?   & 6       & 4      & 5      \\
+How many blue squares?    & 3       & 5      & 4      \\
+How many red circles?     & 3       & 5      & 4      \\
+How many green circles?   & 4       & 3      & 6      \\
+How many blue circles?    & 2       & 0      & 3      \\ \bottomrule
+\end{tabular}
+\caption{Figures questions that correspond with the example image.}
+\label{tab:figures_example}
+\end{table}
+
+\subsection{Cubes}
+
+See Figure \ref{fig:cubes_example}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{cubes_4_4_3_0002_0013_1133_3333.png}
+    \caption{Cubes image example.}
+    \label{fig:cubes_example}
+\end{figure}
+
+Many questions of different types are created for each image. The number of questions depends on the dimenssions of the image. 3 questions about total, visible and non visible cubes. 4 questions about number of cubes in each x layer. 4 questions about number of cubes in each y layer. 3 questions about number of cubes in each z layer. Table \ref{tab:cubes_example} shows example questions and answers for Figure \ref{fig:cubes_example}.
+
+\begin{table}
+\centering
+\begin{tabular}{llll}
+\toprule
+Question                     & C       & W1     & W2     \\ \midrule
+How many cubes in total?     & 26      & 22     & 21     \\
+How many visible cubes?      & 17      & 16     & 11     \\
+How many non visible cubes?  & 9       & 13     & 10     \\ \midrule
+How many cubes in layer x 1? & 2       & 0      & 1      \\
+How many cubes in layer x 2? & 4       & 3      & 6      \\
+How many cubes in layer x 3? & 8       & 11     & 10     \\
+How many cubes in layer x 4? & 12      & 15     & 13     \\ \midrule
+How many cubes in layer y 1? & 4       & 6      & 7      \\
+How many cubes in layer y 2? & 4       & 3      & 1      \\
+How many cubes in layer y 3? & 7       & 9      & 8      \\
+How many cubes in layer y 4? & 11      & 8      & 13     \\ \midrule
+How many cubes in layer z 1? & 11      & 10     & 12     \\
+How many cubes in layer z 2? & 8       & 4      & 11     \\
+How many cubes in layer z 3? & 7       & 11     & 10     \\ \bottomrule
+\end{tabular}
+\caption{Cubes questions that correspond with the example image.}
+\label{tab:cubes_example}
+\end{table}
+
+\subsection{Maze}
+
+See Figure \ref{fig:maze_example}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{maze_0_12_8_0_2.png}
+    \caption{Maze image example.}
+    \label{fig:maze_example}
+\end{figure}
 
 \section{Results}
 
