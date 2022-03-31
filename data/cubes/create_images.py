@@ -6,7 +6,7 @@ import random
 import matplotlib.cm as cm
 import matplotlib.pyplot as plt
 import numpy as np
-from tqdm import trange
+from tqdm import tqdm
 
 
 def neighbors_in_front(x, y, heights, shape):
@@ -295,7 +295,7 @@ def main():
     args = parse_arguments()
     args = check_args(args)
 
-    for _ in trange(args.n, desc="Images"):
+    for _ in tqdm(range(args.n), total=args.n, desc="Images"):
         create_random_figure(args, repeated=0)
 
 

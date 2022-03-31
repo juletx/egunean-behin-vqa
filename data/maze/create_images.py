@@ -3,6 +3,7 @@ import os
 import random
 import argparse
 from cairosvg import svg2png
+from tqdm import tqdm
 
 # Create a maze using the depth-first algorithm described at
 # https://scipython.com/blog/making-a-maze/
@@ -233,7 +234,7 @@ class Maze:
                     results[i] += 1
         # print(results)
         if results.count(0) == 2:
-            print(results)
+            # print(results)
             if 0 < results[0] < 3:
                 return 1
             elif 0 < results[1] < 3:
@@ -347,7 +348,7 @@ def parse_arguments():
 def main():
     """Main function."""
     args = parse_arguments()
-    for i in range(args.n):
+    for i in tqdm(range(args.n), total=args.n, desc="Images"):
         create_image(args.output_path, i, args.nx, args.ny, args.start)
 
 

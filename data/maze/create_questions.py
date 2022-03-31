@@ -3,6 +3,7 @@ import csv
 import argparse
 import os
 import random
+from tqdm import tqdm
 
 
 def parse_filename(filename):
@@ -73,7 +74,7 @@ def create_questions(image_path):
     images = os.listdir(image_path)
     questions = []
 
-    for image in images:
+    for image in tqdm(images, desc='Questions', total=len(images)):
         nx, ny, start, end = parse_filename(image)
 
         question = "How many cells?"

@@ -3,6 +3,7 @@ import random
 import argparse
 from PIL import Image, ImageDraw
 import numpy as np
+from tqdm import tqdm
 
 
 def draw_figure(draw, figure, color, x, y, r):
@@ -134,7 +135,7 @@ def parse_arguments():
 def main():
     """Main function."""
     args = parse_arguments()
-    for _ in range(args.n):
+    for _ in tqdm(range(args.n), total=args.n, desc="Images"):
         create_image(args.output_path, args.x_len, args.y_len, args.r)
 
 

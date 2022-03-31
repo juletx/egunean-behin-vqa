@@ -5,6 +5,7 @@ import os
 import csv
 import random
 import numpy as np
+from tqdm import tqdm
 
 
 def write_questions(questions, filename):
@@ -86,7 +87,7 @@ def create_questions(image_path):
     images = os.listdir(image_path)
     questions = []
 
-    for image in images:
+    for image in tqdm(images, desc='Questions', total=len(images)):
         figure_matrix, x_len, y_len = parse_filename(image)
 
         question = "How many figures?"
@@ -95,7 +96,7 @@ def create_questions(image_path):
         questions.append([category, question, correct,
                           wrong1, wrong2, image])
 
-        question = "How many colums?"
+        question = "How many columns?"
         correct = x_len
         wrong1, wrong2 = wrong_answers(correct)
         questions.append([category, question, correct,
