@@ -60,24 +60,20 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-Egunean Behin is a popular Basque quiz game. The game consists on answering 10 daily multiple choice questions.
-Questions were translated to English because VQA models like BLIP are mainly trained on English questions.
-Three types of questions from the game were selected: figures, cubes and maze. All the images and questions were generated automatically.
-There are multiple questions for each image. Questions require counting figures, colors, cubes and understanding the dimensions of the pictures.
-Each question has one correct and two wrong answers. These can be used for multiple choice question answering.
+Egunean Behin is a new visual question answering dataset based on Egunean Behin game. It consists of three types of questions from the game: figures, cubes and maze. Questions require counting figures, colors, cubes and understanding the dimensions of the pictures. Compared to other datasets that mostly use real-world images, all the artificial images and questions are generated automatically. There are multiple questions for each image and each question has one correct and two wrong answers. It can be used to evaluate VQA models in an out of domain zero-shot setting. In this work we test state-of-the-art BLIP model and show that these types of questions are very challenging. Accuracy drops a lot when compared to finetuning accuracy on VQA dataset.
 \end{abstract}
 
 \section{Introduction}
 
-Egunean Behin is a popular Basque quiz game. The game consists on answering 10 daily multiple choice questions.
-Questions were translated to English because state-of-the-art VQA models are mainly trained on English questions.
-Three types of questions from the game were selected: figures, cubes and maze. All the images and questions were generated automatically.
-There are multiple questions for each image. Questions require counting figures, colors, cubes and understanding the dimensions of the pictures.
-Each question has one correct and two wrong answers. These can be used for multiple choice question answering.
+Egunean Behin is a popular Basque quiz game. The game consists on answering 10 daily multiple choice questions. Questions were translated to English because state-of-the-art VQA models are mainly trained on English questions. All the images and questions were generated automatically in two steps. First, we generate as many images as we want. Then, we generate multiple questions for each image. 
 
-This dataset can be used to test VQA models in an out of domain setting. It could also be used to fine-tune a model to answer these types of questions if enough data is generated. The code can be used to generate as many images as necessary.
+Three types of questions from the game were selected: figures, cubes and maze. Questions require counting figures, colors, cubes and understanding the dimensions of the pictures. Each question has one correct and two wrong answers. These can be used for multiple choice question answering.
+
+This dataset can be used to test VQA models in an out of domain setting. It could also be used to finetune a model to answer these types of questions if enough data is generated. The available code can be used to generate as many images as necessary.
 
 In this work we will test state-of-the-art BLIP \cite{li2022blip} model on this dataset in a zero-shot setting. This will show the difficulty of each question type and the ability of the model to generalize to different types of images.
+
+We will first describe related work on vision-language pre-training and bootstrapping. Then we will introduce the model architecture of BLIP, together with dataset bootstrapping, finetuning and testing methods. Next, we will describe images and questions in the Egunean Behin dataset. Finally, we will compare the results and extract some conclusions.
 
 \section{Related Work}
 
@@ -109,13 +105,13 @@ BLIP achieves state-of-the-art performance on five vision-language tasks:  image
 
 \section{Methods}
 
-This section first introduces the new model architecture MED and its pre-training objectives, then explains dataset bootstrapping and finally finetuning architecture.
+This section first introduces the new BLIP model architecture and its pre-training objectives, then explains dataset bootstrapping and finetuning architecture. Finally, testing details for the Egunean Behin dataset are explained.
 
 \subsection{Model Architecture}
 
 In order to pre-train a unified vision-language model with both understanding and generation capabilities, BLIP introduces a multimodal mixture of encoder-decoder (MED) model which can operate in three functionalities. The model architecture can be seen in Figure \ref{fig:blip_pretraining}.
 
-\begin{figure*}
+\begin{figure*}[ht]
     \centering
     \includegraphics[width=\linewidth]{blip_pretraining.png}
     \caption{BLIP pre-training model architecture: multimodal mixture
@@ -137,7 +133,7 @@ As human-annotated image-text pairs are scarce, vision-language pre-training rel
 
 To address this, BLIP adds two modules, a captioner and a filter. The learning framework can be seen in Figure \ref{fig:blip_framework}. Both the captioner and the filter are initialized from the same pre-trained MED model, and finetuned individually on the COCO \cite{lin2014microsoft} dataset.
 
-\begin{figure*}
+\begin{figure*}[ht]
     \centering
     \includegraphics[width=\linewidth]{blip_framework.png}
     \caption{BLIP learning framework: a captioner to produce synthetic captions and a filter to remove noisy captions.}
@@ -152,9 +148,9 @@ On each downstream task, different paths of the pre-trained model are finetuned 
 
 VQA \cite{antol2015vqa} is a popular vision and language task. Given an image and a question about the image, the task is to provide an accurate answer. VQA\footnote{\url{https://visualqa.org}} dataset is commonly used as a benchmark to evaluate VQA systems. Questions are generally open-ended but multiple choices are provided for some questions. Visual Genome \cite{krishna2017visual} is another popular image-text dataset that was used to finetune the model.
 
-The finetuning architecture for VQA can be seen in Figure \ref{fig:vqa_example}. Image Encoder, Image-grounded Question Encoder and Answer Decoder are used for this task.
+The finetuning architecture for VQA can be seen in Figure \ref{fig:vqa_example}. Image Encoder, Image-grounded Question Encoder and Answer Decoder are used for this task. Encoding questions is similar to encoding the caption related to an image. Decoding an answer is similar to decoding the caption of an image.
 
-\begin{figure*}
+\begin{figure*}[ht]
     \centering
     \includegraphics[width=\linewidth]{vqa_example.png}
     \caption{BLIP VQA finetuning architecture.}
@@ -163,111 +159,214 @@ The finetuning architecture for VQA can be seen in Figure \ref{fig:vqa_example}.
 
 If we compare it to image captioning, VQA requires a more detailed understanding of the image and more complex reasoning \cite{antol2015vqa}. The finetuning architecture for image captioning can be seen in Figure \ref{fig:vqa_example}. The architecture is simpler, only the Image Encoder and Image-grounded Text Decoder are needed.
 
-\begin{figure}
+\begin{figure}[ht]
     \centering
     \includegraphics[width=\linewidth]{captioning_example.png}
     \caption{BLIP image captioning finetuning architecture.}
     \label{fig:captioning_example}
 \end{figure}
 
-\section{Data}
+\subsection{Testing}
 
-Three types of questions from Egunean Behin game were selected: figures, cubes and maze. There are multiple questions for each image. Questions require counting figures, colors, cubes and understanding the dimensions of the pictures.
+We test the state-of-the-art BLIP \cite{li2022blip} model on this dataset in a zero-shot setting. This will show the difficulty of each question type and the ability of the model to generalize to different types of images.
 
-All the images and questions were generated automatically in two steps. First, we generate as many images as we want. Then, we generate multiple questions for each image.
+Instead of testing the model in a multiple-choice setting, we only take the most probable answer and compare it to the correct one. This makes the questions more difficult for the model. It would be interesting to also test it as multiple-choice and see the differences in results. This could be done by looking at the probabilities that the model assigns to each of the 3 answers, and selecting the one with highest probability.
+
+Another interesting test would be creating more images and questions and finetuning BLIP model on Egunean Behin dataset. This would allow to make a comparison between the VQA dataset and Egunean Behin dataset.
+
+\section{Dataset}
+
+The aim of this dataset is to create visual questions that imitate some questions from Egunean Behin game. These can be used to evaluate models on these types of questions that require understanding visual and language content.
+
+Three types of questions from Egunean Behin game were selected: figures, cubes and maze. There are multiple questions for each image. Questions require counting figures, colors, cubes and understanding the dimensions of the pictures. 
+
+Questions have different levels of difficulty. Figure questions only require counting objects that are visible in the image. Cube questions require more advanced reasoning about objects that are not visible. Maze questions are the most difficult ones, as the model has to understand the maze and find a path.
+
+All the images and questions were generated automatically in two steps. First, we generate as many images as we want. Then, we generate multiple questions for each image. We decided to generate 100 images of each type to test the dataset.
+
+The dataset and code are available at GitHub\footnote{\url{https://github.com/juletx/egunean-behin-vqa}}. Code and data are licensed under GNU General Public License v3.0. The code is based on other works licensed under GNU GPL v3.0 that are mentioned in that repository.
 
 \subsection{Figures}
 
-Images have geometric figures of different types and colors. Figures are selected randomly to create many different images. Images are saved to with a name that contains all the necessary data to create questions. The first two digits correspond to dimension of the image. The next digits correspond to the figures in each position of the image. For example, the name of the image in Figure \ref{fig:figures_example} is figures\_6\_4\_417148\_466526\_041585\_724774.png.
+Images have geometric figures of different types and colors. Figures are selected randomly to create many different images. The size of the figures and axes can be changed to create images with different dimensions and difficulty. 
 
-\begin{figure}
+Images are saved with a name that contains all the necessary data to create questions. The first two digits correspond to dimension of the image. The next digits correspond to the figures in each position of the image. For example, the name of the image in Figure \ref{fig:figures_example} is figures\_6\_4\_417148\_466526\_041585\_724774.png.
+
+\begin{figure}[ht]
     \centering
     \includegraphics[width=\linewidth]{figures_6_4_417148_466526_041585_724774.png}
     \caption{Figures image example.}
     \label{fig:figures_example}
 \end{figure}
 
-18 questions of different types are created for each image. 3 questions about figure, column and row count. 3 questions about figure shape. 3 questions about figure color. 9 questions about figure shape and color combined. Table \ref{tab:figures_example} shows example questions and answers for Figure \ref{fig:figures_example}.
+18 questions of different types are created for each image. 3 questions about figure, column and row count. 3 questions about figure shape. 3 questions about figure color. 9 questions about figure shape and color combined. Table \ref{tab:figures_example} shows example questions, correct answers (C), wrong answers (W) and BLIP answers (A) for Figure \ref{fig:figures_example}. Most answers of the model are wrong, but many are close to the correct answer.
 
-\begin{table}
+\begin{table}[ht]
 \centering
-\begin{tabular}{llll}
+\begin{tabular}{lllll}
 \toprule
-Question                  & C       & W1     & W2     \\ \midrule
-How many figures?         & 24      & 29     & 26     \\
-How many colums?          & 6       & 4      & 8      \\
-How many rows?            & 4       & 3      & 2      \\ \midrule
-How many triangles?       & 6       & 5      & 8      \\
-How many squares?         & 9       & 7      & 11     \\
-How many circles?         & 9       & 11     & 8      \\ \midrule
-How many red figures?     & 4       & 5      & 3      \\
-How many green figures?   & 13      & 15     & 17     \\
-How many blue figures?    & 7       & 9      & 10     \\ \midrule
-How many red triangles?   & 1       & 3      & 0      \\ 
-How many green triangles? & 3       & 4      & 1      \\
-How many blue triangles?  & 2       & 4      & 1      \\
-How many red squares?     & 0       & 1      & 2      \\
-How many green squares?   & 6       & 4      & 5      \\
-How many blue squares?    & 3       & 5      & 4      \\
-How many red circles?     & 3       & 5      & 4      \\
-How many green circles?   & 4       & 3      & 6      \\
-How many blue circles?    & 2       & 0      & 3      \\ \bottomrule
+Question                  & C       & W     & W & A    \\ \midrule
+How many figures?         & 24      & 29     & 26 & 4    \\
+How many columns?          & 6       & 4      & 8 & 3     \\
+How many rows?            & 4       & 3      & 2 & 3  \\ \midrule
+How many triangles?       & 6       & 5      & 8 & 5      \\
+How many squares?         & 9       & 7      & 11 & 9     \\
+How many circles?         & 9       & 11     & 8 & 9      \\ \midrule
+How many red figures?     & 4       & 5      & 3 & 1      \\
+How many green figures?   & 13      & 15     & 17 & 3     \\
+How many blue figures?    & 7       & 9      & 10 & 1     \\ \midrule
+How many red triangles?   & 1       & 3      & 0 & 2      \\ 
+How many green triangles? & 3       & 4      & 1 & 3      \\
+How many blue triangles?  & 2       & 4      & 1 & 3      \\
+How many red squares?     & 0       & 1      & 2 & 1      \\
+How many green squares?   & 6       & 4      & 5 & 3      \\
+How many blue squares?    & 3       & 5      & 4 & 2      \\
+How many red circles?     & 3       & 5      & 4 & 2      \\
+How many green circles?   & 4       & 3      & 6 & 3      \\
+How many blue circles?    & 2       & 0      & 3 & 3      \\ \bottomrule
 \end{tabular}
-\caption{Figures questions that correspond with the example image.}
+\caption{Figures questions and answers that correspond to the example image.}
 \label{tab:figures_example}
 \end{table}
 
 \subsection{Cubes}
 
-See Figure \ref{fig:cubes_example}.
+Images consist of 3 dimension cubes stack on top of each other. Cubes are stacked on top of each other with the defined probability. Cubes in each layer are colored with the selected colormap. The size of each axis can be controlled to create images with different dimensions. 
 
-\begin{figure}
+Images are saved with a name that contains all the necessary data to create questions. The first three digits correspond to dimension of the image. The next digits correspond to the number of cubes in each position of the image. For example, the name for the image in Figure \ref{fig:cubes_example} is cubes\_4\_4\_3\_0002\_0013\_1133\_3333.png.
+
+\begin{figure}[ht]
     \centering
     \includegraphics[width=\linewidth]{cubes_4_4_3_0002_0013_1133_3333.png}
     \caption{Cubes image example.}
     \label{fig:cubes_example}
 \end{figure}
 
-Many questions of different types are created for each image. The number of questions depends on the dimenssions of the image. 3 questions about total, visible and non visible cubes. 4 questions about number of cubes in each x layer. 4 questions about number of cubes in each y layer. 3 questions about number of cubes in each z layer. Table \ref{tab:cubes_example} shows example questions and answers for Figure \ref{fig:cubes_example}.
+Many questions of different types are created for each image. The number of questions for each image was 14, but it depends on the dimensions of the images. 3 questions about total, visible and non visible cubes. 4 questions about number of cubes in each x layer. 4 questions about number of cubes in each y layer. 3 questions about number of cubes in each z layer. Table \ref{tab:cubes_example} shows example questions and answers for Figure \ref{fig:cubes_example}. Most answers of the model are wrong and far from the correct answers. This shows that cube questions are more difficult than figure questions.
 
-\begin{table}
+\begin{table}[ht]
 \centering
-\begin{tabular}{llll}
+\begin{tabular}{lllll}
 \toprule
-Question                     & C       & W1     & W2     \\ \midrule
-How many cubes in total?     & 26      & 22     & 21     \\
-How many visible cubes?      & 17      & 16     & 11     \\
-How many non visible cubes?  & 9       & 13     & 10     \\ \midrule
-How many cubes in layer x 1? & 2       & 0      & 1      \\
-How many cubes in layer x 2? & 4       & 3      & 6      \\
-How many cubes in layer x 3? & 8       & 11     & 10     \\
-How many cubes in layer x 4? & 12      & 15     & 13     \\ \midrule
-How many cubes in layer y 1? & 4       & 6      & 7      \\
-How many cubes in layer y 2? & 4       & 3      & 1      \\
-How many cubes in layer y 3? & 7       & 9      & 8      \\
-How many cubes in layer y 4? & 11      & 8      & 13     \\ \midrule
-How many cubes in layer z 1? & 11      & 10     & 12     \\
-How many cubes in layer z 2? & 8       & 4      & 11     \\
-How many cubes in layer z 3? & 7       & 11     & 10     \\ \bottomrule
+Question                     & C       & W     & W & A    \\ \midrule
+How many cubes in total?     & 26      & 22     & 21 & 12     \\
+How many visible cubes?      & 17      & 16     & 11 & 6     \\
+How many non visible?  & 9       & 13     & 10  & 1    \\ \midrule
+How many cubes in x 1? & 2       & 0      & 1  & 6     \\
+How many cubes in x 2? & 4       & 3      & 6 & 6      \\
+How many cubes in x 3? & 8       & 11     & 10 & 6     \\
+How many cubes in x 4? & 12      & 15     & 13 & 6     \\ \midrule
+How many cubes in y 1? & 4       & 6      & 7  & 4     \\
+How many cubes in y 2? & 4       & 3      & 1   & 3    \\
+How many cubes in y 3? & 7       & 9      & 8  & 3     \\
+How many cubes in y 4? & 11      & 8      & 13 & 3     \\ \midrule
+How many cubes in z 1? & 11      & 10     & 12 & 6     \\
+How many cubes in z 2? & 8       & 4      & 11 & 6     \\
+How many cubes in z 3? & 7       & 11     & 10  & 6    \\ \bottomrule
 \end{tabular}
-\caption{Cubes questions that correspond with the example image.}
+\caption{Cubes questions and answers that correspond to the example image.}
 \label{tab:cubes_example}
 \end{table}
 
 \subsection{Maze}
 
-See Figure \ref{fig:maze_example}.
+A depth-first search algorithm is used to create mazes. The maze consist of a grid of cells and each cell initially has four walls. Starting from a given cell, the aim is to produce a path visiting each cell.
 
-\begin{figure}
+At each step we inspect the neighbouring cells. If any of them have yet to be visited, we pick one and move at random into it by removing the wall between them. If no neighbouring cell is unvisited (a dead end), then backtrack to the last cell with an unvisited neighbour.
+
+After we construct the maze, we have to add a wall so that there is only one possible exit from our starting point. Each edge will have a color so that we can refer to it easier.
+
+The size of the maze can be controlled and We can also select the starting point of the maze. Images are saved with a name that contains all the necessary data to create questions. The first digit corresponds to the index of the image. The next two digits correspond to dimension of the image. The last digits correspond to the starting and ending position. For example, the name for the image in Figure \ref{fig:maze_example} is maze\_0\_12\_8\_0\_2.png.
+
+\begin{figure}[ht]
     \centering
     \includegraphics[width=\linewidth]{maze_0_12_8_0_2.png}
     \caption{Maze image example.}
     \label{fig:maze_example}
 \end{figure}
 
+Only 4 questions of different types are created for each image. 3 questions about cell, column and row counts. 1 question about maze exit. Table \ref{tab:maze_example} shows example questions and answers for Figure \ref{fig:maze_example}. All the answers are wrong and very far from the correct answer. This shows that these questions are very difficult.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lllll}
+\toprule
+Question                               & C    & W  & W & A  \\ \midrule
+How many cells?                        & 96   & 98  & 87 & 8    \\
+How many colums?                       & 12   & 11  & 9 & 0      \\
+How many rows?                         & 8    & 7   & 5 & 5     \\ \midrule
+Exit from green? & blue & red & yellow & left \\ \bottomrule
+\end{tabular}
+\caption{Maze questions and answers that correspond to the example image.}
+\label{tab:maze_example}
+\end{table}
+
 \section{Results}
 
+In this section, we compare BLIP results obtained in VQA finetuting and Egunean Behin zero-shot. BLIP also obtaines great results in many other tasks, but we only focus on the VQAv2.0 dataset. We compare the results obtained in each question type of Egunean Behin dataset.
+
+\subsection{VQA}
+
+BLIP was tested on VQA2.0 dataset \cite{goyal2017making}, which contains a total of 206k images, 1.1M questions and 11M correct answers. Images are divided for training/validation/test in sizes 83k/41k/81k. Both training and validation splits for training, and include additional training samples from Visual Genome. During inference on VQA, the decoder is used to rank the 3,128 candidate answers.
+
+BLIP outperformes previous state-of-the-art methods on VQA as shown in Table \ref{tab:results_vqa}. Using 14M images, BLIP outperforms ALBEF by +1.64\% on the test set. Using 129M images, BLIP achieves better performance than SimVLM, which uses 13× more pre-training data and a larger vision backbone with an additional convolution stage. Best results are achieved when using CapFilt module to filter noisy captions and generate new ones. The difference is not very big in this task, but it is clear that it has a positive impact in the results.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{llll}
+\toprule
+Method        & Images & test-dev & test-std \\ \midrule
+LXMERT        & 180K              & 72.42    & 72.54    \\
+UNITER        & 4M                & 72.70    & 72.91    \\
+VL-T5/BART    & 180K              & -        & 71.3     \\
+OSCAR         & 4M                & 73.16    & 73.44    \\
+SOHO          & 219K              & 73.25    & 73.47    \\
+VILLA         & 4M                & 73.59    & 73.67    \\
+UNIMO         & 5.6M              & 75.06    & 75.27    \\
+ALBEF         & 14M               & 75.84    & 76.04    \\
+SimVLM$_{base}$   & 1.8B              & 77.87    & 78.14    \\ \midrule
+BLIP          & 14M               & 77.54    & 77.62    \\
+BLIP          & 129M              & 78.24    & 78.17    \\
+BLIP$_{CapFilt\-L}$ & 129M              & \textbf{78.25}    & \textbf{78.32}    \\ \bottomrule
+\end{tabular}
+\caption{Comparison with state-of-the-art methods on VQA.}
+\label{tab:results_vqa}
+\end{table}
+
+\subsection{Egunean Behin}
+
+We decided to generate 100 images of each type to test the dataset. Each subset creates a different number of questions per image, which results in the counts that can be seen in Table \ref{tab:results_egunean_behin}. There are 300 images and 3600 questions, 3600 correct answers and 7200 wrong answers. Compared to VQA dataset this is a small size, but it is enough to test the performance of the model in a zero-shot setting.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lllll}
+\toprule
+Subset  & Images & Questions & Acc   & MAE   \\ \midrule
+Figures & 100    & 1800      & 16.5  & 3.31  \\
+Cubes   & 100    & 1400      & 4.79  & 6.79  \\
+Maze    & 100    & 400       & 14.25 & 26.39 \\ \bottomrule
+\end{tabular}
+\caption{Number of images and questions, accuracy and mean absolute error of BLIP for each subset.}
+\label{tab:results_egunean_behin}
+\end{table}
+
+As expected, results are very bad compared to VQA dataset with finetuning. The highest accuracy is obtained in the Figures subset, which makes sense because it is the easiest one. Maze also obtains a similar accuracy, but this is due to only having four options in one of the four questions.
+
+As accuracy is an all or nothing metric, it is necessary to calculate mean absolute error to know how close answers are to the correct one. We can see that in this case the error is bigger for the more difficult questions. In the case of figures MAE is 3.31, which means that in average answers were quite close to the correct ones. This is what we noted in the example image.
+
 \section{Conclusions}
+
+Egunean Behin is a new visual question answering dataset based on Egunean Behin game. It consists of three types of questions from the game: figures, cubes and maze. Compared to other datasets that mostly use real-world images, all the artificial images and questions are generated automatically. It can be used to evaluate VQA models in an out-of-domain zero-shot setting.
+
+BLIP is a new VLP framework with state-of-the-art performance on a wide range of downstream vision-language tasks, including both understanding and generation tasks. BLIP pre-trains a multimodal mixture of encoder-decoder model using a dataset bootstrapped from noisy image-text pairs by creating diverse synthetic captions and removing noisy captions.
+
+Great improvements are being made in vision-language tasks such as visual question answering. However, when evaluating in an out-of domain zero-shot setting, we can see that there is still a lot to improve. Future work should also focus on making improvements to the model and data aspects.
+
+Regarding Egunean Behin dataset, many improvements can be made. Images of different sizes could be generated to make questions that are easier or more difficult. More questions could also be added for each image.
+
+Adding more questions types that are present in the game would be great. For example, counting animals, finding words in an alphabet soup and completing puzzles could be added.
+
+It would also be interesting to test BLIP as multiple-choice in this dataset and see the differences in results. Another interesting test would be to create more images and questions and to finetune BLIP model on Egunean Behin dataset. Testing other models to see the differences would also be an interesting experiment.
 
 \bibliography{egunean_behin_vqa}
 \bibliographystyle{acl_natbib}
