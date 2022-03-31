@@ -111,7 +111,7 @@ def create_random_figure(args, repeated):
 
     # C) Check if this figure has already been created or has no cubes (by checking its filename)
     filename = figure_name(heights, shape)
-    figure_path = f"{args.output_path}\\{filename}"
+    figure_path = f"{args.output_path}/{filename}"
 
     if os.path.exists(figure_path) or heights.sum() == 0:
         if repeated < args.max_repeats:

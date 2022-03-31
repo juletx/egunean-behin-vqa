@@ -27,14 +27,14 @@ def parse_filename(filename):
     return heights, shape
 
 
-def visible_cubes(heights, shape):
+def visible_cubes(heights, x_len, y_len):
     """
     Computes how many cubes are visible from our perspective
     :param heights: [x_len, y_len] matrix, each value specifying the number of cubes in a column
-    :param shape:  (x_len, y_len, z_len) tuple
+    :param x_len: number of rows
+    :param y_len: number of columns
     :return: number of visible cubes
     """
-    x_len, y_len, z_len = shape
     value = 0
 
     for cur_x in range(x_len):
@@ -59,83 +59,24 @@ def visible_cubes(heights, shape):
     return value
 
 
-def create_answers(heights, shape, question_type, layer=0):
+def wrong_answers(correct):
+    """Create wrong answers for a given correct answer.
+
+    Args:
+        correct (int): correct answer.
+
+    Returns:
+        list: list of wrong answers.
     """
-    Creates 3 answers for a given question, the first one being the correct one
-    :param heights: [x_len, y_len] matrix, each value specifying the number of cubes in a column
-    :param shape:  (x_len, y_len, z_len) tuple
-    :param question_type: question that needs to be answered (its ID)
-    :param layer: if the question specifies a layer, the number of the layer
-    :return: correct answer and two incorrect answers (three value tuple)
-    """
-    x_len, y_len, z_len = shape
-
-    # compute the correct answer
-    if question_type == 0:
-        correct_answer = int(heights.sum())
-        incorrect_answer_variation = round((x_len * y_len * z_len) ** 0.5)
-    elif question_type == 1:
-        correct_answer = visible_cubes(heights, shape)
-        incorrect_answer_variation = round((x_len * y_len * z_len) ** 0.5)
-    elif question_type == 2:
-        correct_answer = int(heights.sum()) - visible_cubes(heights, shape)
-        incorrect_answer_variation = round((x_len * y_len * z_len) ** 0.5)
-    elif question_type == 3:
-        correct_answer = int((heights[layer - 1, :]).sum())
-        incorrect_answer_variation = round((y_len * z_len) ** 0.5)
-    elif question_type == 4:
-        correct_answer = int((heights[:, layer - 1]).sum())
-        incorrect_answer_variation = round((x_len * z_len) ** 0.5)
-    elif question_type == 5:
-        correct_answer = int((heights >= layer).sum())
-        incorrect_answer_variation = round((x_len * y_len) ** 0.5)
-    else:
-        # Shouldn't reach here
-        raise ValueError(f"ERROR: Question type {question_type} not defined!")
-
-    incorrect_answer_variation = max(incorrect_answer_variation, 2)
-
-    # COMPUTE INCORRECT ANSWERS
-    # Choose if the incorrect answer will be both higher, both lower or one higher and another lower
-    incorrect_answers = []
-    answer_position = random.choice(["lower", "middle", "higher"])
-
-    # Ensure that all answers are positive or zero
-    if answer_position == "lower":
-        while len(incorrect_answers) < 2:
-            if correct_answer == 0:
-                sample = random.randint(
-                    correct_answer + 1, correct_answer + incorrect_answer_variation)
-                while sample in incorrect_answers:
-                    sample = random.randint(
-                        correct_answer + 1, correct_answer + incorrect_answer_variation)
-                incorrect_answers.append(sample)
-            if correct_answer == 1:
-                incorrect_answers.append([0, 2])
-            else:
-                sample = random.randint(
-                    max([(correct_answer - incorrect_answer_variation), 0]), correct_answer - 1)
-                while sample in incorrect_answers:
-                    sample = random.randint(
-                        max([(correct_answer - incorrect_answer_variation), 0]), correct_answer - 1)
-                incorrect_answers.append(sample)
-    elif answer_position == "middle":
-        sample = random.randint(
-            max([(correct_answer - incorrect_answer_variation), 0]), correct_answer - 1)
-        incorrect_answers.append(sample)
-        sample = random.randint(
-            correct_answer + 1, correct_answer + incorrect_answer_variation)
-        incorrect_answers.append(sample)
-    else:
-        while len(incorrect_answers) < 2:
-            sample = random.randint(
-                correct_answer + 1, correct_answer + incorrect_answer_variation)
-            while sample in incorrect_answers:
-                sample = random.randint(
-                    correct_answer + 1, correct_answer + incorrect_answer_variation)
-            incorrect_answers.append(sample)
-
-    return int(correct_answer), int(incorrect_answers[0]), int(incorrect_answers[1])
+    answers = [correct]
+    wrong_var = round((correct) ** 0.5)
+    wrong_var = max(wrong_var, 2)
+    while len(answers) < 3:
+        wrong = random.randint(
+            max(correct - wrong_var, 0), correct + wrong_var)
+        if wrong not in answers:
+            answers.append(wrong)
+    return answers[1], answers[2]
 
 
 def create_questions(path):
@@ -150,43 +91,50 @@ def create_questions(path):
     n = len(list_of_images)
 
     category = "Cubes"
-    questions = [
-        "How many cubes in total?",
-        "How many visible cubes?",
-        "How many non visible cubes?",
-    ]
 
     for file in tqdm(list_of_images, desc='Questions', total=n):
 
         heights, shape = parse_filename(file)
         x_len, y_len, z_len = shape
 
-        for q_type, question in enumerate(questions):
-            correct_answer, incorrect_answer_1, incorrect_answer_2 = create_answers(heights, shape,
-                                                                                    q_type)
-            question_list.append(
-                [category, question, correct_answer, incorrect_answer_1, incorrect_answer_2, file])
+        question = "How many cubes in total?"
+        correct = int(heights.sum())
+        wrong1, wrong2 = wrong_answers(correct)
+        question_list.append(
+            [category, question, correct, wrong1, wrong2, file])
+
+        question = "How many visible cubes?"
+        correct = visible_cubes(heights, x_len, y_len)
+        wrong1, wrong2 = wrong_answers(correct)
+        question_list.append(
+            [category, question, correct, wrong1, wrong2, file])
+
+        question = "How many non visible cubes?"
+        correct =  int(heights.sum()) - visible_cubes(heights, x_len, y_len)
+        wrong1, wrong2 = wrong_answers(correct)
+        question_list.append(
+            [category, question, correct, wrong1, wrong2, file])
 
         for x in range(1, x_len + 1):
             question = f"How many cubes in layer x {x}?"
-            correct_answer, incorrect_answer_1, incorrect_answer_2 = create_answers(
-                heights, shape, 3, x)
+            correct = int((heights[x - 1, :]).sum())
+            wrong1, wrong2 = wrong_answers(correct)
             question_list.append(
-                [category, question, correct_answer, incorrect_answer_1, incorrect_answer_2, file])
+                [category, question, correct, wrong1, wrong2, file])
 
         for y in range(1, y_len + 1):
             question = f"How many cubes in layer y {y}?"
-            correct_answer, incorrect_answer_1, incorrect_answer_2 = create_answers(
-                heights, shape, 4, y)
+            correct = int((heights[:, y - 1]).sum())
+            wrong1, wrong2 = wrong_answers(correct)
             question_list.append(
-                [category, question, correct_answer, incorrect_answer_1, incorrect_answer_2, file])
+                [category, question, correct, wrong1, wrong2, file])
 
         for z in range(1, z_len + 1):
             question = f"How many cubes in layer z {z}?"
-            correct_answer, incorrect_answer_1, incorrect_answer_2 = create_answers(
-                heights, shape, 5, z)
+            correct = int((heights >= z).sum())
+            wrong1, wrong2 = wrong_answers(correct)
             question_list.append(
-                [category, question, correct_answer, incorrect_answer_1, incorrect_answer_2, file])
+                [category, question, correct, wrong1, wrong2, file])
 
     return question_list
 
