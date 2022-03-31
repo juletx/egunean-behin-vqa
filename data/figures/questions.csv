@@ -1,19 +1,1801 @@
 type,question,correct,wrong1,wrong2,image
-Figures,How many figures?,24,29,26,figures_6_4_417148_466526_041585_724774.png
-Figures,How many colums?,6,4,8,figures_6_4_417148_466526_041585_724774.png
-Figures,How many rows?,4,3,2,figures_6_4_417148_466526_041585_724774.png
-Figures,How many triangles?,6,5,8,figures_6_4_417148_466526_041585_724774.png
+Figures,How many figures?,24,23,21,figures_6_4_417148_466526_041585_724774.png
+Figures,How many columns?,6,4,8,figures_6_4_417148_466526_041585_724774.png
+Figures,How many rows?,4,6,2,figures_6_4_417148_466526_041585_724774.png
+Figures,How many triangles?,6,4,5,figures_6_4_417148_466526_041585_724774.png
 Figures,How many squares?,9,7,11,figures_6_4_417148_466526_041585_724774.png
-Figures,How many circles?,9,11,8,figures_6_4_417148_466526_041585_724774.png
-Figures,How many red figures?,4,5,3,figures_6_4_417148_466526_041585_724774.png
-Figures,How many green figures?,13,15,17,figures_6_4_417148_466526_041585_724774.png
-Figures,How many blue figures?,7,9,10,figures_6_4_417148_466526_041585_724774.png
-Figures,How many red triangles?,1,3,0,figures_6_4_417148_466526_041585_724774.png
-Figures,How many green triangles?,3,4,1,figures_6_4_417148_466526_041585_724774.png
-Figures,How many blue triangles?,2,4,1,figures_6_4_417148_466526_041585_724774.png
-Figures,How many red squares?,0,1,2,figures_6_4_417148_466526_041585_724774.png
-Figures,How many green squares?,6,4,5,figures_6_4_417148_466526_041585_724774.png
-Figures,How many blue squares?,3,5,4,figures_6_4_417148_466526_041585_724774.png
-Figures,How many red circles?,3,5,4,figures_6_4_417148_466526_041585_724774.png
-Figures,How many green circles?,4,3,6,figures_6_4_417148_466526_041585_724774.png
-Figures,How many blue circles?,2,0,3,figures_6_4_417148_466526_041585_724774.png
+Figures,How many circles?,9,8,10,figures_6_4_417148_466526_041585_724774.png
+Figures,How many red figures?,4,2,6,figures_6_4_417148_466526_041585_724774.png
+Figures,How many green figures?,13,16,11,figures_6_4_417148_466526_041585_724774.png
+Figures,How many blue figures?,7,5,10,figures_6_4_417148_466526_041585_724774.png
+Figures,How many red triangles?,1,3,2,figures_6_4_417148_466526_041585_724774.png
+Figures,How many green triangles?,3,5,1,figures_6_4_417148_466526_041585_724774.png
+Figures,How many blue triangles?,2,3,4,figures_6_4_417148_466526_041585_724774.png
+Figures,How many red squares?,0,2,1,figures_6_4_417148_466526_041585_724774.png
+Figures,How many green squares?,6,8,7,figures_6_4_417148_466526_041585_724774.png
+Figures,How many blue squares?,3,5,1,figures_6_4_417148_466526_041585_724774.png
+Figures,How many red circles?,3,5,2,figures_6_4_417148_466526_041585_724774.png
+Figures,How many green circles?,4,6,2,figures_6_4_417148_466526_041585_724774.png
+Figures,How many blue circles?,2,0,1,figures_6_4_417148_466526_041585_724774.png
+Figures,How many figures?,24,21,19,figures_6_4_845637_428335_646175_683785.png
+Figures,How many columns?,6,8,7,figures_6_4_845637_428335_646175_683785.png
+Figures,How many rows?,4,2,3,figures_6_4_845637_428335_646175_683785.png
+Figures,How many triangles?,2,1,0,figures_6_4_845637_428335_646175_683785.png
+Figures,How many squares?,11,12,10,figures_6_4_845637_428335_646175_683785.png
+Figures,How many circles?,11,9,8,figures_6_4_845637_428335_646175_683785.png
+Figures,How many red figures?,8,7,6,figures_6_4_845637_428335_646175_683785.png
+Figures,How many green figures?,7,10,4,figures_6_4_845637_428335_646175_683785.png
+Figures,How many blue figures?,9,10,11,figures_6_4_845637_428335_646175_683785.png
+Figures,How many red triangles?,0,2,1,figures_6_4_845637_428335_646175_683785.png
+Figures,How many green triangles?,1,2,0,figures_6_4_845637_428335_646175_683785.png
+Figures,How many blue triangles?,1,0,2,figures_6_4_845637_428335_646175_683785.png
+Figures,How many red squares?,4,3,6,figures_6_4_845637_428335_646175_683785.png
+Figures,How many green squares?,3,2,5,figures_6_4_845637_428335_646175_683785.png
+Figures,How many blue squares?,4,3,6,figures_6_4_845637_428335_646175_683785.png
+Figures,How many red circles?,4,2,3,figures_6_4_845637_428335_646175_683785.png
+Figures,How many green circles?,3,5,1,figures_6_4_845637_428335_646175_683785.png
+Figures,How many blue circles?,4,6,5,figures_6_4_845637_428335_646175_683785.png
+Figures,How many figures?,24,28,22,figures_6_4_065628_157337_337170_777835.png
+Figures,How many columns?,6,8,7,figures_6_4_065628_157337_337170_777835.png
+Figures,How many rows?,4,3,2,figures_6_4_065628_157337_337170_777835.png
+Figures,How many triangles?,5,6,3,figures_6_4_065628_157337_337170_777835.png
+Figures,How many squares?,8,9,7,figures_6_4_065628_157337_337170_777835.png
+Figures,How many circles?,11,8,10,figures_6_4_065628_157337_337170_777835.png
+Figures,How many red figures?,9,7,10,figures_6_4_065628_157337_337170_777835.png
+Figures,How many green figures?,9,12,6,figures_6_4_065628_157337_337170_777835.png
+Figures,How many blue figures?,6,8,4,figures_6_4_065628_157337_337170_777835.png
+Figures,How many red triangles?,2,0,1,figures_6_4_065628_157337_337170_777835.png
+Figures,How many green triangles?,2,3,1,figures_6_4_065628_157337_337170_777835.png
+Figures,How many blue triangles?,1,2,3,figures_6_4_065628_157337_337170_777835.png
+Figures,How many red squares?,5,4,7,figures_6_4_065628_157337_337170_777835.png
+Figures,How many green squares?,0,1,2,figures_6_4_065628_157337_337170_777835.png
+Figures,How many blue squares?,3,2,4,figures_6_4_065628_157337_337170_777835.png
+Figures,How many red circles?,2,4,0,figures_6_4_065628_157337_337170_777835.png
+Figures,How many green circles?,7,10,4,figures_6_4_065628_157337_337170_777835.png
+Figures,How many blue circles?,2,3,0,figures_6_4_065628_157337_337170_777835.png
+Figures,How many figures?,24,27,28,figures_6_4_354424_727711_277167_717144.png
+Figures,How many columns?,6,5,4,figures_6_4_354424_727711_277167_717144.png
+Figures,How many rows?,4,6,3,figures_6_4_354424_727711_277167_717144.png
+Figures,How many triangles?,8,5,10,figures_6_4_354424_727711_277167_717144.png
+Figures,How many squares?,7,8,10,figures_6_4_354424_727711_277167_717144.png
+Figures,How many circles?,9,8,6,figures_6_4_354424_727711_277167_717144.png
+Figures,How many red figures?,2,3,1,figures_6_4_354424_727711_277167_717144.png
+Figures,How many green figures?,18,17,19,figures_6_4_354424_727711_277167_717144.png
+Figures,How many blue figures?,4,6,2,figures_6_4_354424_727711_277167_717144.png
+Figures,How many red triangles?,0,1,2,figures_6_4_354424_727711_277167_717144.png
+Figures,How many green triangles?,5,3,4,figures_6_4_354424_727711_277167_717144.png
+Figures,How many blue triangles?,3,1,5,figures_6_4_354424_727711_277167_717144.png
+Figures,How many red squares?,1,0,3,figures_6_4_354424_727711_277167_717144.png
+Figures,How many green squares?,5,3,6,figures_6_4_354424_727711_277167_717144.png
+Figures,How many blue squares?,1,3,2,figures_6_4_354424_727711_277167_717144.png
+Figures,How many red circles?,1,2,0,figures_6_4_354424_727711_277167_717144.png
+Figures,How many green circles?,8,7,11,figures_6_4_354424_727711_277167_717144.png
+Figures,How many blue circles?,0,1,2,figures_6_4_354424_727711_277167_717144.png
+Figures,How many figures?,24,21,25,figures_6_4_385611_037874_241105_002843.png
+Figures,How many columns?,6,4,8,figures_6_4_385611_037874_241105_002843.png
+Figures,How many rows?,4,5,6,figures_6_4_385611_037874_241105_002843.png
+Figures,How many triangles?,10,11,8,figures_6_4_385611_037874_241105_002843.png
+Figures,How many squares?,8,6,5,figures_6_4_385611_037874_241105_002843.png
+Figures,How many circles?,6,5,7,figures_6_4_385611_037874_241105_002843.png
+Figures,How many red figures?,8,10,9,figures_6_4_385611_037874_241105_002843.png
+Figures,How many green figures?,9,12,11,figures_6_4_385611_037874_241105_002843.png
+Figures,How many blue figures?,7,9,5,figures_6_4_385611_037874_241105_002843.png
+Figures,How many red triangles?,4,5,6,figures_6_4_385611_037874_241105_002843.png
+Figures,How many green triangles?,4,6,3,figures_6_4_385611_037874_241105_002843.png
+Figures,How many blue triangles?,2,4,0,figures_6_4_385611_037874_241105_002843.png
+Figures,How many red squares?,3,1,5,figures_6_4_385611_037874_241105_002843.png
+Figures,How many green squares?,3,4,5,figures_6_4_385611_037874_241105_002843.png
+Figures,How many blue squares?,2,1,3,figures_6_4_385611_037874_241105_002843.png
+Figures,How many red circles?,1,0,2,figures_6_4_385611_037874_241105_002843.png
+Figures,How many green circles?,2,3,1,figures_6_4_385611_037874_241105_002843.png
+Figures,How many blue circles?,3,2,1,figures_6_4_385611_037874_241105_002843.png
+Figures,How many figures?,24,20,26,figures_6_4_512257_401624_757071_736213.png
+Figures,How many columns?,6,8,5,figures_6_4_512257_401624_757071_736213.png
+Figures,How many rows?,4,6,2,figures_6_4_512257_401624_757071_736213.png
+Figures,How many triangles?,10,13,12,figures_6_4_512257_401624_757071_736213.png
+Figures,How many squares?,7,5,4,figures_6_4_512257_401624_757071_736213.png
+Figures,How many circles?,7,4,6,figures_6_4_512257_401624_757071_736213.png
+Figures,How many red figures?,6,5,4,figures_6_4_512257_401624_757071_736213.png
+Figures,How many green figures?,11,14,13,figures_6_4_512257_401624_757071_736213.png
+Figures,How many blue figures?,7,4,10,figures_6_4_512257_401624_757071_736213.png
+Figures,How many red triangles?,2,1,4,figures_6_4_512257_401624_757071_736213.png
+Figures,How many green triangles?,4,6,2,figures_6_4_512257_401624_757071_736213.png
+Figures,How many blue triangles?,4,3,5,figures_6_4_512257_401624_757071_736213.png
+Figures,How many red squares?,2,3,4,figures_6_4_512257_401624_757071_736213.png
+Figures,How many green squares?,2,0,4,figures_6_4_512257_401624_757071_736213.png
+Figures,How many blue squares?,3,5,4,figures_6_4_512257_401624_757071_736213.png
+Figures,How many red circles?,2,4,1,figures_6_4_512257_401624_757071_736213.png
+Figures,How many green circles?,5,7,6,figures_6_4_512257_401624_757071_736213.png
+Figures,How many blue circles?,0,2,1,figures_6_4_512257_401624_757071_736213.png
+Figures,How many figures?,24,28,21,figures_6_4_214037_300232_847033_488651.png
+Figures,How many columns?,6,4,8,figures_6_4_214037_300232_847033_488651.png
+Figures,How many rows?,4,6,3,figures_6_4_214037_300232_847033_488651.png
+Figures,How many triangles?,9,11,8,figures_6_4_214037_300232_847033_488651.png
+Figures,How many squares?,9,10,6,figures_6_4_214037_300232_847033_488651.png
+Figures,How many circles?,6,8,5,figures_6_4_214037_300232_847033_488651.png
+Figures,How many red figures?,10,9,13,figures_6_4_214037_300232_847033_488651.png
+Figures,How many green figures?,7,8,9,figures_6_4_214037_300232_847033_488651.png
+Figures,How many blue figures?,7,6,10,figures_6_4_214037_300232_847033_488651.png
+Figures,How many red triangles?,4,2,5,figures_6_4_214037_300232_847033_488651.png
+Figures,How many green triangles?,2,0,4,figures_6_4_214037_300232_847033_488651.png
+Figures,How many blue triangles?,3,4,5,figures_6_4_214037_300232_847033_488651.png
+Figures,How many red squares?,5,7,6,figures_6_4_214037_300232_847033_488651.png
+Figures,How many green squares?,3,4,5,figures_6_4_214037_300232_847033_488651.png
+Figures,How many blue squares?,1,0,2,figures_6_4_214037_300232_847033_488651.png
+Figures,How many red circles?,1,0,3,figures_6_4_214037_300232_847033_488651.png
+Figures,How many green circles?,2,4,0,figures_6_4_214037_300232_847033_488651.png
+Figures,How many blue circles?,3,5,1,figures_6_4_214037_300232_847033_488651.png
+Figures,How many figures?,24,29,22,figures_6_4_287816_040368_062812_387788.png
+Figures,How many columns?,6,8,4,figures_6_4_287816_040368_062812_387788.png
+Figures,How many rows?,4,6,2,figures_6_4_287816_040368_062812_387788.png
+Figures,How many triangles?,8,6,9,figures_6_4_287816_040368_062812_387788.png
+Figures,How many squares?,3,5,1,figures_6_4_287816_040368_062812_387788.png
+Figures,How many circles?,13,11,10,figures_6_4_287816_040368_062812_387788.png
+Figures,How many red figures?,8,11,9,figures_6_4_287816_040368_062812_387788.png
+Figures,How many green figures?,6,5,4,figures_6_4_287816_040368_062812_387788.png
+Figures,How many blue figures?,10,13,7,figures_6_4_287816_040368_062812_387788.png
+Figures,How many red triangles?,3,4,5,figures_6_4_287816_040368_062812_387788.png
+Figures,How many green triangles?,2,1,3,figures_6_4_287816_040368_062812_387788.png
+Figures,How many blue triangles?,3,2,1,figures_6_4_287816_040368_062812_387788.png
+Figures,How many red squares?,2,1,0,figures_6_4_287816_040368_062812_387788.png
+Figures,How many green squares?,1,3,2,figures_6_4_287816_040368_062812_387788.png
+Figures,How many blue squares?,0,1,2,figures_6_4_287816_040368_062812_387788.png
+Figures,How many red circles?,3,1,4,figures_6_4_287816_040368_062812_387788.png
+Figures,How many green circles?,3,2,5,figures_6_4_287816_040368_062812_387788.png
+Figures,How many blue circles?,7,10,5,figures_6_4_287816_040368_062812_387788.png
+Figures,How many figures?,24,26,22,figures_6_4_075662_462831_478704_356428.png
+Figures,How many columns?,6,4,7,figures_6_4_075662_462831_478704_356428.png
+Figures,How many rows?,4,5,3,figures_6_4_075662_462831_478704_356428.png
+Figures,How many triangles?,6,8,4,figures_6_4_075662_462831_478704_356428.png
+Figures,How many squares?,8,11,5,figures_6_4_075662_462831_478704_356428.png
+Figures,How many circles?,10,7,11,figures_6_4_075662_462831_478704_356428.png
+Figures,How many red figures?,8,6,7,figures_6_4_075662_462831_478704_356428.png
+Figures,How many green figures?,8,6,10,figures_6_4_075662_462831_478704_356428.png
+Figures,How many blue figures?,8,9,7,figures_6_4_075662_462831_478704_356428.png
+Figures,How many red triangles?,2,1,0,figures_6_4_075662_462831_478704_356428.png
+Figures,How many green triangles?,1,3,0,figures_6_4_075662_462831_478704_356428.png
+Figures,How many blue triangles?,3,2,5,figures_6_4_075662_462831_478704_356428.png
+Figures,How many red squares?,2,0,4,figures_6_4_075662_462831_478704_356428.png
+Figures,How many green squares?,4,5,2,figures_6_4_075662_462831_478704_356428.png
+Figures,How many blue squares?,2,1,4,figures_6_4_075662_462831_478704_356428.png
+Figures,How many red circles?,4,5,3,figures_6_4_075662_462831_478704_356428.png
+Figures,How many green circles?,3,1,2,figures_6_4_075662_462831_478704_356428.png
+Figures,How many blue circles?,3,5,1,figures_6_4_075662_462831_478704_356428.png
+Figures,How many figures?,24,26,21,figures_6_4_487688_716685_452753_781717.png
+Figures,How many columns?,6,4,5,figures_6_4_487688_716685_452753_781717.png
+Figures,How many rows?,4,2,5,figures_6_4_487688_716685_452753_781717.png
+Figures,How many triangles?,4,5,2,figures_6_4_487688_716685_452753_781717.png
+Figures,How many squares?,6,7,8,figures_6_4_487688_716685_452753_781717.png
+Figures,How many circles?,14,13,11,figures_6_4_487688_716685_452753_781717.png
+Figures,How many red figures?,4,3,5,figures_6_4_487688_716685_452753_781717.png
+Figures,How many green figures?,11,9,12,figures_6_4_487688_716685_452753_781717.png
+Figures,How many blue figures?,9,6,11,figures_6_4_487688_716685_452753_781717.png
+Figures,How many red triangles?,0,1,2,figures_6_4_487688_716685_452753_781717.png
+Figures,How many green triangles?,3,4,5,figures_6_4_487688_716685_452753_781717.png
+Figures,How many blue triangles?,1,3,2,figures_6_4_487688_716685_452753_781717.png
+Figures,How many red squares?,1,0,3,figures_6_4_487688_716685_452753_781717.png
+Figures,How many green squares?,2,3,1,figures_6_4_487688_716685_452753_781717.png
+Figures,How many blue squares?,3,4,1,figures_6_4_487688_716685_452753_781717.png
+Figures,How many red circles?,3,4,1,figures_6_4_487688_716685_452753_781717.png
+Figures,How many green circles?,6,7,5,figures_6_4_487688_716685_452753_781717.png
+Figures,How many blue circles?,5,7,3,figures_6_4_487688_716685_452753_781717.png
+Figures,How many figures?,24,23,20,figures_6_4_207310_204126_880864_286453.png
+Figures,How many columns?,6,4,7,figures_6_4_207310_204126_880864_286453.png
+Figures,How many rows?,4,5,3,figures_6_4_207310_204126_880864_286453.png
+Figures,How many triangles?,10,9,8,figures_6_4_207310_204126_880864_286453.png
+Figures,How many squares?,6,4,7,figures_6_4_207310_204126_880864_286453.png
+Figures,How many circles?,8,10,5,figures_6_4_207310_204126_880864_286453.png
+Figures,How many red figures?,9,12,10,figures_6_4_207310_204126_880864_286453.png
+Figures,How many green figures?,6,5,4,figures_6_4_207310_204126_880864_286453.png
+Figures,How many blue figures?,9,6,11,figures_6_4_207310_204126_880864_286453.png
+Figures,How many red triangles?,4,3,2,figures_6_4_207310_204126_880864_286453.png
+Figures,How many green triangles?,2,4,0,figures_6_4_207310_204126_880864_286453.png
+Figures,How many blue triangles?,4,5,3,figures_6_4_207310_204126_880864_286453.png
+Figures,How many red squares?,2,0,3,figures_6_4_207310_204126_880864_286453.png
+Figures,How many green squares?,3,2,5,figures_6_4_207310_204126_880864_286453.png
+Figures,How many blue squares?,1,0,3,figures_6_4_207310_204126_880864_286453.png
+Figures,How many red circles?,3,5,1,figures_6_4_207310_204126_880864_286453.png
+Figures,How many green circles?,1,2,3,figures_6_4_207310_204126_880864_286453.png
+Figures,How many blue circles?,4,2,6,figures_6_4_207310_204126_880864_286453.png
+Figures,How many figures?,24,25,28,figures_6_4_383128_524524_736447_027555.png
+Figures,How many columns?,6,5,4,figures_6_4_383128_524524_736447_027555.png
+Figures,How many rows?,4,5,2,figures_6_4_383128_524524_736447_027555.png
+Figures,How many triangles?,6,4,7,figures_6_4_383128_524524_736447_027555.png
+Figures,How many squares?,12,14,15,figures_6_4_383128_524524_736447_027555.png
+Figures,How many circles?,6,4,7,figures_6_4_383128_524524_736447_027555.png
+Figures,How many red figures?,5,7,3,figures_6_4_383128_524524_736447_027555.png
+Figures,How many green figures?,8,10,11,figures_6_4_383128_524524_736447_027555.png
+Figures,How many blue figures?,11,12,10,figures_6_4_383128_524524_736447_027555.png
+Figures,How many red triangles?,1,3,0,figures_6_4_383128_524524_736447_027555.png
+Figures,How many green triangles?,1,3,2,figures_6_4_383128_524524_736447_027555.png
+Figures,How many blue triangles?,4,3,6,figures_6_4_383128_524524_736447_027555.png
+Figures,How many red squares?,3,2,5,figures_6_4_383128_524524_736447_027555.png
+Figures,How many green squares?,4,3,6,figures_6_4_383128_524524_736447_027555.png
+Figures,How many blue squares?,5,4,7,figures_6_4_383128_524524_736447_027555.png
+Figures,How many red circles?,1,2,0,figures_6_4_383128_524524_736447_027555.png
+Figures,How many green circles?,3,2,4,figures_6_4_383128_524524_736447_027555.png
+Figures,How many blue circles?,2,3,4,figures_6_4_383128_524524_736447_027555.png
+Figures,How many figures?,24,28,20,figures_6_4_833425_355867_008454_117321.png
+Figures,How many columns?,6,7,8,figures_6_4_833425_355867_008454_117321.png
+Figures,How many rows?,4,3,2,figures_6_4_833425_355867_008454_117321.png
+Figures,How many triangles?,7,6,5,figures_6_4_833425_355867_008454_117321.png
+Figures,How many squares?,11,14,13,figures_6_4_833425_355867_008454_117321.png
+Figures,How many circles?,6,5,8,figures_6_4_833425_355867_008454_117321.png
+Figures,How many red figures?,7,5,9,figures_6_4_833425_355867_008454_117321.png
+Figures,How many green figures?,8,9,7,figures_6_4_833425_355867_008454_117321.png
+Figures,How many blue figures?,9,8,11,figures_6_4_833425_355867_008454_117321.png
+Figures,How many red triangles?,2,1,4,figures_6_4_833425_355867_008454_117321.png
+Figures,How many green triangles?,3,4,2,figures_6_4_833425_355867_008454_117321.png
+Figures,How many blue triangles?,2,4,1,figures_6_4_833425_355867_008454_117321.png
+Figures,How many red squares?,4,3,5,figures_6_4_833425_355867_008454_117321.png
+Figures,How many green squares?,3,2,4,figures_6_4_833425_355867_008454_117321.png
+Figures,How many blue squares?,4,3,2,figures_6_4_833425_355867_008454_117321.png
+Figures,How many red circles?,1,0,3,figures_6_4_833425_355867_008454_117321.png
+Figures,How many green circles?,2,1,0,figures_6_4_833425_355867_008454_117321.png
+Figures,How many blue circles?,3,1,4,figures_6_4_833425_355867_008454_117321.png
+Figures,How many figures?,24,19,27,figures_6_4_016174_061466_178232_755402.png
+Figures,How many columns?,6,4,7,figures_6_4_016174_061466_178232_755402.png
+Figures,How many rows?,4,5,6,figures_6_4_016174_061466_178232_755402.png
+Figures,How many triangles?,10,9,11,figures_6_4_016174_061466_178232_755402.png
+Figures,How many squares?,6,7,5,figures_6_4_016174_061466_178232_755402.png
+Figures,How many circles?,8,7,9,figures_6_4_016174_061466_178232_755402.png
+Figures,How many red figures?,8,10,7,figures_6_4_016174_061466_178232_755402.png
+Figures,How many green figures?,10,13,9,figures_6_4_016174_061466_178232_755402.png
+Figures,How many blue figures?,6,4,7,figures_6_4_016174_061466_178232_755402.png
+Figures,How many red triangles?,3,1,4,figures_6_4_016174_061466_178232_755402.png
+Figures,How many green triangles?,4,5,3,figures_6_4_016174_061466_178232_755402.png
+Figures,How many blue triangles?,3,2,5,figures_6_4_016174_061466_178232_755402.png
+Figures,How many red squares?,1,2,0,figures_6_4_016174_061466_178232_755402.png
+Figures,How many green squares?,3,4,2,figures_6_4_016174_061466_178232_755402.png
+Figures,How many blue squares?,2,1,4,figures_6_4_016174_061466_178232_755402.png
+Figures,How many red circles?,4,6,5,figures_6_4_016174_061466_178232_755402.png
+Figures,How many green circles?,3,1,2,figures_6_4_016174_061466_178232_755402.png
+Figures,How many blue circles?,1,2,0,figures_6_4_016174_061466_178232_755402.png
+Figures,How many figures?,24,20,23,figures_6_4_330808_628277_440453_253362.png
+Figures,How many columns?,6,5,7,figures_6_4_330808_628277_440453_253362.png
+Figures,How many rows?,4,5,2,figures_6_4_330808_628277_440453_253362.png
+Figures,How many triangles?,7,9,5,figures_6_4_330808_628277_440453_253362.png
+Figures,How many squares?,10,12,11,figures_6_4_330808_628277_440453_253362.png
+Figures,How many circles?,7,5,9,figures_6_4_330808_628277_440453_253362.png
+Figures,How many red figures?,10,8,12,figures_6_4_330808_628277_440453_253362.png
+Figures,How many green figures?,5,7,6,figures_6_4_330808_628277_440453_253362.png
+Figures,How many blue figures?,9,8,7,figures_6_4_330808_628277_440453_253362.png
+Figures,How many red triangles?,3,1,4,figures_6_4_330808_628277_440453_253362.png
+Figures,How many green triangles?,0,2,1,figures_6_4_330808_628277_440453_253362.png
+Figures,How many blue triangles?,4,6,5,figures_6_4_330808_628277_440453_253362.png
+Figures,How many red squares?,5,7,6,figures_6_4_330808_628277_440453_253362.png
+Figures,How many green squares?,3,2,4,figures_6_4_330808_628277_440453_253362.png
+Figures,How many blue squares?,2,4,0,figures_6_4_330808_628277_440453_253362.png
+Figures,How many red circles?,2,4,3,figures_6_4_330808_628277_440453_253362.png
+Figures,How many green circles?,2,0,4,figures_6_4_330808_628277_440453_253362.png
+Figures,How many blue circles?,3,1,2,figures_6_4_330808_628277_440453_253362.png
+Figures,How many figures?,24,22,20,figures_6_4_780146_270102_755064_406628.png
+Figures,How many columns?,6,7,8,figures_6_4_780146_270102_755064_406628.png
+Figures,How many rows?,4,2,5,figures_6_4_780146_270102_755064_406628.png
+Figures,How many triangles?,10,9,12,figures_6_4_780146_270102_755064_406628.png
+Figures,How many squares?,5,7,4,figures_6_4_780146_270102_755064_406628.png
+Figures,How many circles?,9,6,11,figures_6_4_780146_270102_755064_406628.png
+Figures,How many red figures?,9,8,10,figures_6_4_780146_270102_755064_406628.png
+Figures,How many green figures?,8,5,11,figures_6_4_780146_270102_755064_406628.png
+Figures,How many blue figures?,7,6,8,figures_6_4_780146_270102_755064_406628.png
+Figures,How many red triangles?,5,4,6,figures_6_4_780146_270102_755064_406628.png
+Figures,How many green triangles?,2,4,3,figures_6_4_780146_270102_755064_406628.png
+Figures,How many blue triangles?,3,4,2,figures_6_4_780146_270102_755064_406628.png
+Figures,How many red squares?,0,2,1,figures_6_4_780146_270102_755064_406628.png
+Figures,How many green squares?,3,2,5,figures_6_4_780146_270102_755064_406628.png
+Figures,How many blue squares?,2,1,3,figures_6_4_780146_270102_755064_406628.png
+Figures,How many red circles?,4,3,6,figures_6_4_780146_270102_755064_406628.png
+Figures,How many green circles?,3,4,2,figures_6_4_780146_270102_755064_406628.png
+Figures,How many blue circles?,2,0,3,figures_6_4_780146_270102_755064_406628.png
+Figures,How many figures?,24,29,28,figures_6_4_016660_348551_750218_414515.png
+Figures,How many columns?,6,8,4,figures_6_4_016660_348551_750218_414515.png
+Figures,How many rows?,4,3,6,figures_6_4_016660_348551_750218_414515.png
+Figures,How many triangles?,9,8,10,figures_6_4_016660_348551_750218_414515.png
+Figures,How many squares?,9,6,11,figures_6_4_016660_348551_750218_414515.png
+Figures,How many circles?,6,8,7,figures_6_4_016660_348551_750218_414515.png
+Figures,How many red figures?,7,5,10,figures_6_4_016660_348551_750218_414515.png
+Figures,How many green figures?,9,7,11,figures_6_4_016660_348551_750218_414515.png
+Figures,How many blue figures?,8,5,7,figures_6_4_016660_348551_750218_414515.png
+Figures,How many red triangles?,3,2,1,figures_6_4_016660_348551_750218_414515.png
+Figures,How many green triangles?,5,7,3,figures_6_4_016660_348551_750218_414515.png
+Figures,How many blue triangles?,1,2,3,figures_6_4_016660_348551_750218_414515.png
+Figures,How many red squares?,1,3,2,figures_6_4_016660_348551_750218_414515.png
+Figures,How many green squares?,3,1,2,figures_6_4_016660_348551_750218_414515.png
+Figures,How many blue squares?,5,6,4,figures_6_4_016660_348551_750218_414515.png
+Figures,How many red circles?,3,5,1,figures_6_4_016660_348551_750218_414515.png
+Figures,How many green circles?,1,0,2,figures_6_4_016660_348551_750218_414515.png
+Figures,How many blue circles?,2,0,3,figures_6_4_016660_348551_750218_414515.png
+Figures,How many figures?,24,23,26,figures_6_4_033312_537250_085582_067021.png
+Figures,How many columns?,6,7,5,figures_6_4_033312_537250_085582_067021.png
+Figures,How many rows?,4,3,5,figures_6_4_033312_537250_085582_067021.png
+Figures,How many triangles?,11,13,14,figures_6_4_033312_537250_085582_067021.png
+Figures,How many squares?,8,5,10,figures_6_4_033312_537250_085582_067021.png
+Figures,How many circles?,5,3,4,figures_6_4_033312_537250_085582_067021.png
+Figures,How many red figures?,10,8,7,figures_6_4_033312_537250_085582_067021.png
+Figures,How many green figures?,4,6,2,figures_6_4_033312_537250_085582_067021.png
+Figures,How many blue figures?,10,7,12,figures_6_4_033312_537250_085582_067021.png
+Figures,How many red triangles?,5,3,7,figures_6_4_033312_537250_085582_067021.png
+Figures,How many green triangles?,2,3,1,figures_6_4_033312_537250_085582_067021.png
+Figures,How many blue triangles?,4,3,5,figures_6_4_033312_537250_085582_067021.png
+Figures,How many red squares?,4,5,3,figures_6_4_033312_537250_085582_067021.png
+Figures,How many green squares?,0,2,1,figures_6_4_033312_537250_085582_067021.png
+Figures,How many blue squares?,4,5,6,figures_6_4_033312_537250_085582_067021.png
+Figures,How many red circles?,1,2,0,figures_6_4_033312_537250_085582_067021.png
+Figures,How many green circles?,2,3,0,figures_6_4_033312_537250_085582_067021.png
+Figures,How many blue circles?,2,0,4,figures_6_4_033312_537250_085582_067021.png
+Figures,How many figures?,24,21,26,figures_6_4_000073_540800_227646_547185.png
+Figures,How many columns?,6,5,8,figures_6_4_000073_540800_227646_547185.png
+Figures,How many rows?,4,6,5,figures_6_4_000073_540800_227646_547185.png
+Figures,How many triangles?,10,12,8,figures_6_4_000073_540800_227646_547185.png
+Figures,How many squares?,7,10,6,figures_6_4_000073_540800_227646_547185.png
+Figures,How many circles?,7,4,5,figures_6_4_000073_540800_227646_547185.png
+Figures,How many red figures?,10,12,13,figures_6_4_000073_540800_227646_547185.png
+Figures,How many green figures?,7,4,6,figures_6_4_000073_540800_227646_547185.png
+Figures,How many blue figures?,7,5,8,figures_6_4_000073_540800_227646_547185.png
+Figures,How many red triangles?,7,8,10,figures_6_4_000073_540800_227646_547185.png
+Figures,How many green triangles?,1,3,2,figures_6_4_000073_540800_227646_547185.png
+Figures,How many blue triangles?,2,1,3,figures_6_4_000073_540800_227646_547185.png
+Figures,How many red squares?,1,0,3,figures_6_4_000073_540800_227646_547185.png
+Figures,How many green squares?,3,5,2,figures_6_4_000073_540800_227646_547185.png
+Figures,How many blue squares?,3,2,5,figures_6_4_000073_540800_227646_547185.png
+Figures,How many red circles?,2,1,3,figures_6_4_000073_540800_227646_547185.png
+Figures,How many green circles?,3,2,5,figures_6_4_000073_540800_227646_547185.png
+Figures,How many blue circles?,2,0,1,figures_6_4_000073_540800_227646_547185.png
+Figures,How many figures?,24,21,23,figures_6_4_347815_782420_120117_770683.png
+Figures,How many columns?,6,8,4,figures_6_4_347815_782420_120117_770683.png
+Figures,How many rows?,4,2,3,figures_6_4_347815_782420_120117_770683.png
+Figures,How many triangles?,10,13,11,figures_6_4_347815_782420_120117_770683.png
+Figures,How many squares?,5,6,4,figures_6_4_347815_782420_120117_770683.png
+Figures,How many circles?,9,8,6,figures_6_4_347815_782420_120117_770683.png
+Figures,How many red figures?,6,8,7,figures_6_4_347815_782420_120117_770683.png
+Figures,How many green figures?,11,13,12,figures_6_4_347815_782420_120117_770683.png
+Figures,How many blue figures?,7,10,5,figures_6_4_347815_782420_120117_770683.png
+Figures,How many red triangles?,3,5,1,figures_6_4_347815_782420_120117_770683.png
+Figures,How many green triangles?,4,6,2,figures_6_4_347815_782420_120117_770683.png
+Figures,How many blue triangles?,3,4,1,figures_6_4_347815_782420_120117_770683.png
+Figures,How many red squares?,2,4,1,figures_6_4_347815_782420_120117_770683.png
+Figures,How many green squares?,2,4,3,figures_6_4_347815_782420_120117_770683.png
+Figures,How many blue squares?,1,2,0,figures_6_4_347815_782420_120117_770683.png
+Figures,How many red circles?,1,2,3,figures_6_4_347815_782420_120117_770683.png
+Figures,How many green circles?,5,7,6,figures_6_4_347815_782420_120117_770683.png
+Figures,How many blue circles?,3,4,2,figures_6_4_347815_782420_120117_770683.png
+Figures,How many figures?,24,27,28,figures_6_4_871333_205257_052281_701118.png
+Figures,How many columns?,6,7,8,figures_6_4_871333_205257_052281_701118.png
+Figures,How many rows?,4,5,6,figures_6_4_871333_205257_052281_701118.png
+Figures,How many triangles?,12,13,14,figures_6_4_871333_205257_052281_701118.png
+Figures,How many squares?,6,4,7,figures_6_4_871333_205257_052281_701118.png
+Figures,How many circles?,6,5,4,figures_6_4_871333_205257_052281_701118.png
+Figures,How many red figures?,6,7,8,figures_6_4_871333_205257_052281_701118.png
+Figures,How many green figures?,8,10,6,figures_6_4_871333_205257_052281_701118.png
+Figures,How many blue figures?,10,11,9,figures_6_4_871333_205257_052281_701118.png
+Figures,How many red triangles?,3,1,2,figures_6_4_871333_205257_052281_701118.png
+Figures,How many green triangles?,5,6,4,figures_6_4_871333_205257_052281_701118.png
+Figures,How many blue triangles?,4,6,2,figures_6_4_871333_205257_052281_701118.png
+Figures,How many red squares?,3,5,1,figures_6_4_871333_205257_052281_701118.png
+Figures,How many green squares?,0,1,2,figures_6_4_871333_205257_052281_701118.png
+Figures,How many blue squares?,3,5,4,figures_6_4_871333_205257_052281_701118.png
+Figures,How many red circles?,0,1,2,figures_6_4_871333_205257_052281_701118.png
+Figures,How many green circles?,3,2,5,figures_6_4_871333_205257_052281_701118.png
+Figures,How many blue circles?,3,4,2,figures_6_4_871333_205257_052281_701118.png
+Figures,How many figures?,24,21,27,figures_6_4_880681_312554_337073_014618.png
+Figures,How many columns?,6,5,4,figures_6_4_880681_312554_337073_014618.png
+Figures,How many rows?,4,2,3,figures_6_4_880681_312554_337073_014618.png
+Figures,How many triangles?,8,6,5,figures_6_4_880681_312554_337073_014618.png
+Figures,How many squares?,8,11,5,figures_6_4_880681_312554_337073_014618.png
+Figures,How many circles?,8,11,5,figures_6_4_880681_312554_337073_014618.png
+Figures,How many red figures?,9,7,11,figures_6_4_880681_312554_337073_014618.png
+Figures,How many green figures?,8,5,7,figures_6_4_880681_312554_337073_014618.png
+Figures,How many blue figures?,7,4,9,figures_6_4_880681_312554_337073_014618.png
+Figures,How many red triangles?,3,5,2,figures_6_4_880681_312554_337073_014618.png
+Figures,How many green triangles?,4,5,6,figures_6_4_880681_312554_337073_014618.png
+Figures,How many blue triangles?,1,0,2,figures_6_4_880681_312554_337073_014618.png
+Figures,How many red squares?,4,5,2,figures_6_4_880681_312554_337073_014618.png
+Figures,How many green squares?,2,3,1,figures_6_4_880681_312554_337073_014618.png
+Figures,How many blue squares?,2,3,0,figures_6_4_880681_312554_337073_014618.png
+Figures,How many red circles?,2,3,1,figures_6_4_880681_312554_337073_014618.png
+Figures,How many green circles?,2,0,1,figures_6_4_880681_312554_337073_014618.png
+Figures,How many blue circles?,4,3,5,figures_6_4_880681_312554_337073_014618.png
+Figures,How many figures?,24,21,20,figures_6_4_870586_826064_711267_865811.png
+Figures,How many columns?,6,8,4,figures_6_4_870586_826064_711267_865811.png
+Figures,How many rows?,4,5,6,figures_6_4_870586_826064_711267_865811.png
+Figures,How many triangles?,8,5,11,figures_6_4_870586_826064_711267_865811.png
+Figures,How many squares?,3,5,4,figures_6_4_870586_826064_711267_865811.png
+Figures,How many circles?,13,15,10,figures_6_4_870586_826064_711267_865811.png
+Figures,How many red figures?,7,5,4,figures_6_4_870586_826064_711267_865811.png
+Figures,How many green figures?,8,11,7,figures_6_4_870586_826064_711267_865811.png
+Figures,How many blue figures?,9,11,8,figures_6_4_870586_826064_711267_865811.png
+Figures,How many red triangles?,2,4,1,figures_6_4_870586_826064_711267_865811.png
+Figures,How many green triangles?,4,6,2,figures_6_4_870586_826064_711267_865811.png
+Figures,How many blue triangles?,2,4,0,figures_6_4_870586_826064_711267_865811.png
+Figures,How many red squares?,0,2,1,figures_6_4_870586_826064_711267_865811.png
+Figures,How many green squares?,1,0,2,figures_6_4_870586_826064_711267_865811.png
+Figures,How many blue squares?,2,0,1,figures_6_4_870586_826064_711267_865811.png
+Figures,How many red circles?,5,3,6,figures_6_4_870586_826064_711267_865811.png
+Figures,How many green circles?,3,5,1,figures_6_4_870586_826064_711267_865811.png
+Figures,How many blue circles?,5,3,4,figures_6_4_870586_826064_711267_865811.png
+Figures,How many figures?,24,27,21,figures_6_4_642181_231380_071000_234003.png
+Figures,How many columns?,6,8,5,figures_6_4_642181_231380_071000_234003.png
+Figures,How many rows?,4,2,5,figures_6_4_642181_231380_071000_234003.png
+Figures,How many triangles?,14,12,10,figures_6_4_642181_231380_071000_234003.png
+Figures,How many squares?,6,7,5,figures_6_4_642181_231380_071000_234003.png
+Figures,How many circles?,4,2,6,figures_6_4_642181_231380_071000_234003.png
+Figures,How many red figures?,12,13,9,figures_6_4_642181_231380_071000_234003.png
+Figures,How many green figures?,7,9,4,figures_6_4_642181_231380_071000_234003.png
+Figures,How many blue figures?,5,6,3,figures_6_4_642181_231380_071000_234003.png
+Figures,How many red triangles?,7,5,6,figures_6_4_642181_231380_071000_234003.png
+Figures,How many green triangles?,4,6,2,figures_6_4_642181_231380_071000_234003.png
+Figures,How many blue triangles?,3,2,5,figures_6_4_642181_231380_071000_234003.png
+Figures,How many red squares?,4,5,2,figures_6_4_642181_231380_071000_234003.png
+Figures,How many green squares?,2,3,4,figures_6_4_642181_231380_071000_234003.png
+Figures,How many blue squares?,0,1,2,figures_6_4_642181_231380_071000_234003.png
+Figures,How many red circles?,1,3,0,figures_6_4_642181_231380_071000_234003.png
+Figures,How many green circles?,1,2,3,figures_6_4_642181_231380_071000_234003.png
+Figures,How many blue circles?,2,0,4,figures_6_4_642181_231380_071000_234003.png
+Figures,How many figures?,24,25,19,figures_6_4_874387_081713_085864_270486.png
+Figures,How many columns?,6,8,4,figures_6_4_874387_081713_085864_270486.png
+Figures,How many rows?,4,5,6,figures_6_4_874387_081713_085864_270486.png
+Figures,How many triangles?,6,4,8,figures_6_4_874387_081713_085864_270486.png
+Figures,How many squares?,6,8,5,figures_6_4_874387_081713_085864_270486.png
+Figures,How many circles?,12,11,9,figures_6_4_874387_081713_085864_270486.png
+Figures,How many red figures?,7,8,6,figures_6_4_874387_081713_085864_270486.png
+Figures,How many green figures?,9,10,11,figures_6_4_874387_081713_085864_270486.png
+Figures,How many blue figures?,8,6,11,figures_6_4_874387_081713_085864_270486.png
+Figures,How many red triangles?,3,4,1,figures_6_4_874387_081713_085864_270486.png
+Figures,How many green triangles?,2,0,4,figures_6_4_874387_081713_085864_270486.png
+Figures,How many blue triangles?,1,2,0,figures_6_4_874387_081713_085864_270486.png
+Figures,How many red squares?,2,3,4,figures_6_4_874387_081713_085864_270486.png
+Figures,How many green squares?,3,2,1,figures_6_4_874387_081713_085864_270486.png
+Figures,How many blue squares?,1,3,2,figures_6_4_874387_081713_085864_270486.png
+Figures,How many red circles?,2,0,4,figures_6_4_874387_081713_085864_270486.png
+Figures,How many green circles?,4,2,3,figures_6_4_874387_081713_085864_270486.png
+Figures,How many blue circles?,6,8,5,figures_6_4_874387_081713_085864_270486.png
+Figures,How many figures?,24,23,20,figures_6_4_556203_861417_522173_034726.png
+Figures,How many columns?,6,7,4,figures_6_4_556203_861417_522173_034726.png
+Figures,How many rows?,4,5,6,figures_6_4_556203_861417_522173_034726.png
+Figures,How many triangles?,9,11,8,figures_6_4_556203_861417_522173_034726.png
+Figures,How many squares?,8,9,10,figures_6_4_556203_861417_522173_034726.png
+Figures,How many circles?,7,5,9,figures_6_4_556203_861417_522173_034726.png
+Figures,How many red figures?,8,5,7,figures_6_4_556203_861417_522173_034726.png
+Figures,How many green figures?,8,10,11,figures_6_4_556203_861417_522173_034726.png
+Figures,How many blue figures?,8,10,5,figures_6_4_556203_861417_522173_034726.png
+Figures,How many red triangles?,2,4,3,figures_6_4_556203_861417_522173_034726.png
+Figures,How many green triangles?,3,1,2,figures_6_4_556203_861417_522173_034726.png
+Figures,How many blue triangles?,4,3,2,figures_6_4_556203_861417_522173_034726.png
+Figures,How many red squares?,3,5,2,figures_6_4_556203_861417_522173_034726.png
+Figures,How many green squares?,2,4,3,figures_6_4_556203_861417_522173_034726.png
+Figures,How many blue squares?,3,2,4,figures_6_4_556203_861417_522173_034726.png
+Figures,How many red circles?,3,4,1,figures_6_4_556203_861417_522173_034726.png
+Figures,How many green circles?,3,5,2,figures_6_4_556203_861417_522173_034726.png
+Figures,How many blue circles?,1,3,0,figures_6_4_556203_861417_522173_034726.png
+Figures,How many figures?,24,21,20,figures_6_4_304220_703215_885108_324324.png
+Figures,How many columns?,6,5,8,figures_6_4_304220_703215_885108_324324.png
+Figures,How many rows?,4,5,2,figures_6_4_304220_703215_885108_324324.png
+Figures,How many triangles?,11,12,8,figures_6_4_304220_703215_885108_324324.png
+Figures,How many squares?,9,6,10,figures_6_4_304220_703215_885108_324324.png
+Figures,How many circles?,4,5,3,figures_6_4_304220_703215_885108_324324.png
+Figures,How many red figures?,8,9,10,figures_6_4_304220_703215_885108_324324.png
+Figures,How many green figures?,6,4,5,figures_6_4_304220_703215_885108_324324.png
+Figures,How many blue figures?,10,7,12,figures_6_4_304220_703215_885108_324324.png
+Figures,How many red triangles?,4,6,3,figures_6_4_304220_703215_885108_324324.png
+Figures,How many green triangles?,2,4,3,figures_6_4_304220_703215_885108_324324.png
+Figures,How many blue triangles?,5,4,6,figures_6_4_304220_703215_885108_324324.png
+Figures,How many red squares?,4,3,5,figures_6_4_304220_703215_885108_324324.png
+Figures,How many green squares?,3,5,2,figures_6_4_304220_703215_885108_324324.png
+Figures,How many blue squares?,2,3,1,figures_6_4_304220_703215_885108_324324.png
+Figures,How many red circles?,0,2,1,figures_6_4_304220_703215_885108_324324.png
+Figures,How many green circles?,1,3,0,figures_6_4_304220_703215_885108_324324.png
+Figures,How many blue circles?,3,5,2,figures_6_4_304220_703215_885108_324324.png
+Figures,How many figures?,24,19,21,figures_6_4_741744_143125_835344_352775.png
+Figures,How many columns?,6,5,7,figures_6_4_741744_143125_835344_352775.png
+Figures,How many rows?,4,3,5,figures_6_4_741744_143125_835344_352775.png
+Figures,How many triangles?,5,6,7,figures_6_4_741744_143125_835344_352775.png
+Figures,How many squares?,14,11,12,figures_6_4_741744_143125_835344_352775.png
+Figures,How many circles?,5,4,7,figures_6_4_741744_143125_835344_352775.png
+Figures,How many red figures?,4,5,6,figures_6_4_741744_143125_835344_352775.png
+Figures,How many green figures?,13,9,15,figures_6_4_741744_143125_835344_352775.png
+Figures,How many blue figures?,7,6,5,figures_6_4_741744_143125_835344_352775.png
+Figures,How many red triangles?,0,2,1,figures_6_4_741744_143125_835344_352775.png
+Figures,How many green triangles?,3,5,2,figures_6_4_741744_143125_835344_352775.png
+Figures,How many blue triangles?,2,4,3,figures_6_4_741744_143125_835344_352775.png
+Figures,How many red squares?,4,2,6,figures_6_4_741744_143125_835344_352775.png
+Figures,How many green squares?,6,8,5,figures_6_4_741744_143125_835344_352775.png
+Figures,How many blue squares?,4,3,2,figures_6_4_741744_143125_835344_352775.png
+Figures,How many red circles?,0,1,2,figures_6_4_741744_143125_835344_352775.png
+Figures,How many green circles?,4,2,3,figures_6_4_741744_143125_835344_352775.png
+Figures,How many blue circles?,1,0,3,figures_6_4_741744_143125_835344_352775.png
+Figures,How many figures?,24,23,29,figures_6_4_858287_657186_781812_837812.png
+Figures,How many columns?,6,7,8,figures_6_4_858287_657186_781812_837812.png
+Figures,How many rows?,4,2,6,figures_6_4_858287_657186_781812_837812.png
+Figures,How many triangles?,7,5,4,figures_6_4_858287_657186_781812_837812.png
+Figures,How many squares?,3,4,1,figures_6_4_858287_657186_781812_837812.png
+Figures,How many circles?,14,15,18,figures_6_4_858287_657186_781812_837812.png
+Figures,How many red figures?,3,2,5,figures_6_4_858287_657186_781812_837812.png
+Figures,How many green figures?,8,7,10,figures_6_4_858287_657186_781812_837812.png
+Figures,How many blue figures?,13,10,16,figures_6_4_858287_657186_781812_837812.png
+Figures,How many red triangles?,0,1,2,figures_6_4_858287_657186_781812_837812.png
+Figures,How many green triangles?,4,2,3,figures_6_4_858287_657186_781812_837812.png
+Figures,How many blue triangles?,3,2,4,figures_6_4_858287_657186_781812_837812.png
+Figures,How many red squares?,1,2,3,figures_6_4_858287_657186_781812_837812.png
+Figures,How many green squares?,0,1,2,figures_6_4_858287_657186_781812_837812.png
+Figures,How many blue squares?,2,0,4,figures_6_4_858287_657186_781812_837812.png
+Figures,How many red circles?,2,0,3,figures_6_4_858287_657186_781812_837812.png
+Figures,How many green circles?,4,2,5,figures_6_4_858287_657186_781812_837812.png
+Figures,How many blue circles?,8,5,7,figures_6_4_858287_657186_781812_837812.png
+Figures,How many figures?,24,20,21,figures_6_4_520808_737713_631335_446636.png
+Figures,How many columns?,6,7,8,figures_6_4_520808_737713_631335_446636.png
+Figures,How many rows?,4,2,6,figures_6_4_520808_737713_631335_446636.png
+Figures,How many triangles?,5,7,4,figures_6_4_520808_737713_631335_446636.png
+Figures,How many squares?,10,13,12,figures_6_4_520808_737713_631335_446636.png
+Figures,How many circles?,9,6,11,figures_6_4_520808_737713_631335_446636.png
+Figures,How many red figures?,12,10,14,figures_6_4_520808_737713_631335_446636.png
+Figures,How many green figures?,7,9,10,figures_6_4_520808_737713_631335_446636.png
+Figures,How many blue figures?,5,7,4,figures_6_4_520808_737713_631335_446636.png
+Figures,How many red triangles?,2,1,4,figures_6_4_520808_737713_631335_446636.png
+Figures,How many green triangles?,2,0,1,figures_6_4_520808_737713_631335_446636.png
+Figures,How many blue triangles?,1,0,3,figures_6_4_520808_737713_631335_446636.png
+Figures,How many red squares?,6,8,4,figures_6_4_520808_737713_631335_446636.png
+Figures,How many green squares?,2,3,1,figures_6_4_520808_737713_631335_446636.png
+Figures,How many blue squares?,2,4,1,figures_6_4_520808_737713_631335_446636.png
+Figures,How many red circles?,4,5,2,figures_6_4_520808_737713_631335_446636.png
+Figures,How many green circles?,3,5,4,figures_6_4_520808_737713_631335_446636.png
+Figures,How many blue circles?,2,4,1,figures_6_4_520808_737713_631335_446636.png
+Figures,How many figures?,24,29,19,figures_6_4_602720_471385_202081_644268.png
+Figures,How many columns?,6,8,5,figures_6_4_602720_471385_202081_644268.png
+Figures,How many rows?,4,5,2,figures_6_4_602720_471385_202081_644268.png
+Figures,How many triangles?,11,14,8,figures_6_4_602720_471385_202081_644268.png
+Figures,How many squares?,5,7,4,figures_6_4_602720_471385_202081_644268.png
+Figures,How many circles?,8,10,9,figures_6_4_602720_471385_202081_644268.png
+Figures,How many red figures?,8,9,7,figures_6_4_602720_471385_202081_644268.png
+Figures,How many green figures?,7,5,6,figures_6_4_602720_471385_202081_644268.png
+Figures,How many blue figures?,9,6,11,figures_6_4_602720_471385_202081_644268.png
+Figures,How many red triangles?,4,2,3,figures_6_4_602720_471385_202081_644268.png
+Figures,How many green triangles?,2,0,4,figures_6_4_602720_471385_202081_644268.png
+Figures,How many blue triangles?,5,7,4,figures_6_4_602720_471385_202081_644268.png
+Figures,How many red squares?,1,3,2,figures_6_4_602720_471385_202081_644268.png
+Figures,How many green squares?,3,4,1,figures_6_4_602720_471385_202081_644268.png
+Figures,How many blue squares?,1,3,2,figures_6_4_602720_471385_202081_644268.png
+Figures,How many red circles?,3,2,4,figures_6_4_602720_471385_202081_644268.png
+Figures,How many green circles?,2,4,1,figures_6_4_602720_471385_202081_644268.png
+Figures,How many blue circles?,3,4,2,figures_6_4_602720_471385_202081_644268.png
+Figures,How many figures?,24,26,22,figures_6_4_384765_116573_271755_158366.png
+Figures,How many columns?,6,4,5,figures_6_4_384765_116573_271755_158366.png
+Figures,How many rows?,4,3,6,figures_6_4_384765_116573_271755_158366.png
+Figures,How many triangles?,5,7,4,figures_6_4_384765_116573_271755_158366.png
+Figures,How many squares?,9,11,6,figures_6_4_384765_116573_271755_158366.png
+Figures,How many circles?,10,13,11,figures_6_4_384765_116573_271755_158366.png
+Figures,How many red figures?,7,5,10,figures_6_4_384765_116573_271755_158366.png
+Figures,How many green figures?,9,7,6,figures_6_4_384765_116573_271755_158366.png
+Figures,How many blue figures?,8,11,9,figures_6_4_384765_116573_271755_158366.png
+Figures,How many red triangles?,0,1,2,figures_6_4_384765_116573_271755_158366.png
+Figures,How many green triangles?,4,6,2,figures_6_4_384765_116573_271755_158366.png
+Figures,How many blue triangles?,1,2,0,figures_6_4_384765_116573_271755_158366.png
+Figures,How many red squares?,3,1,4,figures_6_4_384765_116573_271755_158366.png
+Figures,How many green squares?,1,0,3,figures_6_4_384765_116573_271755_158366.png
+Figures,How many blue squares?,5,7,3,figures_6_4_384765_116573_271755_158366.png
+Figures,How many red circles?,4,6,3,figures_6_4_384765_116573_271755_158366.png
+Figures,How many green circles?,4,2,6,figures_6_4_384765_116573_271755_158366.png
+Figures,How many blue circles?,2,0,3,figures_6_4_384765_116573_271755_158366.png
+Figures,How many figures?,24,25,21,figures_6_4_052654_016406_432276_660516.png
+Figures,How many columns?,6,7,5,figures_6_4_052654_016406_432276_660516.png
+Figures,How many rows?,4,6,3,figures_6_4_052654_016406_432276_660516.png
+Figures,How many triangles?,9,6,11,figures_6_4_052654_016406_432276_660516.png
+Figures,How many squares?,7,10,9,figures_6_4_052654_016406_432276_660516.png
+Figures,How many circles?,8,6,10,figures_6_4_052654_016406_432276_660516.png
+Figures,How many red figures?,12,13,10,figures_6_4_052654_016406_432276_660516.png
+Figures,How many green figures?,6,8,4,figures_6_4_052654_016406_432276_660516.png
+Figures,How many blue figures?,6,5,4,figures_6_4_052654_016406_432276_660516.png
+Figures,How many red triangles?,4,2,6,figures_6_4_052654_016406_432276_660516.png
+Figures,How many green triangles?,2,3,1,figures_6_4_052654_016406_432276_660516.png
+Figures,How many blue triangles?,3,1,5,figures_6_4_052654_016406_432276_660516.png
+Figures,How many red squares?,1,3,0,figures_6_4_052654_016406_432276_660516.png
+Figures,How many green squares?,3,4,2,figures_6_4_052654_016406_432276_660516.png
+Figures,How many blue squares?,3,1,2,figures_6_4_052654_016406_432276_660516.png
+Figures,How many red circles?,7,5,6,figures_6_4_052654_016406_432276_660516.png
+Figures,How many green circles?,1,3,2,figures_6_4_052654_016406_432276_660516.png
+Figures,How many blue circles?,0,2,1,figures_6_4_052654_016406_432276_660516.png
+Figures,How many figures?,24,27,19,figures_6_4_707074_758614_180155_576006.png
+Figures,How many columns?,6,8,4,figures_6_4_707074_758614_180155_576006.png
+Figures,How many rows?,4,5,3,figures_6_4_707074_758614_180155_576006.png
+Figures,How many triangles?,8,6,10,figures_6_4_707074_758614_180155_576006.png
+Figures,How many squares?,6,8,7,figures_6_4_707074_758614_180155_576006.png
+Figures,How many circles?,10,12,11,figures_6_4_707074_758614_180155_576006.png
+Figures,How many red figures?,8,11,10,figures_6_4_707074_758614_180155_576006.png
+Figures,How many green figures?,10,13,7,figures_6_4_707074_758614_180155_576006.png
+Figures,How many blue figures?,6,8,5,figures_6_4_707074_758614_180155_576006.png
+Figures,How many red triangles?,5,6,3,figures_6_4_707074_758614_180155_576006.png
+Figures,How many green triangles?,3,4,1,figures_6_4_707074_758614_180155_576006.png
+Figures,How many blue triangles?,0,2,1,figures_6_4_707074_758614_180155_576006.png
+Figures,How many red squares?,0,1,2,figures_6_4_707074_758614_180155_576006.png
+Figures,How many green squares?,2,4,3,figures_6_4_707074_758614_180155_576006.png
+Figures,How many blue squares?,4,6,5,figures_6_4_707074_758614_180155_576006.png
+Figures,How many red circles?,3,5,2,figures_6_4_707074_758614_180155_576006.png
+Figures,How many green circles?,5,3,7,figures_6_4_707074_758614_180155_576006.png
+Figures,How many blue circles?,2,1,3,figures_6_4_707074_758614_180155_576006.png
+Figures,How many figures?,24,25,21,figures_6_4_553055_570104_086255_658237.png
+Figures,How many columns?,6,7,4,figures_6_4_553055_570104_086255_658237.png
+Figures,How many rows?,4,2,6,figures_6_4_553055_570104_086255_658237.png
+Figures,How many triangles?,7,4,5,figures_6_4_553055_570104_086255_658237.png
+Figures,How many squares?,11,12,10,figures_6_4_553055_570104_086255_658237.png
+Figures,How many circles?,6,5,8,figures_6_4_553055_570104_086255_658237.png
+Figures,How many red figures?,8,7,11,figures_6_4_553055_570104_086255_658237.png
+Figures,How many green figures?,4,2,5,figures_6_4_553055_570104_086255_658237.png
+Figures,How many blue figures?,12,10,14,figures_6_4_553055_570104_086255_658237.png
+Figures,How many red triangles?,4,5,3,figures_6_4_553055_570104_086255_658237.png
+Figures,How many green triangles?,1,3,0,figures_6_4_553055_570104_086255_658237.png
+Figures,How many blue triangles?,2,1,3,figures_6_4_553055_570104_086255_658237.png
+Figures,How many red squares?,2,1,4,figures_6_4_553055_570104_086255_658237.png
+Figures,How many green squares?,1,2,3,figures_6_4_553055_570104_086255_658237.png
+Figures,How many blue squares?,8,5,11,figures_6_4_553055_570104_086255_658237.png
+Figures,How many red circles?,2,4,3,figures_6_4_553055_570104_086255_658237.png
+Figures,How many green circles?,2,1,0,figures_6_4_553055_570104_086255_658237.png
+Figures,How many blue circles?,2,0,1,figures_6_4_553055_570104_086255_658237.png
+Figures,How many figures?,24,23,19,figures_6_4_620111_330738_655860_552255.png
+Figures,How many columns?,6,4,5,figures_6_4_620111_330738_655860_552255.png
+Figures,How many rows?,4,5,6,figures_6_4_620111_330738_655860_552255.png
+Figures,How many triangles?,9,10,7,figures_6_4_620111_330738_655860_552255.png
+Figures,How many squares?,9,12,8,figures_6_4_620111_330738_655860_552255.png
+Figures,How many circles?,6,8,5,figures_6_4_620111_330738_655860_552255.png
+Figures,How many red figures?,9,6,7,figures_6_4_620111_330738_655860_552255.png
+Figures,How many green figures?,4,2,6,figures_6_4_620111_330738_655860_552255.png
+Figures,How many blue figures?,11,8,13,figures_6_4_620111_330738_655860_552255.png
+Figures,How many red triangles?,3,2,1,figures_6_4_620111_330738_655860_552255.png
+Figures,How many green triangles?,3,2,4,figures_6_4_620111_330738_655860_552255.png
+Figures,How many blue triangles?,3,1,5,figures_6_4_620111_330738_655860_552255.png
+Figures,How many red squares?,3,1,4,figures_6_4_620111_330738_655860_552255.png
+Figures,How many green squares?,0,1,2,figures_6_4_620111_330738_655860_552255.png
+Figures,How many blue squares?,6,8,4,figures_6_4_620111_330738_655860_552255.png
+Figures,How many red circles?,3,5,2,figures_6_4_620111_330738_655860_552255.png
+Figures,How many green circles?,1,2,0,figures_6_4_620111_330738_655860_552255.png
+Figures,How many blue circles?,2,1,4,figures_6_4_620111_330738_655860_552255.png
+Figures,How many figures?,24,22,25,figures_6_4_052784_747801_182625_104022.png
+Figures,How many columns?,6,4,8,figures_6_4_052784_747801_182625_104022.png
+Figures,How many rows?,4,6,2,figures_6_4_052784_747801_182625_104022.png
+Figures,How many triangles?,12,13,10,figures_6_4_052784_747801_182625_104022.png
+Figures,How many squares?,5,4,3,figures_6_4_052784_747801_182625_104022.png
+Figures,How many circles?,7,4,10,figures_6_4_052784_747801_182625_104022.png
+Figures,How many red figures?,5,7,3,figures_6_4_052784_747801_182625_104022.png
+Figures,How many green figures?,9,10,11,figures_6_4_052784_747801_182625_104022.png
+Figures,How many blue figures?,10,13,8,figures_6_4_052784_747801_182625_104022.png
+Figures,How many red triangles?,4,5,6,figures_6_4_052784_747801_182625_104022.png
+Figures,How many green triangles?,3,2,1,figures_6_4_052784_747801_182625_104022.png
+Figures,How many blue triangles?,5,4,3,figures_6_4_052784_747801_182625_104022.png
+Figures,How many red squares?,0,2,1,figures_6_4_052784_747801_182625_104022.png
+Figures,How many green squares?,3,1,5,figures_6_4_052784_747801_182625_104022.png
+Figures,How many blue squares?,2,1,0,figures_6_4_052784_747801_182625_104022.png
+Figures,How many red circles?,1,2,0,figures_6_4_052784_747801_182625_104022.png
+Figures,How many green circles?,3,2,4,figures_6_4_052784_747801_182625_104022.png
+Figures,How many blue circles?,3,5,1,figures_6_4_052784_747801_182625_104022.png
+Figures,How many figures?,24,26,29,figures_6_4_426773_152855_585488_132743.png
+Figures,How many columns?,6,5,7,figures_6_4_426773_152855_585488_132743.png
+Figures,How many rows?,4,3,6,figures_6_4_426773_152855_585488_132743.png
+Figures,How many triangles?,5,6,4,figures_6_4_426773_152855_585488_132743.png
+Figures,How many squares?,11,9,13,figures_6_4_426773_152855_585488_132743.png
+Figures,How many circles?,8,7,9,figures_6_4_426773_152855_585488_132743.png
+Figures,How many red figures?,4,3,6,figures_6_4_426773_152855_585488_132743.png
+Figures,How many green figures?,8,6,9,figures_6_4_426773_152855_585488_132743.png
+Figures,How many blue figures?,12,11,10,figures_6_4_426773_152855_585488_132743.png
+Figures,How many red triangles?,0,1,2,figures_6_4_426773_152855_585488_132743.png
+Figures,How many green triangles?,2,3,1,figures_6_4_426773_152855_585488_132743.png
+Figures,How many blue triangles?,3,1,4,figures_6_4_426773_152855_585488_132743.png
+Figures,How many red squares?,3,4,5,figures_6_4_426773_152855_585488_132743.png
+Figures,How many green squares?,3,5,2,figures_6_4_426773_152855_585488_132743.png
+Figures,How many blue squares?,5,6,7,figures_6_4_426773_152855_585488_132743.png
+Figures,How many red circles?,1,3,2,figures_6_4_426773_152855_585488_132743.png
+Figures,How many green circles?,3,4,5,figures_6_4_426773_152855_585488_132743.png
+Figures,How many blue circles?,4,2,5,figures_6_4_426773_152855_585488_132743.png
+Figures,How many figures?,24,23,21,figures_6_4_620354_505278_505662_375286.png
+Figures,How many columns?,6,4,7,figures_6_4_620354_505278_505662_375286.png
+Figures,How many rows?,4,6,3,figures_6_4_620354_505278_505662_375286.png
+Figures,How many triangles?,7,6,10,figures_6_4_620354_505278_505662_375286.png
+Figures,How many squares?,9,10,8,figures_6_4_620354_505278_505662_375286.png
+Figures,How many circles?,8,7,6,figures_6_4_620354_505278_505662_375286.png
+Figures,How many red figures?,9,11,6,figures_6_4_620354_505278_505662_375286.png
+Figures,How many green figures?,3,1,4,figures_6_4_620354_505278_505662_375286.png
+Figures,How many blue figures?,12,14,13,figures_6_4_620354_505278_505662_375286.png
+Figures,How many red triangles?,3,1,2,figures_6_4_620354_505278_505662_375286.png
+Figures,How many green triangles?,0,1,2,figures_6_4_620354_505278_505662_375286.png
+Figures,How many blue triangles?,4,3,5,figures_6_4_620354_505278_505662_375286.png
+Figures,How many red squares?,2,0,1,figures_6_4_620354_505278_505662_375286.png
+Figures,How many green squares?,1,3,0,figures_6_4_620354_505278_505662_375286.png
+Figures,How many blue squares?,6,5,7,figures_6_4_620354_505278_505662_375286.png
+Figures,How many red circles?,4,2,3,figures_6_4_620354_505278_505662_375286.png
+Figures,How many green circles?,2,0,4,figures_6_4_620354_505278_505662_375286.png
+Figures,How many blue circles?,2,0,1,figures_6_4_620354_505278_505662_375286.png
+Figures,How many figures?,24,25,19,figures_6_4_872818_117360_060661_735007.png
+Figures,How many columns?,6,4,7,figures_6_4_872818_117360_060661_735007.png
+Figures,How many rows?,4,6,5,figures_6_4_872818_117360_060661_735007.png
+Figures,How many triangles?,10,11,7,figures_6_4_872818_117360_060661_735007.png
+Figures,How many squares?,3,1,2,figures_6_4_872818_117360_060661_735007.png
+Figures,How many circles?,11,8,9,figures_6_4_872818_117360_060661_735007.png
+Figures,How many red figures?,11,12,10,figures_6_4_872818_117360_060661_735007.png
+Figures,How many green figures?,8,7,6,figures_6_4_872818_117360_060661_735007.png
+Figures,How many blue figures?,5,4,3,figures_6_4_872818_117360_060661_735007.png
+Figures,How many red triangles?,5,6,3,figures_6_4_872818_117360_060661_735007.png
+Figures,How many green triangles?,4,3,5,figures_6_4_872818_117360_060661_735007.png
+Figures,How many blue triangles?,1,0,3,figures_6_4_872818_117360_060661_735007.png
+Figures,How many red squares?,2,0,1,figures_6_4_872818_117360_060661_735007.png
+Figures,How many green squares?,0,1,2,figures_6_4_872818_117360_060661_735007.png
+Figures,How many blue squares?,1,2,0,figures_6_4_872818_117360_060661_735007.png
+Figures,How many red circles?,4,3,5,figures_6_4_872818_117360_060661_735007.png
+Figures,How many green circles?,4,6,2,figures_6_4_872818_117360_060661_735007.png
+Figures,How many blue circles?,3,1,5,figures_6_4_872818_117360_060661_735007.png
+Figures,How many figures?,24,29,22,figures_6_4_641070_184184_737265_303516.png
+Figures,How many columns?,6,4,5,figures_6_4_641070_184184_737265_303516.png
+Figures,How many rows?,4,5,2,figures_6_4_641070_184184_737265_303516.png
+Figures,How many triangles?,8,5,6,figures_6_4_641070_184184_737265_303516.png
+Figures,How many squares?,8,7,11,figures_6_4_641070_184184_737265_303516.png
+Figures,How many circles?,8,11,9,figures_6_4_641070_184184_737265_303516.png
+Figures,How many red figures?,9,12,8,figures_6_4_641070_184184_737265_303516.png
+Figures,How many green figures?,10,7,9,figures_6_4_641070_184184_737265_303516.png
+Figures,How many blue figures?,5,6,7,figures_6_4_641070_184184_737265_303516.png
+Figures,How many red triangles?,3,1,4,figures_6_4_641070_184184_737265_303516.png
+Figures,How many green triangles?,4,3,5,figures_6_4_641070_184184_737265_303516.png
+Figures,How many blue triangles?,1,0,3,figures_6_4_641070_184184_737265_303516.png
+Figures,How many red squares?,3,1,2,figures_6_4_641070_184184_737265_303516.png
+Figures,How many green squares?,3,5,4,figures_6_4_641070_184184_737265_303516.png
+Figures,How many blue squares?,2,4,0,figures_6_4_641070_184184_737265_303516.png
+Figures,How many red circles?,3,2,4,figures_6_4_641070_184184_737265_303516.png
+Figures,How many green circles?,3,1,2,figures_6_4_641070_184184_737265_303516.png
+Figures,How many blue circles?,2,4,3,figures_6_4_641070_184184_737265_303516.png
+Figures,How many figures?,24,29,20,figures_6_4_031508_614467_388364_021128.png
+Figures,How many columns?,6,7,8,figures_6_4_031508_614467_388364_021128.png
+Figures,How many rows?,4,2,5,figures_6_4_031508_614467_388364_021128.png
+Figures,How many triangles?,9,7,10,figures_6_4_031508_614467_388364_021128.png
+Figures,How many squares?,7,8,4,figures_6_4_031508_614467_388364_021128.png
+Figures,How many circles?,8,6,5,figures_6_4_031508_614467_388364_021128.png
+Figures,How many red figures?,9,11,12,figures_6_4_031508_614467_388364_021128.png
+Figures,How many green figures?,8,10,11,figures_6_4_031508_614467_388364_021128.png
+Figures,How many blue figures?,7,8,4,figures_6_4_031508_614467_388364_021128.png
+Figures,How many red triangles?,3,1,4,figures_6_4_031508_614467_388364_021128.png
+Figures,How many green triangles?,4,2,5,figures_6_4_031508_614467_388364_021128.png
+Figures,How many blue triangles?,2,3,4,figures_6_4_031508_614467_388364_021128.png
+Figures,How many red squares?,3,5,4,figures_6_4_031508_614467_388364_021128.png
+Figures,How many green squares?,3,4,2,figures_6_4_031508_614467_388364_021128.png
+Figures,How many blue squares?,1,0,2,figures_6_4_031508_614467_388364_021128.png
+Figures,How many red circles?,3,2,5,figures_6_4_031508_614467_388364_021128.png
+Figures,How many green circles?,1,3,0,figures_6_4_031508_614467_388364_021128.png
+Figures,How many blue circles?,4,2,6,figures_6_4_031508_614467_388364_021128.png
+Figures,How many figures?,24,28,27,figures_6_4_038006_865453_433322_360806.png
+Figures,How many columns?,6,7,5,figures_6_4_038006_865453_433322_360806.png
+Figures,How many rows?,4,5,2,figures_6_4_038006_865453_433322_360806.png
+Figures,How many triangles?,7,6,10,figures_6_4_038006_865453_433322_360806.png
+Figures,How many squares?,10,12,9,figures_6_4_038006_865453_433322_360806.png
+Figures,How many circles?,7,10,8,figures_6_4_038006_865453_433322_360806.png
+Figures,How many red figures?,15,17,12,figures_6_4_038006_865453_433322_360806.png
+Figures,How many green figures?,2,1,3,figures_6_4_038006_865453_433322_360806.png
+Figures,How many blue figures?,7,5,8,figures_6_4_038006_865453_433322_360806.png
+Figures,How many red triangles?,5,6,3,figures_6_4_038006_865453_433322_360806.png
+Figures,How many green triangles?,0,1,2,figures_6_4_038006_865453_433322_360806.png
+Figures,How many blue triangles?,2,3,1,figures_6_4_038006_865453_433322_360806.png
+Figures,How many red squares?,6,5,4,figures_6_4_038006_865453_433322_360806.png
+Figures,How many green squares?,2,3,0,figures_6_4_038006_865453_433322_360806.png
+Figures,How many blue squares?,2,3,4,figures_6_4_038006_865453_433322_360806.png
+Figures,How many red circles?,4,3,2,figures_6_4_038006_865453_433322_360806.png
+Figures,How many green circles?,0,1,2,figures_6_4_038006_865453_433322_360806.png
+Figures,How many blue circles?,3,1,2,figures_6_4_038006_865453_433322_360806.png
+Figures,How many figures?,24,29,22,figures_6_4_833864_106237_606080_205742.png
+Figures,How many columns?,6,8,4,figures_6_4_833864_106237_606080_205742.png
+Figures,How many rows?,4,2,3,figures_6_4_833864_106237_606080_205742.png
+Figures,How many triangles?,9,10,6,figures_6_4_833864_106237_606080_205742.png
+Figures,How many squares?,6,7,8,figures_6_4_833864_106237_606080_205742.png
+Figures,How many circles?,9,7,11,figures_6_4_833864_106237_606080_205742.png
+Figures,How many red figures?,12,11,10,figures_6_4_833864_106237_606080_205742.png
+Figures,How many green figures?,5,6,4,figures_6_4_833864_106237_606080_205742.png
+Figures,How many blue figures?,7,10,5,figures_6_4_833864_106237_606080_205742.png
+Figures,How many red triangles?,5,7,3,figures_6_4_833864_106237_606080_205742.png
+Figures,How many green triangles?,1,0,3,figures_6_4_833864_106237_606080_205742.png
+Figures,How many blue triangles?,3,4,2,figures_6_4_833864_106237_606080_205742.png
+Figures,How many red squares?,3,1,4,figures_6_4_833864_106237_606080_205742.png
+Figures,How many green squares?,2,3,1,figures_6_4_833864_106237_606080_205742.png
+Figures,How many blue squares?,1,3,2,figures_6_4_833864_106237_606080_205742.png
+Figures,How many red circles?,4,5,3,figures_6_4_833864_106237_606080_205742.png
+Figures,How many green circles?,2,0,3,figures_6_4_833864_106237_606080_205742.png
+Figures,How many blue circles?,3,1,5,figures_6_4_833864_106237_606080_205742.png
+Figures,How many figures?,24,28,23,figures_6_4_577226_023254_221638_818157.png
+Figures,How many columns?,6,7,4,figures_6_4_577226_023254_221638_818157.png
+Figures,How many rows?,4,5,3,figures_6_4_577226_023254_221638_818157.png
+Figures,How many triangles?,10,7,8,figures_6_4_577226_023254_221638_818157.png
+Figures,How many squares?,6,5,7,figures_6_4_577226_023254_221638_818157.png
+Figures,How many circles?,8,9,11,figures_6_4_577226_023254_221638_818157.png
+Figures,How many red figures?,5,3,4,figures_6_4_577226_023254_221638_818157.png
+Figures,How many green figures?,7,4,8,figures_6_4_577226_023254_221638_818157.png
+Figures,How many blue figures?,12,14,10,figures_6_4_577226_023254_221638_818157.png
+Figures,How many red triangles?,1,3,2,figures_6_4_577226_023254_221638_818157.png
+Figures,How many green triangles?,3,5,2,figures_6_4_577226_023254_221638_818157.png
+Figures,How many blue triangles?,6,8,5,figures_6_4_577226_023254_221638_818157.png
+Figures,How many red squares?,2,1,3,figures_6_4_577226_023254_221638_818157.png
+Figures,How many green squares?,1,2,3,figures_6_4_577226_023254_221638_818157.png
+Figures,How many blue squares?,3,4,2,figures_6_4_577226_023254_221638_818157.png
+Figures,How many red circles?,2,0,3,figures_6_4_577226_023254_221638_818157.png
+Figures,How many green circles?,3,5,1,figures_6_4_577226_023254_221638_818157.png
+Figures,How many blue circles?,3,2,1,figures_6_4_577226_023254_221638_818157.png
+Figures,How many figures?,24,29,28,figures_6_4_472683_424074_084547_077264.png
+Figures,How many columns?,6,8,4,figures_6_4_472683_424074_084547_077264.png
+Figures,How many rows?,4,3,5,figures_6_4_472683_424074_084547_077264.png
+Figures,How many triangles?,6,4,7,figures_6_4_472683_424074_084547_077264.png
+Figures,How many squares?,9,11,6,figures_6_4_472683_424074_084547_077264.png
+Figures,How many circles?,9,7,6,figures_6_4_472683_424074_084547_077264.png
+Figures,How many red figures?,6,4,5,figures_6_4_472683_424074_084547_077264.png
+Figures,How many green figures?,12,13,14,figures_6_4_472683_424074_084547_077264.png
+Figures,How many blue figures?,6,8,7,figures_6_4_472683_424074_084547_077264.png
+Figures,How many red triangles?,3,4,1,figures_6_4_472683_424074_084547_077264.png
+Figures,How many green triangles?,0,2,1,figures_6_4_472683_424074_084547_077264.png
+Figures,How many blue triangles?,3,2,1,figures_6_4_472683_424074_084547_077264.png
+Figures,How many red squares?,1,2,3,figures_6_4_472683_424074_084547_077264.png
+Figures,How many green squares?,7,4,10,figures_6_4_472683_424074_084547_077264.png
+Figures,How many blue squares?,1,0,2,figures_6_4_472683_424074_084547_077264.png
+Figures,How many red circles?,2,4,1,figures_6_4_472683_424074_084547_077264.png
+Figures,How many green circles?,5,7,6,figures_6_4_472683_424074_084547_077264.png
+Figures,How many blue circles?,2,4,3,figures_6_4_472683_424074_084547_077264.png
+Figures,How many figures?,24,27,20,figures_6_4_401125_802126_857314_134210.png
+Figures,How many columns?,6,5,4,figures_6_4_401125_802126_857314_134210.png
+Figures,How many rows?,4,3,2,figures_6_4_401125_802126_857314_134210.png
+Figures,How many triangles?,13,9,15,figures_6_4_401125_802126_857314_134210.png
+Figures,How many squares?,7,5,4,figures_6_4_401125_802126_857314_134210.png
+Figures,How many circles?,4,6,2,figures_6_4_401125_802126_857314_134210.png
+Figures,How many red figures?,6,4,7,figures_6_4_401125_802126_857314_134210.png
+Figures,How many green figures?,10,8,9,figures_6_4_401125_802126_857314_134210.png
+Figures,How many blue figures?,8,10,11,figures_6_4_401125_802126_857314_134210.png
+Figures,How many red triangles?,3,4,1,figures_6_4_401125_802126_857314_134210.png
+Figures,How many green triangles?,6,5,7,figures_6_4_401125_802126_857314_134210.png
+Figures,How many blue triangles?,4,5,2,figures_6_4_401125_802126_857314_134210.png
+Figures,How many red squares?,2,4,3,figures_6_4_401125_802126_857314_134210.png
+Figures,How many green squares?,3,2,1,figures_6_4_401125_802126_857314_134210.png
+Figures,How many blue squares?,2,4,0,figures_6_4_401125_802126_857314_134210.png
+Figures,How many red circles?,1,2,0,figures_6_4_401125_802126_857314_134210.png
+Figures,How many green circles?,1,3,2,figures_6_4_401125_802126_857314_134210.png
+Figures,How many blue circles?,2,1,3,figures_6_4_401125_802126_857314_134210.png
+Figures,How many figures?,24,25,27,figures_6_4_081374_255454_665860_064866.png
+Figures,How many columns?,6,8,4,figures_6_4_081374_255454_665860_064866.png
+Figures,How many rows?,4,5,2,figures_6_4_081374_255454_665860_064866.png
+Figures,How many triangles?,5,7,3,figures_6_4_081374_255454_665860_064866.png
+Figures,How many squares?,9,12,6,figures_6_4_081374_255454_665860_064866.png
+Figures,How many circles?,10,11,9,figures_6_4_081374_255454_665860_064866.png
+Figures,How many red figures?,10,13,12,figures_6_4_081374_255454_665860_064866.png
+Figures,How many green figures?,6,7,8,figures_6_4_081374_255454_665860_064866.png
+Figures,How many blue figures?,8,11,5,figures_6_4_081374_255454_665860_064866.png
+Figures,How many red triangles?,3,5,2,figures_6_4_081374_255454_665860_064866.png
+Figures,How many green triangles?,1,2,0,figures_6_4_081374_255454_665860_064866.png
+Figures,How many blue triangles?,1,2,0,figures_6_4_081374_255454_665860_064866.png
+Figures,How many red squares?,1,0,3,figures_6_4_081374_255454_665860_064866.png
+Figures,How many green squares?,4,6,3,figures_6_4_081374_255454_665860_064866.png
+Figures,How many blue squares?,4,5,3,figures_6_4_081374_255454_665860_064866.png
+Figures,How many red circles?,6,7,5,figures_6_4_081374_255454_665860_064866.png
+Figures,How many green circles?,1,0,3,figures_6_4_081374_255454_665860_064866.png
+Figures,How many blue circles?,3,5,1,figures_6_4_081374_255454_665860_064866.png
+Figures,How many figures?,24,19,26,figures_6_4_116716_167364_047676_205513.png
+Figures,How many columns?,6,4,7,figures_6_4_116716_167364_047676_205513.png
+Figures,How many rows?,4,3,6,figures_6_4_116716_167364_047676_205513.png
+Figures,How many triangles?,8,10,9,figures_6_4_116716_167364_047676_205513.png
+Figures,How many squares?,6,7,4,figures_6_4_116716_167364_047676_205513.png
+Figures,How many circles?,10,7,13,figures_6_4_116716_167364_047676_205513.png
+Figures,How many red figures?,10,7,9,figures_6_4_116716_167364_047676_205513.png
+Figures,How many green figures?,11,14,13,figures_6_4_116716_167364_047676_205513.png
+Figures,How many blue figures?,3,2,1,figures_6_4_116716_167364_047676_205513.png
+Figures,How many red triangles?,2,1,4,figures_6_4_116716_167364_047676_205513.png
+Figures,How many green triangles?,5,4,6,figures_6_4_116716_167364_047676_205513.png
+Figures,How many blue triangles?,1,0,3,figures_6_4_116716_167364_047676_205513.png
+Figures,How many red squares?,2,3,4,figures_6_4_116716_167364_047676_205513.png
+Figures,How many green squares?,2,0,4,figures_6_4_116716_167364_047676_205513.png
+Figures,How many blue squares?,2,3,0,figures_6_4_116716_167364_047676_205513.png
+Figures,How many red circles?,6,5,4,figures_6_4_116716_167364_047676_205513.png
+Figures,How many green circles?,4,2,6,figures_6_4_116716_167364_047676_205513.png
+Figures,How many blue circles?,0,1,2,figures_6_4_116716_167364_047676_205513.png
+Figures,How many figures?,24,29,21,figures_6_4_572814_687215_256555_348117.png
+Figures,How many columns?,6,7,4,figures_6_4_572814_687215_256555_348117.png
+Figures,How many rows?,4,3,6,figures_6_4_572814_687215_256555_348117.png
+Figures,How many triangles?,7,5,6,figures_6_4_572814_687215_256555_348117.png
+Figures,How many squares?,9,8,7,figures_6_4_572814_687215_256555_348117.png
+Figures,How many circles?,8,9,6,figures_6_4_572814_687215_256555_348117.png
+Figures,How many red figures?,3,4,5,figures_6_4_572814_687215_256555_348117.png
+Figures,How many green figures?,9,7,12,figures_6_4_572814_687215_256555_348117.png
+Figures,How many blue figures?,12,15,10,figures_6_4_572814_687215_256555_348117.png
+Figures,How many red triangles?,0,2,1,figures_6_4_572814_687215_256555_348117.png
+Figures,How many green triangles?,4,6,5,figures_6_4_572814_687215_256555_348117.png
+Figures,How many blue triangles?,3,1,4,figures_6_4_572814_687215_256555_348117.png
+Figures,How many red squares?,1,3,2,figures_6_4_572814_687215_256555_348117.png
+Figures,How many green squares?,2,4,1,figures_6_4_572814_687215_256555_348117.png
+Figures,How many blue squares?,6,7,4,figures_6_4_572814_687215_256555_348117.png
+Figures,How many red circles?,2,3,4,figures_6_4_572814_687215_256555_348117.png
+Figures,How many green circles?,3,5,4,figures_6_4_572814_687215_256555_348117.png
+Figures,How many blue circles?,3,2,4,figures_6_4_572814_687215_256555_348117.png
+Figures,How many figures?,24,29,21,figures_6_4_285327_523235_060456_334324.png
+Figures,How many columns?,6,7,5,figures_6_4_285327_523235_060456_334324.png
+Figures,How many rows?,4,3,5,figures_6_4_285327_523235_060456_334324.png
+Figures,How many triangles?,7,9,5,figures_6_4_285327_523235_060456_334324.png
+Figures,How many squares?,13,14,9,figures_6_4_285327_523235_060456_334324.png
+Figures,How many circles?,4,6,2,figures_6_4_285327_523235_060456_334324.png
+Figures,How many red figures?,10,13,7,figures_6_4_285327_523235_060456_334324.png
+Figures,How many green figures?,4,5,3,figures_6_4_285327_523235_060456_334324.png
+Figures,How many blue figures?,10,12,11,figures_6_4_285327_523235_060456_334324.png
+Figures,How many red triangles?,2,1,4,figures_6_4_285327_523235_060456_334324.png
+Figures,How many green triangles?,0,1,2,figures_6_4_285327_523235_060456_334324.png
+Figures,How many blue triangles?,5,3,4,figures_6_4_285327_523235_060456_334324.png
+Figures,How many red squares?,6,4,5,figures_6_4_285327_523235_060456_334324.png
+Figures,How many green squares?,3,4,5,figures_6_4_285327_523235_060456_334324.png
+Figures,How many blue squares?,4,6,3,figures_6_4_285327_523235_060456_334324.png
+Figures,How many red circles?,2,1,4,figures_6_4_285327_523235_060456_334324.png
+Figures,How many green circles?,1,2,3,figures_6_4_285327_523235_060456_334324.png
+Figures,How many blue circles?,1,3,0,figures_6_4_285327_523235_060456_334324.png
+Figures,How many figures?,24,25,28,figures_6_4_142634_204781_657844_084233.png
+Figures,How many columns?,6,8,5,figures_6_4_142634_204781_657844_084233.png
+Figures,How many rows?,4,2,5,figures_6_4_142634_204781_657844_084233.png
+Figures,How many triangles?,7,9,4,figures_6_4_142634_204781_657844_084233.png
+Figures,How many squares?,10,9,11,figures_6_4_142634_204781_657844_084233.png
+Figures,How many circles?,7,4,8,figures_6_4_142634_204781_657844_084233.png
+Figures,How many red figures?,7,4,8,figures_6_4_142634_204781_657844_084233.png
+Figures,How many green figures?,10,12,11,figures_6_4_142634_204781_657844_084233.png
+Figures,How many blue figures?,7,8,9,figures_6_4_142634_204781_657844_084233.png
+Figures,How many red triangles?,2,1,3,figures_6_4_142634_204781_657844_084233.png
+Figures,How many green triangles?,2,4,0,figures_6_4_142634_204781_657844_084233.png
+Figures,How many blue triangles?,3,5,1,figures_6_4_142634_204781_657844_084233.png
+Figures,How many red squares?,3,2,4,figures_6_4_142634_204781_657844_084233.png
+Figures,How many green squares?,6,5,7,figures_6_4_142634_204781_657844_084233.png
+Figures,How many blue squares?,1,3,0,figures_6_4_142634_204781_657844_084233.png
+Figures,How many red circles?,2,4,1,figures_6_4_142634_204781_657844_084233.png
+Figures,How many green circles?,2,0,3,figures_6_4_142634_204781_657844_084233.png
+Figures,How many blue circles?,3,4,2,figures_6_4_142634_204781_657844_084233.png
+Figures,How many figures?,24,25,22,figures_6_4_730457_752627_128011_878126.png
+Figures,How many columns?,6,7,8,figures_6_4_730457_752627_128011_878126.png
+Figures,How many rows?,4,5,3,figures_6_4_730457_752627_128011_878126.png
+Figures,How many triangles?,10,8,12,figures_6_4_730457_752627_128011_878126.png
+Figures,How many squares?,4,5,3,figures_6_4_730457_752627_128011_878126.png
+Figures,How many circles?,10,12,8,figures_6_4_730457_752627_128011_878126.png
+Figures,How many red figures?,5,6,3,figures_6_4_730457_752627_128011_878126.png
+Figures,How many green figures?,10,8,12,figures_6_4_730457_752627_128011_878126.png
+Figures,How many blue figures?,9,10,6,figures_6_4_730457_752627_128011_878126.png
+Figures,How many red triangles?,2,0,1,figures_6_4_730457_752627_128011_878126.png
+Figures,How many green triangles?,4,2,5,figures_6_4_730457_752627_128011_878126.png
+Figures,How many blue triangles?,4,2,6,figures_6_4_730457_752627_128011_878126.png
+Figures,How many red squares?,1,2,0,figures_6_4_730457_752627_128011_878126.png
+Figures,How many green squares?,1,0,2,figures_6_4_730457_752627_128011_878126.png
+Figures,How many blue squares?,2,0,3,figures_6_4_730457_752627_128011_878126.png
+Figures,How many red circles?,2,4,0,figures_6_4_730457_752627_128011_878126.png
+Figures,How many green circles?,5,7,6,figures_6_4_730457_752627_128011_878126.png
+Figures,How many blue circles?,3,4,5,figures_6_4_730457_752627_128011_878126.png
+Figures,How many figures?,24,28,29,figures_6_4_113854_127411_377174_121117.png
+Figures,How many columns?,6,4,5,figures_6_4_113854_127411_377174_121117.png
+Figures,How many rows?,4,3,2,figures_6_4_113854_127411_377174_121117.png
+Figures,How many triangles?,12,10,15,figures_6_4_113854_127411_377174_121117.png
+Figures,How many squares?,6,4,8,figures_6_4_113854_127411_377174_121117.png
+Figures,How many circles?,6,8,4,figures_6_4_113854_127411_377174_121117.png
+Figures,How many red figures?,2,3,1,figures_6_4_113854_127411_377174_121117.png
+Figures,How many green figures?,18,16,17,figures_6_4_113854_127411_377174_121117.png
+Figures,How many blue figures?,4,6,2,figures_6_4_113854_127411_377174_121117.png
+Figures,How many red triangles?,0,1,2,figures_6_4_113854_127411_377174_121117.png
+Figures,How many green triangles?,10,11,8,figures_6_4_113854_127411_377174_121117.png
+Figures,How many blue triangles?,2,0,1,figures_6_4_113854_127411_377174_121117.png
+Figures,How many red squares?,2,0,1,figures_6_4_113854_127411_377174_121117.png
+Figures,How many green squares?,3,5,4,figures_6_4_113854_127411_377174_121117.png
+Figures,How many blue squares?,1,2,0,figures_6_4_113854_127411_377174_121117.png
+Figures,How many red circles?,0,2,1,figures_6_4_113854_127411_377174_121117.png
+Figures,How many green circles?,5,6,4,figures_6_4_113854_127411_377174_121117.png
+Figures,How many blue circles?,1,3,0,figures_6_4_113854_127411_377174_121117.png
+Figures,How many figures?,24,19,29,figures_6_4_783316_224664_122100_848248.png
+Figures,How many columns?,6,4,8,figures_6_4_783316_224664_122100_848248.png
+Figures,How many rows?,4,5,2,figures_6_4_783316_224664_122100_848248.png
+Figures,How many triangles?,10,8,12,figures_6_4_783316_224664_122100_848248.png
+Figures,How many squares?,6,8,7,figures_6_4_783316_224664_122100_848248.png
+Figures,How many circles?,8,5,6,figures_6_4_783316_224664_122100_848248.png
+Figures,How many red figures?,7,8,10,figures_6_4_783316_224664_122100_848248.png
+Figures,How many green figures?,8,7,6,figures_6_4_783316_224664_122100_848248.png
+Figures,How many blue figures?,9,11,10,figures_6_4_783316_224664_122100_848248.png
+Figures,How many red triangles?,2,3,0,figures_6_4_783316_224664_122100_848248.png
+Figures,How many green triangles?,3,1,5,figures_6_4_783316_224664_122100_848248.png
+Figures,How many blue triangles?,5,7,3,figures_6_4_783316_224664_122100_848248.png
+Figures,How many red squares?,2,0,3,figures_6_4_783316_224664_122100_848248.png
+Figures,How many green squares?,4,5,3,figures_6_4_783316_224664_122100_848248.png
+Figures,How many blue squares?,0,2,1,figures_6_4_783316_224664_122100_848248.png
+Figures,How many red circles?,3,1,2,figures_6_4_783316_224664_122100_848248.png
+Figures,How many green circles?,1,2,3,figures_6_4_783316_224664_122100_848248.png
+Figures,How many blue circles?,4,3,2,figures_6_4_783316_224664_122100_848248.png
+Figures,How many figures?,24,26,27,figures_6_4_703765_783634_585216_665151.png
+Figures,How many columns?,6,7,5,figures_6_4_703765_783634_585216_665151.png
+Figures,How many rows?,4,6,3,figures_6_4_703765_783634_585216_665151.png
+Figures,How many triangles?,5,7,6,figures_6_4_703765_783634_585216_665151.png
+Figures,How many squares?,9,6,7,figures_6_4_703765_783634_585216_665151.png
+Figures,How many circles?,10,12,13,figures_6_4_703765_783634_585216_665151.png
+Figures,How many red figures?,9,12,7,figures_6_4_703765_783634_585216_665151.png
+Figures,How many green figures?,7,10,5,figures_6_4_703765_783634_585216_665151.png
+Figures,How many blue figures?,8,11,5,figures_6_4_703765_783634_585216_665151.png
+Figures,How many red triangles?,1,2,0,figures_6_4_703765_783634_585216_665151.png
+Figures,How many green triangles?,3,5,1,figures_6_4_703765_783634_585216_665151.png
+Figures,How many blue triangles?,1,3,0,figures_6_4_703765_783634_585216_665151.png
+Figures,How many red squares?,3,5,1,figures_6_4_703765_783634_585216_665151.png
+Figures,How many green squares?,1,0,3,figures_6_4_703765_783634_585216_665151.png
+Figures,How many blue squares?,5,3,6,figures_6_4_703765_783634_585216_665151.png
+Figures,How many red circles?,5,6,4,figures_6_4_703765_783634_585216_665151.png
+Figures,How many green circles?,3,2,5,figures_6_4_703765_783634_585216_665151.png
+Figures,How many blue circles?,2,1,4,figures_6_4_703765_783634_585216_665151.png
+Figures,How many figures?,24,26,20,figures_6_4_224035_862107_504128_881148.png
+Figures,How many columns?,6,4,5,figures_6_4_224035_862107_504128_881148.png
+Figures,How many rows?,4,2,3,figures_6_4_224035_862107_504128_881148.png
+Figures,How many triangles?,11,10,13,figures_6_4_224035_862107_504128_881148.png
+Figures,How many squares?,6,8,5,figures_6_4_224035_862107_504128_881148.png
+Figures,How many circles?,7,9,6,figures_6_4_224035_862107_504128_881148.png
+Figures,How many red figures?,5,4,6,figures_6_4_224035_862107_504128_881148.png
+Figures,How many green figures?,8,5,10,figures_6_4_224035_862107_504128_881148.png
+Figures,How many blue figures?,11,9,14,figures_6_4_224035_862107_504128_881148.png
+Figures,How many red triangles?,3,2,1,figures_6_4_224035_862107_504128_881148.png
+Figures,How many green triangles?,4,5,2,figures_6_4_224035_862107_504128_881148.png
+Figures,How many blue triangles?,4,5,6,figures_6_4_224035_862107_504128_881148.png
+Figures,How many red squares?,1,3,2,figures_6_4_224035_862107_504128_881148.png
+Figures,How many green squares?,3,4,2,figures_6_4_224035_862107_504128_881148.png
+Figures,How many blue squares?,2,1,4,figures_6_4_224035_862107_504128_881148.png
+Figures,How many red circles?,1,3,0,figures_6_4_224035_862107_504128_881148.png
+Figures,How many green circles?,1,0,2,figures_6_4_224035_862107_504128_881148.png
+Figures,How many blue circles?,5,3,7,figures_6_4_224035_862107_504128_881148.png
+Figures,How many figures?,24,19,27,figures_6_4_635866_773273_275113_128435.png
+Figures,How many columns?,6,4,8,figures_6_4_635866_773273_275113_128435.png
+Figures,How many rows?,4,3,5,figures_6_4_635866_773273_275113_128435.png
+Figures,How many triangles?,6,8,4,figures_6_4_635866_773273_275113_128435.png
+Figures,How many squares?,9,8,6,figures_6_4_635866_773273_275113_128435.png
+Figures,How many circles?,9,12,8,figures_6_4_635866_773273_275113_128435.png
+Figures,How many red figures?,8,7,6,figures_6_4_635866_773273_275113_128435.png
+Figures,How many green figures?,8,10,7,figures_6_4_635866_773273_275113_128435.png
+Figures,How many blue figures?,8,10,11,figures_6_4_635866_773273_275113_128435.png
+Figures,How many red triangles?,0,2,1,figures_6_4_635866_773273_275113_128435.png
+Figures,How many green triangles?,3,5,1,figures_6_4_635866_773273_275113_128435.png
+Figures,How many blue triangles?,3,2,4,figures_6_4_635866_773273_275113_128435.png
+Figures,How many red squares?,5,4,3,figures_6_4_635866_773273_275113_128435.png
+Figures,How many green squares?,1,0,3,figures_6_4_635866_773273_275113_128435.png
+Figures,How many blue squares?,3,2,4,figures_6_4_635866_773273_275113_128435.png
+Figures,How many red circles?,3,4,1,figures_6_4_635866_773273_275113_128435.png
+Figures,How many green circles?,4,2,3,figures_6_4_635866_773273_275113_128435.png
+Figures,How many blue circles?,2,4,0,figures_6_4_635866_773273_275113_128435.png
+Figures,How many figures?,24,21,23,figures_6_4_514220_841363_035017_332214.png
+Figures,How many columns?,6,8,4,figures_6_4_514220_841363_035017_332214.png
+Figures,How many rows?,4,5,3,figures_6_4_514220_841363_035017_332214.png
+Figures,How many triangles?,11,13,8,figures_6_4_514220_841363_035017_332214.png
+Figures,How many squares?,10,9,7,figures_6_4_514220_841363_035017_332214.png
+Figures,How many circles?,3,2,1,figures_6_4_514220_841363_035017_332214.png
+Figures,How many red figures?,9,10,8,figures_6_4_514220_841363_035017_332214.png
+Figures,How many green figures?,8,10,6,figures_6_4_514220_841363_035017_332214.png
+Figures,How many blue figures?,7,5,4,figures_6_4_514220_841363_035017_332214.png
+Figures,How many red triangles?,3,4,5,figures_6_4_514220_841363_035017_332214.png
+Figures,How many green triangles?,4,5,3,figures_6_4_514220_841363_035017_332214.png
+Figures,How many blue triangles?,4,2,6,figures_6_4_514220_841363_035017_332214.png
+Figures,How many red squares?,5,6,3,figures_6_4_514220_841363_035017_332214.png
+Figures,How many green squares?,3,1,4,figures_6_4_514220_841363_035017_332214.png
+Figures,How many blue squares?,2,4,3,figures_6_4_514220_841363_035017_332214.png
+Figures,How many red circles?,1,2,0,figures_6_4_514220_841363_035017_332214.png
+Figures,How many green circles?,1,2,3,figures_6_4_514220_841363_035017_332214.png
+Figures,How many blue circles?,1,0,2,figures_6_4_514220_841363_035017_332214.png
+Figures,How many figures?,24,20,19,figures_6_4_002201_755756_376756_838836.png
+Figures,How many columns?,6,4,5,figures_6_4_002201_755756_376756_838836.png
+Figures,How many rows?,4,3,6,figures_6_4_002201_755756_376756_838836.png
+Figures,How many triangles?,6,5,7,figures_6_4_002201_755756_376756_838836.png
+Figures,How many squares?,7,5,9,figures_6_4_002201_755756_376756_838836.png
+Figures,How many circles?,11,12,9,figures_6_4_002201_755756_376756_838836.png
+Figures,How many red figures?,10,13,9,figures_6_4_002201_755756_376756_838836.png
+Figures,How many green figures?,5,3,6,figures_6_4_002201_755756_376756_838836.png
+Figures,How many blue figures?,9,10,11,figures_6_4_002201_755756_376756_838836.png
+Figures,How many red triangles?,3,5,2,figures_6_4_002201_755756_376756_838836.png
+Figures,How many green triangles?,1,2,0,figures_6_4_002201_755756_376756_838836.png
+Figures,How many blue triangles?,2,0,1,figures_6_4_002201_755756_376756_838836.png
+Figures,How many red squares?,3,2,5,figures_6_4_002201_755756_376756_838836.png
+Figures,How many green squares?,0,2,1,figures_6_4_002201_755756_376756_838836.png
+Figures,How many blue squares?,4,2,6,figures_6_4_002201_755756_376756_838836.png
+Figures,How many red circles?,4,5,6,figures_6_4_002201_755756_376756_838836.png
+Figures,How many green circles?,4,6,2,figures_6_4_002201_755756_376756_838836.png
+Figures,How many blue circles?,3,1,5,figures_6_4_002201_755756_376756_838836.png
+Figures,How many figures?,24,27,29,figures_6_4_831338_148522_017270_878428.png
+Figures,How many columns?,6,7,5,figures_6_4_831338_148522_017270_878428.png
+Figures,How many rows?,4,2,6,figures_6_4_831338_148522_017270_878428.png
+Figures,How many triangles?,9,12,10,figures_6_4_831338_148522_017270_878428.png
+Figures,How many squares?,6,5,8,figures_6_4_831338_148522_017270_878428.png
+Figures,How many circles?,9,7,6,figures_6_4_831338_148522_017270_878428.png
+Figures,How many red figures?,5,7,6,figures_6_4_831338_148522_017270_878428.png
+Figures,How many green figures?,8,10,6,figures_6_4_831338_148522_017270_878428.png
+Figures,How many blue figures?,11,9,10,figures_6_4_831338_148522_017270_878428.png
+Figures,How many red triangles?,2,4,0,figures_6_4_831338_148522_017270_878428.png
+Figures,How many green triangles?,3,4,5,figures_6_4_831338_148522_017270_878428.png
+Figures,How many blue triangles?,4,2,5,figures_6_4_831338_148522_017270_878428.png
+Figures,How many red squares?,3,1,4,figures_6_4_831338_148522_017270_878428.png
+Figures,How many green squares?,2,4,1,figures_6_4_831338_148522_017270_878428.png
+Figures,How many blue squares?,1,2,3,figures_6_4_831338_148522_017270_878428.png
+Figures,How many red circles?,0,2,1,figures_6_4_831338_148522_017270_878428.png
+Figures,How many green circles?,3,5,4,figures_6_4_831338_148522_017270_878428.png
+Figures,How many blue circles?,6,8,4,figures_6_4_831338_148522_017270_878428.png
+Figures,How many figures?,24,19,28,figures_6_4_263082_620510_113431_171644.png
+Figures,How many columns?,6,5,4,figures_6_4_263082_620510_113431_171644.png
+Figures,How many rows?,4,6,2,figures_6_4_263082_620510_113431_171644.png
+Figures,How many triangles?,12,14,9,figures_6_4_263082_620510_113431_171644.png
+Figures,How many squares?,7,5,9,figures_6_4_263082_620510_113431_171644.png
+Figures,How many circles?,5,4,6,figures_6_4_263082_620510_113431_171644.png
+Figures,How many red figures?,9,8,6,figures_6_4_263082_620510_113431_171644.png
+Figures,How many green figures?,10,12,13,figures_6_4_263082_620510_113431_171644.png
+Figures,How many blue figures?,5,6,7,figures_6_4_263082_620510_113431_171644.png
+Figures,How many red triangles?,3,2,5,figures_6_4_263082_620510_113431_171644.png
+Figures,How many green triangles?,6,8,7,figures_6_4_263082_620510_113431_171644.png
+Figures,How many blue triangles?,3,4,1,figures_6_4_263082_620510_113431_171644.png
+Figures,How many red squares?,3,2,5,figures_6_4_263082_620510_113431_171644.png
+Figures,How many green squares?,3,1,5,figures_6_4_263082_620510_113431_171644.png
+Figures,How many blue squares?,1,0,3,figures_6_4_263082_620510_113431_171644.png
+Figures,How many red circles?,3,1,4,figures_6_4_263082_620510_113431_171644.png
+Figures,How many green circles?,1,3,0,figures_6_4_263082_620510_113431_171644.png
+Figures,How many blue circles?,1,3,2,figures_6_4_263082_620510_113431_171644.png
+Figures,How many figures?,24,21,20,figures_6_4_372346_528671_402733_757706.png
+Figures,How many columns?,6,7,5,figures_6_4_372346_528671_402733_757706.png
+Figures,How many rows?,4,5,6,figures_6_4_372346_528671_402733_757706.png
+Figures,How many triangles?,6,5,8,figures_6_4_372346_528671_402733_757706.png
+Figures,How many squares?,8,11,7,figures_6_4_372346_528671_402733_757706.png
+Figures,How many circles?,10,9,12,figures_6_4_372346_528671_402733_757706.png
+Figures,How many red figures?,9,12,10,figures_6_4_372346_528671_402733_757706.png
+Figures,How many green figures?,9,10,8,figures_6_4_372346_528671_402733_757706.png
+Figures,How many blue figures?,6,8,4,figures_6_4_372346_528671_402733_757706.png
+Figures,How many red triangles?,2,1,3,figures_6_4_372346_528671_402733_757706.png
+Figures,How many green triangles?,1,3,2,figures_6_4_372346_528671_402733_757706.png
+Figures,How many blue triangles?,3,5,2,figures_6_4_372346_528671_402733_757706.png
+Figures,How many red squares?,4,6,2,figures_6_4_372346_528671_402733_757706.png
+Figures,How many green squares?,2,4,0,figures_6_4_372346_528671_402733_757706.png
+Figures,How many blue squares?,2,4,3,figures_6_4_372346_528671_402733_757706.png
+Figures,How many red circles?,3,5,4,figures_6_4_372346_528671_402733_757706.png
+Figures,How many green circles?,6,8,7,figures_6_4_372346_528671_402733_757706.png
+Figures,How many blue circles?,1,2,3,figures_6_4_372346_528671_402733_757706.png
+Figures,How many figures?,24,22,29,figures_6_4_262157_240770_708670_281074.png
+Figures,How many columns?,6,5,4,figures_6_4_262157_240770_708670_281074.png
+Figures,How many rows?,4,6,3,figures_6_4_262157_240770_708670_281074.png
+Figures,How many triangles?,11,9,12,figures_6_4_262157_240770_708670_281074.png
+Figures,How many squares?,3,1,5,figures_6_4_262157_240770_708670_281074.png
+Figures,How many circles?,10,11,9,figures_6_4_262157_240770_708670_281074.png
+Figures,How many red figures?,7,6,8,figures_6_4_262157_240770_708670_281074.png
+Figures,How many green figures?,10,7,13,figures_6_4_262157_240770_708670_281074.png
+Figures,How many blue figures?,7,9,4,figures_6_4_262157_240770_708670_281074.png
+Figures,How many red triangles?,5,3,4,figures_6_4_262157_240770_708670_281074.png
+Figures,How many green triangles?,2,4,1,figures_6_4_262157_240770_708670_281074.png
+Figures,How many blue triangles?,4,6,3,figures_6_4_262157_240770_708670_281074.png
+Figures,How many red squares?,0,1,2,figures_6_4_262157_240770_708670_281074.png
+Figures,How many green squares?,2,4,1,figures_6_4_262157_240770_708670_281074.png
+Figures,How many blue squares?,1,0,2,figures_6_4_262157_240770_708670_281074.png
+Figures,How many red circles?,2,1,0,figures_6_4_262157_240770_708670_281074.png
+Figures,How many green circles?,6,7,4,figures_6_4_262157_240770_708670_281074.png
+Figures,How many blue circles?,2,4,1,figures_6_4_262157_240770_708670_281074.png
+Figures,How many figures?,24,29,27,figures_6_4_741205_561831_266408_228018.png
+Figures,How many columns?,6,4,8,figures_6_4_741205_561831_266408_228018.png
+Figures,How many rows?,4,3,5,figures_6_4_741205_561831_266408_228018.png
+Figures,How many triangles?,11,12,10,figures_6_4_741205_561831_266408_228018.png
+Figures,How many squares?,5,7,6,figures_6_4_741205_561831_266408_228018.png
+Figures,How many circles?,8,7,10,figures_6_4_741205_561831_266408_228018.png
+Figures,How many red figures?,7,9,8,figures_6_4_741205_561831_266408_228018.png
+Figures,How many green figures?,7,10,8,figures_6_4_741205_561831_266408_228018.png
+Figures,How many blue figures?,10,7,8,figures_6_4_741205_561831_266408_228018.png
+Figures,How many red triangles?,3,1,4,figures_6_4_741205_561831_266408_228018.png
+Figures,How many green triangles?,4,6,5,figures_6_4_741205_561831_266408_228018.png
+Figures,How many blue triangles?,4,2,3,figures_6_4_741205_561831_266408_228018.png
+Figures,How many red squares?,1,2,3,figures_6_4_741205_561831_266408_228018.png
+Figures,How many green squares?,2,0,3,figures_6_4_741205_561831_266408_228018.png
+Figures,How many blue squares?,2,1,3,figures_6_4_741205_561831_266408_228018.png
+Figures,How many red circles?,3,1,5,figures_6_4_741205_561831_266408_228018.png
+Figures,How many green circles?,1,2,3,figures_6_4_741205_561831_266408_228018.png
+Figures,How many blue circles?,4,5,2,figures_6_4_741205_561831_266408_228018.png
+Figures,How many figures?,24,21,26,figures_6_4_272315_344223_133686_702162.png
+Figures,How many columns?,6,7,8,figures_6_4_272315_344223_133686_702162.png
+Figures,How many rows?,4,2,3,figures_6_4_272315_344223_133686_702162.png
+Figures,How many triangles?,10,13,9,figures_6_4_272315_344223_133686_702162.png
+Figures,How many squares?,8,11,5,figures_6_4_272315_344223_133686_702162.png
+Figures,How many circles?,6,5,8,figures_6_4_272315_344223_133686_702162.png
+Figures,How many red figures?,9,12,6,figures_6_4_272315_344223_133686_702162.png
+Figures,How many green figures?,7,5,6,figures_6_4_272315_344223_133686_702162.png
+Figures,How many blue figures?,8,9,11,figures_6_4_272315_344223_133686_702162.png
+Figures,How many red triangles?,1,3,0,figures_6_4_272315_344223_133686_702162.png
+Figures,How many green triangles?,3,4,2,figures_6_4_272315_344223_133686_702162.png
+Figures,How many blue triangles?,6,5,4,figures_6_4_272315_344223_133686_702162.png
+Figures,How many red squares?,5,4,7,figures_6_4_272315_344223_133686_702162.png
+Figures,How many green squares?,2,0,3,figures_6_4_272315_344223_133686_702162.png
+Figures,How many blue squares?,1,2,0,figures_6_4_272315_344223_133686_702162.png
+Figures,How many red circles?,3,5,2,figures_6_4_272315_344223_133686_702162.png
+Figures,How many green circles?,2,1,4,figures_6_4_272315_344223_133686_702162.png
+Figures,How many blue circles?,1,2,0,figures_6_4_272315_344223_133686_702162.png
+Figures,How many figures?,24,23,25,figures_6_4_000482_324072_515847_600854.png
+Figures,How many columns?,6,8,5,figures_6_4_000482_324072_515847_600854.png
+Figures,How many rows?,4,2,6,figures_6_4_000482_324072_515847_600854.png
+Figures,How many triangles?,10,12,11,figures_6_4_000482_324072_515847_600854.png
+Figures,How many squares?,8,10,6,figures_6_4_000482_324072_515847_600854.png
+Figures,How many circles?,6,7,4,figures_6_4_000482_324072_515847_600854.png
+Figures,How many red figures?,8,6,9,figures_6_4_000482_324072_515847_600854.png
+Figures,How many green figures?,7,6,5,figures_6_4_000482_324072_515847_600854.png
+Figures,How many blue figures?,9,12,7,figures_6_4_000482_324072_515847_600854.png
+Figures,How many red triangles?,6,4,7,figures_6_4_000482_324072_515847_600854.png
+Figures,How many green triangles?,1,2,0,figures_6_4_000482_324072_515847_600854.png
+Figures,How many blue triangles?,3,5,2,figures_6_4_000482_324072_515847_600854.png
+Figures,How many red squares?,1,0,2,figures_6_4_000482_324072_515847_600854.png
+Figures,How many green squares?,4,5,3,figures_6_4_000482_324072_515847_600854.png
+Figures,How many blue squares?,3,1,2,figures_6_4_000482_324072_515847_600854.png
+Figures,How many red circles?,1,2,3,figures_6_4_000482_324072_515847_600854.png
+Figures,How many green circles?,2,0,3,figures_6_4_000482_324072_515847_600854.png
+Figures,How many blue circles?,3,1,2,figures_6_4_000482_324072_515847_600854.png
+Figures,How many figures?,24,22,28,figures_6_4_830782_177478_706766_223488.png
+Figures,How many columns?,6,8,5,figures_6_4_830782_177478_706766_223488.png
+Figures,How many rows?,4,6,5,figures_6_4_830782_177478_706766_223488.png
+Figures,How many triangles?,6,5,7,figures_6_4_830782_177478_706766_223488.png
+Figures,How many squares?,4,3,5,figures_6_4_830782_177478_706766_223488.png
+Figures,How many circles?,14,11,10,figures_6_4_830782_177478_706766_223488.png
+Figures,How many red figures?,7,4,5,figures_6_4_830782_177478_706766_223488.png
+Figures,How many green figures?,9,6,8,figures_6_4_830782_177478_706766_223488.png
+Figures,How many blue figures?,8,5,9,figures_6_4_830782_177478_706766_223488.png
+Figures,How many red triangles?,2,0,1,figures_6_4_830782_177478_706766_223488.png
+Figures,How many green triangles?,1,3,0,figures_6_4_830782_177478_706766_223488.png
+Figures,How many blue triangles?,3,2,5,figures_6_4_830782_177478_706766_223488.png
+Figures,How many red squares?,2,3,1,figures_6_4_830782_177478_706766_223488.png
+Figures,How many green squares?,2,0,4,figures_6_4_830782_177478_706766_223488.png
+Figures,How many blue squares?,0,2,1,figures_6_4_830782_177478_706766_223488.png
+Figures,How many red circles?,3,2,4,figures_6_4_830782_177478_706766_223488.png
+Figures,How many green circles?,6,5,4,figures_6_4_830782_177478_706766_223488.png
+Figures,How many blue circles?,5,3,7,figures_6_4_830782_177478_706766_223488.png
+Figures,How many figures?,24,28,27,figures_6_4_048554_226728_246406_051534.png
+Figures,How many columns?,6,8,7,figures_6_4_048554_226728_246406_051534.png
+Figures,How many rows?,4,2,3,figures_6_4_048554_226728_246406_051534.png
+Figures,How many triangles?,8,11,9,figures_6_4_048554_226728_246406_051534.png
+Figures,How many squares?,10,8,7,figures_6_4_048554_226728_246406_051534.png
+Figures,How many circles?,6,5,7,figures_6_4_048554_226728_246406_051534.png
+Figures,How many red figures?,7,4,9,figures_6_4_048554_226728_246406_051534.png
+Figures,How many green figures?,7,9,5,figures_6_4_048554_226728_246406_051534.png
+Figures,How many blue figures?,10,12,7,figures_6_4_048554_226728_246406_051534.png
+Figures,How many red triangles?,3,2,5,figures_6_4_048554_226728_246406_051534.png
+Figures,How many green triangles?,1,2,3,figures_6_4_048554_226728_246406_051534.png
+Figures,How many blue triangles?,4,6,5,figures_6_4_048554_226728_246406_051534.png
+Figures,How many red squares?,1,2,0,figures_6_4_048554_226728_246406_051534.png
+Figures,How many green squares?,5,7,3,figures_6_4_048554_226728_246406_051534.png
+Figures,How many blue squares?,4,5,6,figures_6_4_048554_226728_246406_051534.png
+Figures,How many red circles?,3,2,1,figures_6_4_048554_226728_246406_051534.png
+Figures,How many green circles?,1,0,2,figures_6_4_048554_226728_246406_051534.png
+Figures,How many blue circles?,2,4,1,figures_6_4_048554_226728_246406_051534.png
+Figures,How many figures?,24,26,28,figures_6_4_715365_238301_748618_158661.png
+Figures,How many columns?,6,8,7,figures_6_4_715365_238301_748618_158661.png
+Figures,How many rows?,4,2,6,figures_6_4_715365_238301_748618_158661.png
+Figures,How many triangles?,7,9,4,figures_6_4_715365_238301_748618_158661.png
+Figures,How many squares?,7,4,8,figures_6_4_715365_238301_748618_158661.png
+Figures,How many circles?,10,7,8,figures_6_4_715365_238301_748618_158661.png
+Figures,How many red figures?,8,9,6,figures_6_4_715365_238301_748618_158661.png
+Figures,How many green figures?,8,5,7,figures_6_4_715365_238301_748618_158661.png
+Figures,How many blue figures?,8,10,5,figures_6_4_715365_238301_748618_158661.png
+Figures,How many red triangles?,1,2,3,figures_6_4_715365_238301_748618_158661.png
+Figures,How many green triangles?,5,4,6,figures_6_4_715365_238301_748618_158661.png
+Figures,How many blue triangles?,1,2,3,figures_6_4_715365_238301_748618_158661.png
+Figures,How many red squares?,3,4,1,figures_6_4_715365_238301_748618_158661.png
+Figures,How many green squares?,1,0,3,figures_6_4_715365_238301_748618_158661.png
+Figures,How many blue squares?,3,4,5,figures_6_4_715365_238301_748618_158661.png
+Figures,How many red circles?,4,6,2,figures_6_4_715365_238301_748618_158661.png
+Figures,How many green circles?,2,3,4,figures_6_4_715365_238301_748618_158661.png
+Figures,How many blue circles?,4,3,2,figures_6_4_715365_238301_748618_158661.png
+Figures,How many figures?,24,20,23,figures_6_4_312702_830335_188271_104005.png
+Figures,How many columns?,6,4,5,figures_6_4_312702_830335_188271_104005.png
+Figures,How many rows?,4,2,5,figures_6_4_312702_830335_188271_104005.png
+Figures,How many triangles?,12,14,10,figures_6_4_312702_830335_188271_104005.png
+Figures,How many squares?,7,9,4,figures_6_4_312702_830335_188271_104005.png
+Figures,How many circles?,5,4,7,figures_6_4_312702_830335_188271_104005.png
+Figures,How many red figures?,9,6,12,figures_6_4_312702_830335_188271_104005.png
+Figures,How many green figures?,7,8,9,figures_6_4_312702_830335_188271_104005.png
+Figures,How many blue figures?,8,10,7,figures_6_4_312702_830335_188271_104005.png
+Figures,How many red triangles?,5,7,4,figures_6_4_312702_830335_188271_104005.png
+Figures,How many green triangles?,4,5,6,figures_6_4_312702_830335_188271_104005.png
+Figures,How many blue triangles?,3,5,1,figures_6_4_312702_830335_188271_104005.png
+Figures,How many red squares?,4,5,3,figures_6_4_312702_830335_188271_104005.png
+Figures,How many green squares?,1,3,2,figures_6_4_312702_830335_188271_104005.png
+Figures,How many blue squares?,2,1,3,figures_6_4_312702_830335_188271_104005.png
+Figures,How many red circles?,0,2,1,figures_6_4_312702_830335_188271_104005.png
+Figures,How many green circles?,2,0,1,figures_6_4_312702_830335_188271_104005.png
+Figures,How many blue circles?,3,1,4,figures_6_4_312702_830335_188271_104005.png
+Figures,How many figures?,24,21,23,figures_6_4_518203_776846_617585_230273.png
+Figures,How many columns?,6,8,4,figures_6_4_518203_776846_617585_230273.png
+Figures,How many rows?,4,2,5,figures_6_4_518203_776846_617585_230273.png
+Figures,How many triangles?,7,6,9,figures_6_4_518203_776846_617585_230273.png
+Figures,How many squares?,7,8,4,figures_6_4_518203_776846_617585_230273.png
+Figures,How many circles?,10,13,7,figures_6_4_518203_776846_617585_230273.png
+Figures,How many red figures?,8,9,7,figures_6_4_518203_776846_617585_230273.png
+Figures,How many green figures?,7,5,6,figures_6_4_518203_776846_617585_230273.png
+Figures,How many blue figures?,9,8,12,figures_6_4_518203_776846_617585_230273.png
+Figures,How many red triangles?,2,0,1,figures_6_4_518203_776846_617585_230273.png
+Figures,How many green triangles?,2,0,4,figures_6_4_518203_776846_617585_230273.png
+Figures,How many blue triangles?,3,4,5,figures_6_4_518203_776846_617585_230273.png
+Figures,How many red squares?,3,5,4,figures_6_4_518203_776846_617585_230273.png
+Figures,How many green squares?,1,2,3,figures_6_4_518203_776846_617585_230273.png
+Figures,How many blue squares?,3,4,1,figures_6_4_518203_776846_617585_230273.png
+Figures,How many red circles?,3,4,1,figures_6_4_518203_776846_617585_230273.png
+Figures,How many green circles?,4,2,6,figures_6_4_518203_776846_617585_230273.png
+Figures,How many blue circles?,3,5,2,figures_6_4_518203_776846_617585_230273.png
+Figures,How many figures?,24,26,27,figures_6_4_648265_767424_736742_484267.png
+Figures,How many columns?,6,8,7,figures_6_4_648265_767424_736742_484267.png
+Figures,How many rows?,4,5,3,figures_6_4_648265_767424_736742_484267.png
+Figures,How many triangles?,4,6,5,figures_6_4_648265_767424_736742_484267.png
+Figures,How many squares?,8,5,9,figures_6_4_648265_767424_736742_484267.png
+Figures,How many circles?,12,11,13,figures_6_4_648265_767424_736742_484267.png
+Figures,How many red figures?,6,7,5,figures_6_4_648265_767424_736742_484267.png
+Figures,How many green figures?,11,12,9,figures_6_4_648265_767424_736742_484267.png
+Figures,How many blue figures?,7,8,6,figures_6_4_648265_767424_736742_484267.png
+Figures,How many red triangles?,0,1,2,figures_6_4_648265_767424_736742_484267.png
+Figures,How many green triangles?,0,2,1,figures_6_4_648265_767424_736742_484267.png
+Figures,How many blue triangles?,4,6,5,figures_6_4_648265_767424_736742_484267.png
+Figures,How many red squares?,1,2,0,figures_6_4_648265_767424_736742_484267.png
+Figures,How many green squares?,6,7,4,figures_6_4_648265_767424_736742_484267.png
+Figures,How many blue squares?,1,2,0,figures_6_4_648265_767424_736742_484267.png
+Figures,How many red circles?,5,6,4,figures_6_4_648265_767424_736742_484267.png
+Figures,How many green circles?,5,7,3,figures_6_4_648265_767424_736742_484267.png
+Figures,How many blue circles?,2,1,0,figures_6_4_648265_767424_736742_484267.png
+Figures,How many figures?,24,19,23,figures_6_4_201461_720888_607071_142782.png
+Figures,How many columns?,6,7,4,figures_6_4_201461_720888_607071_142782.png
+Figures,How many rows?,4,6,2,figures_6_4_201461_720888_607071_142782.png
+Figures,How many triangles?,12,15,13,figures_6_4_201461_720888_607071_142782.png
+Figures,How many squares?,2,1,4,figures_6_4_201461_720888_607071_142782.png
+Figures,How many circles?,10,13,7,figures_6_4_201461_720888_607071_142782.png
+Figures,How many red figures?,6,8,5,figures_6_4_201461_720888_607071_142782.png
+Figures,How many green figures?,10,11,8,figures_6_4_201461_720888_607071_142782.png
+Figures,How many blue figures?,8,11,7,figures_6_4_201461_720888_607071_142782.png
+Figures,How many red triangles?,4,5,6,figures_6_4_201461_720888_607071_142782.png
+Figures,How many green triangles?,4,5,6,figures_6_4_201461_720888_607071_142782.png
+Figures,How many blue triangles?,4,2,6,figures_6_4_201461_720888_607071_142782.png
+Figures,How many red squares?,0,1,2,figures_6_4_201461_720888_607071_142782.png
+Figures,How many green squares?,2,0,1,figures_6_4_201461_720888_607071_142782.png
+Figures,How many blue squares?,0,1,2,figures_6_4_201461_720888_607071_142782.png
+Figures,How many red circles?,2,0,4,figures_6_4_201461_720888_607071_142782.png
+Figures,How many green circles?,4,2,5,figures_6_4_201461_720888_607071_142782.png
+Figures,How many blue circles?,4,5,3,figures_6_4_201461_720888_607071_142782.png
+Figures,How many figures?,24,23,19,figures_6_4_608768_484027_325641_047845.png
+Figures,How many columns?,6,7,8,figures_6_4_608768_484027_325641_047845.png
+Figures,How many rows?,4,5,2,figures_6_4_608768_484027_325641_047845.png
+Figures,How many triangles?,6,8,5,figures_6_4_608768_484027_325641_047845.png
+Figures,How many squares?,8,9,6,figures_6_4_608768_484027_325641_047845.png
+Figures,How many circles?,10,12,8,figures_6_4_608768_484027_325641_047845.png
+Figures,How many red figures?,7,9,5,figures_6_4_608768_484027_325641_047845.png
+Figures,How many green figures?,9,7,10,figures_6_4_608768_484027_325641_047845.png
+Figures,How many blue figures?,8,11,7,figures_6_4_608768_484027_325641_047845.png
+Figures,How many red triangles?,3,1,5,figures_6_4_608768_484027_325641_047845.png
+Figures,How many green triangles?,1,0,2,figures_6_4_608768_484027_325641_047845.png
+Figures,How many blue triangles?,2,4,0,figures_6_4_608768_484027_325641_047845.png
+Figures,How many red squares?,1,3,2,figures_6_4_608768_484027_325641_047845.png
+Figures,How many green squares?,5,7,3,figures_6_4_608768_484027_325641_047845.png
+Figures,How many blue squares?,2,0,1,figures_6_4_608768_484027_325641_047845.png
+Figures,How many red circles?,3,5,1,figures_6_4_608768_484027_325641_047845.png
+Figures,How many green circles?,3,4,2,figures_6_4_608768_484027_325641_047845.png
+Figures,How many blue circles?,4,3,5,figures_6_4_608768_484027_325641_047845.png
+Figures,How many figures?,24,25,29,figures_6_4_172424_180612_881752_423548.png
+Figures,How many columns?,6,8,7,figures_6_4_172424_180612_881752_423548.png
+Figures,How many rows?,4,6,2,figures_6_4_172424_180612_881752_423548.png
+Figures,How many triangles?,10,7,9,figures_6_4_172424_180612_881752_423548.png
+Figures,How many squares?,7,6,10,figures_6_4_172424_180612_881752_423548.png
+Figures,How many circles?,7,5,8,figures_6_4_172424_180612_881752_423548.png
+Figures,How many red figures?,3,2,1,figures_6_4_172424_180612_881752_423548.png
+Figures,How many green figures?,10,7,12,figures_6_4_172424_180612_881752_423548.png
+Figures,How many blue figures?,11,8,12,figures_6_4_172424_180612_881752_423548.png
+Figures,How many red triangles?,1,0,3,figures_6_4_172424_180612_881752_423548.png
+Figures,How many green triangles?,4,6,5,figures_6_4_172424_180612_881752_423548.png
+Figures,How many blue triangles?,5,3,4,figures_6_4_172424_180612_881752_423548.png
+Figures,How many red squares?,1,2,3,figures_6_4_172424_180612_881752_423548.png
+Figures,How many green squares?,4,3,6,figures_6_4_172424_180612_881752_423548.png
+Figures,How many blue squares?,2,4,1,figures_6_4_172424_180612_881752_423548.png
+Figures,How many red circles?,1,0,2,figures_6_4_172424_180612_881752_423548.png
+Figures,How many green circles?,2,4,3,figures_6_4_172424_180612_881752_423548.png
+Figures,How many blue circles?,4,3,5,figures_6_4_172424_180612_881752_423548.png
+Figures,How many figures?,24,22,25,figures_6_4_335038_173876_801886_733727.png
+Figures,How many columns?,6,5,7,figures_6_4_335038_173876_801886_733727.png
+Figures,How many rows?,4,2,5,figures_6_4_335038_173876_801886_733727.png
+Figures,How many triangles?,5,7,3,figures_6_4_335038_173876_801886_733727.png
+Figures,How many squares?,7,5,10,figures_6_4_335038_173876_801886_733727.png
+Figures,How many circles?,12,11,14,figures_6_4_335038_173876_801886_733727.png
+Figures,How many red figures?,10,11,12,figures_6_4_335038_173876_801886_733727.png
+Figures,How many green figures?,7,9,5,figures_6_4_335038_173876_801886_733727.png
+Figures,How many blue figures?,7,6,4,figures_6_4_335038_173876_801886_733727.png
+Figures,How many red triangles?,2,4,0,figures_6_4_335038_173876_801886_733727.png
+Figures,How many green triangles?,2,0,4,figures_6_4_335038_173876_801886_733727.png
+Figures,How many blue triangles?,1,2,3,figures_6_4_335038_173876_801886_733727.png
+Figures,How many red squares?,6,7,8,figures_6_4_335038_173876_801886_733727.png
+Figures,How many green squares?,0,1,2,figures_6_4_335038_173876_801886_733727.png
+Figures,How many blue squares?,1,3,2,figures_6_4_335038_173876_801886_733727.png
+Figures,How many red circles?,2,3,1,figures_6_4_335038_173876_801886_733727.png
+Figures,How many green circles?,5,3,6,figures_6_4_335038_173876_801886_733727.png
+Figures,How many blue circles?,5,6,7,figures_6_4_335038_173876_801886_733727.png
+Figures,How many figures?,24,22,21,figures_6_4_165842_580788_687738_423735.png
+Figures,How many columns?,6,7,8,figures_6_4_165842_580788_687738_423735.png
+Figures,How many rows?,4,5,2,figures_6_4_165842_580788_687738_423735.png
+Figures,How many triangles?,4,3,6,figures_6_4_165842_580788_687738_423735.png
+Figures,How many squares?,8,6,7,figures_6_4_165842_580788_687738_423735.png
+Figures,How many circles?,12,13,10,figures_6_4_165842_580788_687738_423735.png
+Figures,How many red figures?,6,7,5,figures_6_4_165842_580788_687738_423735.png
+Figures,How many green figures?,7,8,5,figures_6_4_165842_580788_687738_423735.png
+Figures,How many blue figures?,11,10,9,figures_6_4_165842_580788_687738_423735.png
+Figures,How many red triangles?,1,3,0,figures_6_4_165842_580788_687738_423735.png
+Figures,How many green triangles?,1,2,3,figures_6_4_165842_580788_687738_423735.png
+Figures,How many blue triangles?,2,3,4,figures_6_4_165842_580788_687738_423735.png
+Figures,How many red squares?,3,4,2,figures_6_4_165842_580788_687738_423735.png
+Figures,How many green squares?,2,1,0,figures_6_4_165842_580788_687738_423735.png
+Figures,How many blue squares?,3,1,2,figures_6_4_165842_580788_687738_423735.png
+Figures,How many red circles?,2,3,4,figures_6_4_165842_580788_687738_423735.png
+Figures,How many green circles?,4,6,2,figures_6_4_165842_580788_687738_423735.png
+Figures,How many blue circles?,6,5,4,figures_6_4_165842_580788_687738_423735.png
+Figures,How many figures?,24,26,29,figures_6_4_101678_260334_301477_771247.png
+Figures,How many columns?,6,7,5,figures_6_4_101678_260334_301477_771247.png
+Figures,How many rows?,4,6,2,figures_6_4_101678_260334_301477_771247.png
+Figures,How many triangles?,9,7,8,figures_6_4_101678_260334_301477_771247.png
+Figures,How many squares?,6,5,8,figures_6_4_101678_260334_301477_771247.png
+Figures,How many circles?,9,6,11,figures_6_4_101678_260334_301477_771247.png
+Figures,How many red figures?,8,10,11,figures_6_4_101678_260334_301477_771247.png
+Figures,How many green figures?,13,12,11,figures_6_4_101678_260334_301477_771247.png
+Figures,How many blue figures?,3,1,4,figures_6_4_101678_260334_301477_771247.png
+Figures,How many red triangles?,3,2,4,figures_6_4_101678_260334_301477_771247.png
+Figures,How many green triangles?,4,6,2,figures_6_4_101678_260334_301477_771247.png
+Figures,How many blue triangles?,2,0,4,figures_6_4_101678_260334_301477_771247.png
+Figures,How many red squares?,3,4,2,figures_6_4_101678_260334_301477_771247.png
+Figures,How many green squares?,3,4,5,figures_6_4_101678_260334_301477_771247.png
+Figures,How many blue squares?,0,2,1,figures_6_4_101678_260334_301477_771247.png
+Figures,How many red circles?,2,0,1,figures_6_4_101678_260334_301477_771247.png
+Figures,How many green circles?,6,5,8,figures_6_4_101678_260334_301477_771247.png
+Figures,How many blue circles?,1,3,0,figures_6_4_101678_260334_301477_771247.png
+Figures,How many figures?,24,19,28,figures_6_4_287818_510561_050354_174473.png
+Figures,How many columns?,6,5,7,figures_6_4_287818_510561_050354_174473.png
+Figures,How many rows?,4,3,2,figures_6_4_287818_510561_050354_174473.png
+Figures,How many triangles?,8,9,5,figures_6_4_287818_510561_050354_174473.png
+Figures,How many squares?,9,11,7,figures_6_4_287818_510561_050354_174473.png
+Figures,How many circles?,7,5,6,figures_6_4_287818_510561_050354_174473.png
+Figures,How many red figures?,6,5,7,figures_6_4_287818_510561_050354_174473.png
+Figures,How many green figures?,10,8,9,figures_6_4_287818_510561_050354_174473.png
+Figures,How many blue figures?,8,10,5,figures_6_4_287818_510561_050354_174473.png
+Figures,How many red triangles?,3,2,4,figures_6_4_287818_510561_050354_174473.png
+Figures,How many green triangles?,4,2,3,figures_6_4_287818_510561_050354_174473.png
+Figures,How many blue triangles?,1,0,3,figures_6_4_287818_510561_050354_174473.png
+Figures,How many red squares?,2,4,3,figures_6_4_287818_510561_050354_174473.png
+Figures,How many green squares?,3,2,4,figures_6_4_287818_510561_050354_174473.png
+Figures,How many blue squares?,4,3,5,figures_6_4_287818_510561_050354_174473.png
+Figures,How many red circles?,1,2,3,figures_6_4_287818_510561_050354_174473.png
+Figures,How many green circles?,3,2,1,figures_6_4_287818_510561_050354_174473.png
+Figures,How many blue circles?,3,5,2,figures_6_4_287818_510561_050354_174473.png
+Figures,How many figures?,24,29,19,figures_6_4_471082_541312_384448_834687.png
+Figures,How many columns?,6,8,7,figures_6_4_471082_541312_384448_834687.png
+Figures,How many rows?,4,2,5,figures_6_4_471082_541312_384448_834687.png
+Figures,How many triangles?,6,8,4,figures_6_4_471082_541312_384448_834687.png
+Figures,How many squares?,10,8,11,figures_6_4_471082_541312_384448_834687.png
+Figures,How many circles?,8,10,9,figures_6_4_471082_541312_384448_834687.png
+Figures,How many red figures?,5,7,3,figures_6_4_471082_541312_384448_834687.png
+Figures,How many green figures?,11,13,14,figures_6_4_471082_541312_384448_834687.png
+Figures,How many blue figures?,8,5,7,figures_6_4_471082_541312_384448_834687.png
+Figures,How many red triangles?,1,0,3,figures_6_4_471082_541312_384448_834687.png
+Figures,How many green triangles?,3,1,4,figures_6_4_471082_541312_384448_834687.png
+Figures,How many blue triangles?,2,4,0,figures_6_4_471082_541312_384448_834687.png
+Figures,How many red squares?,3,1,4,figures_6_4_471082_541312_384448_834687.png
+Figures,How many green squares?,6,8,4,figures_6_4_471082_541312_384448_834687.png
+Figures,How many blue squares?,1,3,2,figures_6_4_471082_541312_384448_834687.png
+Figures,How many red circles?,1,0,2,figures_6_4_471082_541312_384448_834687.png
+Figures,How many green circles?,2,0,4,figures_6_4_471082_541312_384448_834687.png
+Figures,How many blue circles?,5,7,6,figures_6_4_471082_541312_384448_834687.png
+Figures,How many figures?,24,20,25,figures_6_4_387026_076366_237345_244418.png
+Figures,How many columns?,6,5,4,figures_6_4_387026_076366_237345_244418.png
+Figures,How many rows?,4,6,3,figures_6_4_387026_076366_237345_244418.png
+Figures,How many triangles?,6,8,5,figures_6_4_387026_076366_237345_244418.png
+Figures,How many squares?,9,12,11,figures_6_4_387026_076366_237345_244418.png
+Figures,How many circles?,9,12,11,figures_6_4_387026_076366_237345_244418.png
+Figures,How many red figures?,10,12,9,figures_6_4_387026_076366_237345_244418.png
+Figures,How many green figures?,8,10,7,figures_6_4_387026_076366_237345_244418.png
+Figures,How many blue figures?,6,4,8,figures_6_4_387026_076366_237345_244418.png
+Figures,How many red triangles?,2,1,3,figures_6_4_387026_076366_237345_244418.png
+Figures,How many green triangles?,1,2,0,figures_6_4_387026_076366_237345_244418.png
+Figures,How many blue triangles?,3,5,4,figures_6_4_387026_076366_237345_244418.png
+Figures,How many red squares?,4,5,3,figures_6_4_387026_076366_237345_244418.png
+Figures,How many green squares?,4,5,6,figures_6_4_387026_076366_237345_244418.png
+Figures,How many blue squares?,1,3,2,figures_6_4_387026_076366_237345_244418.png
+Figures,How many red circles?,4,6,2,figures_6_4_387026_076366_237345_244418.png
+Figures,How many green circles?,3,1,4,figures_6_4_387026_076366_237345_244418.png
+Figures,How many blue circles?,2,3,1,figures_6_4_387026_076366_237345_244418.png
+Figures,How many figures?,24,20,29,figures_6_4_304811_138103_244608_173634.png
+Figures,How many columns?,6,4,8,figures_6_4_304811_138103_244608_173634.png
+Figures,How many rows?,4,2,5,figures_6_4_304811_138103_244608_173634.png
+Figures,How many triangles?,9,6,12,figures_6_4_304811_138103_244608_173634.png
+Figures,How many squares?,9,11,8,figures_6_4_304811_138103_244608_173634.png
+Figures,How many circles?,6,8,7,figures_6_4_304811_138103_244608_173634.png
+Figures,How many red figures?,10,9,12,figures_6_4_304811_138103_244608_173634.png
+Figures,How many green figures?,10,12,11,figures_6_4_304811_138103_244608_173634.png
+Figures,How many blue figures?,4,5,6,figures_6_4_304811_138103_244608_173634.png
+Figures,How many red triangles?,3,5,2,figures_6_4_304811_138103_244608_173634.png
+Figures,How many green triangles?,5,6,3,figures_6_4_304811_138103_244608_173634.png
+Figures,How many blue triangles?,1,0,3,figures_6_4_304811_138103_244608_173634.png
+Figures,How many red squares?,5,3,6,figures_6_4_304811_138103_244608_173634.png
+Figures,How many green squares?,4,3,6,figures_6_4_304811_138103_244608_173634.png
+Figures,How many blue squares?,0,2,1,figures_6_4_304811_138103_244608_173634.png
+Figures,How many red circles?,2,4,0,figures_6_4_304811_138103_244608_173634.png
+Figures,How many green circles?,1,0,2,figures_6_4_304811_138103_244608_173634.png
+Figures,How many blue circles?,3,1,4,figures_6_4_304811_138103_244608_173634.png
+Figures,How many figures?,24,28,19,figures_6_4_725662_011034_375305_353176.png
+Figures,How many columns?,6,7,4,figures_6_4_725662_011034_375305_353176.png
+Figures,How many rows?,4,3,5,figures_6_4_725662_011034_375305_353176.png
+Figures,How many triangles?,8,10,7,figures_6_4_725662_011034_375305_353176.png
+Figures,How many squares?,10,13,9,figures_6_4_725662_011034_375305_353176.png
+Figures,How many circles?,6,5,8,figures_6_4_725662_011034_375305_353176.png
+Figures,How many red figures?,11,12,14,figures_6_4_725662_011034_375305_353176.png
+Figures,How many green figures?,7,6,10,figures_6_4_725662_011034_375305_353176.png
+Figures,How many blue figures?,6,4,7,figures_6_4_725662_011034_375305_353176.png
+Figures,How many red triangles?,3,5,1,figures_6_4_725662_011034_375305_353176.png
+Figures,How many green triangles?,3,2,5,figures_6_4_725662_011034_375305_353176.png
+Figures,How many blue triangles?,2,3,0,figures_6_4_725662_011034_375305_353176.png
+Figures,How many red squares?,5,7,6,figures_6_4_725662_011034_375305_353176.png
+Figures,How many green squares?,1,0,2,figures_6_4_725662_011034_375305_353176.png
+Figures,How many blue squares?,4,3,5,figures_6_4_725662_011034_375305_353176.png
+Figures,How many red circles?,3,2,4,figures_6_4_725662_011034_375305_353176.png
+Figures,How many green circles?,3,4,5,figures_6_4_725662_011034_375305_353176.png
+Figures,How many blue circles?,0,1,2,figures_6_4_725662_011034_375305_353176.png
+Figures,How many figures?,24,28,20,figures_6_4_107025_241474_510402_871634.png
+Figures,How many columns?,6,5,4,figures_6_4_107025_241474_510402_871634.png
+Figures,How many rows?,4,5,3,figures_6_4_107025_241474_510402_871634.png
+Figures,How many triangles?,11,9,13,figures_6_4_107025_241474_510402_871634.png
+Figures,How many squares?,8,9,7,figures_6_4_107025_241474_510402_871634.png
+Figures,How many circles?,5,4,6,figures_6_4_107025_241474_510402_871634.png
+Figures,How many red figures?,6,8,4,figures_6_4_107025_241474_510402_871634.png
+Figures,How many green figures?,12,9,11,figures_6_4_107025_241474_510402_871634.png
+Figures,How many blue figures?,6,7,8,figures_6_4_107025_241474_510402_871634.png
+Figures,How many red triangles?,4,3,2,figures_6_4_107025_241474_510402_871634.png
+Figures,How many green triangles?,4,3,2,figures_6_4_107025_241474_510402_871634.png
+Figures,How many blue triangles?,3,5,4,figures_6_4_107025_241474_510402_871634.png
+Figures,How many red squares?,1,3,2,figures_6_4_107025_241474_510402_871634.png
+Figures,How many green squares?,5,7,4,figures_6_4_107025_241474_510402_871634.png
+Figures,How many blue squares?,2,4,0,figures_6_4_107025_241474_510402_871634.png
+Figures,How many red circles?,1,3,0,figures_6_4_107025_241474_510402_871634.png
+Figures,How many green circles?,3,1,2,figures_6_4_107025_241474_510402_871634.png
+Figures,How many blue circles?,1,2,3,figures_6_4_107025_241474_510402_871634.png
+Figures,How many figures?,24,23,27,figures_6_4_163850_700853_222257_516135.png
+Figures,How many columns?,6,8,4,figures_6_4_163850_700853_222257_516135.png
+Figures,How many rows?,4,3,6,figures_6_4_163850_700853_222257_516135.png
+Figures,How many triangles?,10,8,11,figures_6_4_163850_700853_222257_516135.png
+Figures,How many squares?,8,10,5,figures_6_4_163850_700853_222257_516135.png
+Figures,How many circles?,6,8,5,figures_6_4_163850_700853_222257_516135.png
+Figures,How many red figures?,8,11,7,figures_6_4_163850_700853_222257_516135.png
+Figures,How many green figures?,5,3,4,figures_6_4_163850_700853_222257_516135.png
+Figures,How many blue figures?,11,8,13,figures_6_4_163850_700853_222257_516135.png
+Figures,How many red triangles?,3,2,1,figures_6_4_163850_700853_222257_516135.png
+Figures,How many green triangles?,3,4,2,figures_6_4_163850_700853_222257_516135.png
+Figures,How many blue triangles?,4,2,6,figures_6_4_163850_700853_222257_516135.png
+Figures,How many red squares?,3,2,5,figures_6_4_163850_700853_222257_516135.png
+Figures,How many green squares?,0,1,2,figures_6_4_163850_700853_222257_516135.png
+Figures,How many blue squares?,5,6,4,figures_6_4_163850_700853_222257_516135.png
+Figures,How many red circles?,2,0,3,figures_6_4_163850_700853_222257_516135.png
+Figures,How many green circles?,2,3,4,figures_6_4_163850_700853_222257_516135.png
+Figures,How many blue circles?,2,1,3,figures_6_4_163850_700853_222257_516135.png
+Figures,How many figures?,24,26,21,figures_6_4_710068_338077_088670_755754.png
+Figures,How many columns?,6,7,8,figures_6_4_710068_338077_088670_755754.png
+Figures,How many rows?,4,5,2,figures_6_4_710068_338077_088670_755754.png
+Figures,How many triangles?,6,4,7,figures_6_4_710068_338077_088670_755754.png
+Figures,How many squares?,6,5,8,figures_6_4_710068_338077_088670_755754.png
+Figures,How many circles?,12,13,14,figures_6_4_710068_338077_088670_755754.png
+Figures,How many red figures?,9,7,6,figures_6_4_710068_338077_088670_755754.png
+Figures,How many green figures?,8,11,6,figures_6_4_710068_338077_088670_755754.png
+Figures,How many blue figures?,7,8,10,figures_6_4_710068_338077_088670_755754.png
+Figures,How many red triangles?,5,4,6,figures_6_4_710068_338077_088670_755754.png
+Figures,How many green triangles?,1,3,0,figures_6_4_710068_338077_088670_755754.png
+Figures,How many blue triangles?,0,1,2,figures_6_4_710068_338077_088670_755754.png
+Figures,How many red squares?,2,1,0,figures_6_4_710068_338077_088670_755754.png
+Figures,How many green squares?,1,0,3,figures_6_4_710068_338077_088670_755754.png
+Figures,How many blue squares?,3,2,4,figures_6_4_710068_338077_088670_755754.png
+Figures,How many red circles?,2,4,0,figures_6_4_710068_338077_088670_755754.png
+Figures,How many green circles?,6,4,5,figures_6_4_710068_338077_088670_755754.png
+Figures,How many blue circles?,4,2,3,figures_6_4_710068_338077_088670_755754.png
+Figures,How many figures?,24,25,26,figures_6_4_337877_733755_211867_853832.png
+Figures,How many columns?,6,7,8,figures_6_4_337877_733755_211867_853832.png
+Figures,How many rows?,4,3,6,figures_6_4_337877_733755_211867_853832.png
+Figures,How many triangles?,4,3,2,figures_6_4_337877_733755_211867_853832.png
+Figures,How many squares?,9,7,12,figures_6_4_337877_733755_211867_853832.png
+Figures,How many circles?,11,13,10,figures_6_4_337877_733755_211867_853832.png
+Figures,How many red figures?,7,10,9,figures_6_4_337877_733755_211867_853832.png
+Figures,How many green figures?,8,6,10,figures_6_4_337877_733755_211867_853832.png
+Figures,How many blue figures?,9,12,8,figures_6_4_337877_733755_211867_853832.png
+Figures,How many red triangles?,0,1,2,figures_6_4_337877_733755_211867_853832.png
+Figures,How many green triangles?,2,0,3,figures_6_4_337877_733755_211867_853832.png
+Figures,How many blue triangles?,2,4,1,figures_6_4_337877_733755_211867_853832.png
+Figures,How many red squares?,6,7,8,figures_6_4_337877_733755_211867_853832.png
+Figures,How many green squares?,0,1,2,figures_6_4_337877_733755_211867_853832.png
+Figures,How many blue squares?,3,2,4,figures_6_4_337877_733755_211867_853832.png
+Figures,How many red circles?,1,3,0,figures_6_4_337877_733755_211867_853832.png
+Figures,How many green circles?,6,8,5,figures_6_4_337877_733755_211867_853832.png
+Figures,How many blue circles?,4,5,3,figures_6_4_337877_733755_211867_853832.png
+Figures,How many figures?,24,20,25,figures_6_4_611482_810845_854806_107003.png
+Figures,How many columns?,6,4,8,figures_6_4_611482_810845_854806_107003.png
+Figures,How many rows?,4,6,3,figures_6_4_611482_810845_854806_107003.png
+Figures,How many triangles?,10,7,9,figures_6_4_611482_810845_854806_107003.png
+Figures,How many squares?,6,8,5,figures_6_4_611482_810845_854806_107003.png
+Figures,How many circles?,8,9,11,figures_6_4_611482_810845_854806_107003.png
+Figures,How many red figures?,8,7,10,figures_6_4_611482_810845_854806_107003.png
+Figures,How many green figures?,8,7,5,figures_6_4_611482_810845_854806_107003.png
+Figures,How many blue figures?,8,5,11,figures_6_4_611482_810845_854806_107003.png
+Figures,How many red triangles?,5,7,6,figures_6_4_611482_810845_854806_107003.png
+Figures,How many green triangles?,4,5,6,figures_6_4_611482_810845_854806_107003.png
+Figures,How many blue triangles?,1,2,0,figures_6_4_611482_810845_854806_107003.png
+Figures,How many red squares?,1,0,2,figures_6_4_611482_810845_854806_107003.png
+Figures,How many green squares?,3,2,4,figures_6_4_611482_810845_854806_107003.png
+Figures,How many blue squares?,2,0,3,figures_6_4_611482_810845_854806_107003.png
+Figures,How many red circles?,2,3,4,figures_6_4_611482_810845_854806_107003.png
+Figures,How many green circles?,1,0,2,figures_6_4_611482_810845_854806_107003.png
+Figures,How many blue circles?,5,3,4,figures_6_4_611482_810845_854806_107003.png
+Figures,How many figures?,24,26,27,figures_6_4_441188_587183_755638_280502.png
+Figures,How many columns?,6,8,4,figures_6_4_441188_587183_755638_280502.png
+Figures,How many rows?,4,3,6,figures_6_4_441188_587183_755638_280502.png
+Figures,How many triangles?,7,10,8,figures_6_4_441188_587183_755638_280502.png
+Figures,How many squares?,8,10,5,figures_6_4_441188_587183_755638_280502.png
+Figures,How many circles?,9,6,7,figures_6_4_441188_587183_755638_280502.png
+Figures,How many red figures?,5,4,6,figures_6_4_441188_587183_755638_280502.png
+Figures,How many green figures?,7,8,6,figures_6_4_441188_587183_755638_280502.png
+Figures,How many blue figures?,12,11,15,figures_6_4_441188_587183_755638_280502.png
+Figures,How many red triangles?,2,4,1,figures_6_4_441188_587183_755638_280502.png
+Figures,How many green triangles?,3,1,5,figures_6_4_441188_587183_755638_280502.png
+Figures,How many blue triangles?,2,0,1,figures_6_4_441188_587183_755638_280502.png
+Figures,How many red squares?,2,4,1,figures_6_4_441188_587183_755638_280502.png
+Figures,How many green squares?,2,1,0,figures_6_4_441188_587183_755638_280502.png
+Figures,How many blue squares?,4,3,2,figures_6_4_441188_587183_755638_280502.png
+Figures,How many red circles?,1,2,0,figures_6_4_441188_587183_755638_280502.png
+Figures,How many green circles?,2,0,3,figures_6_4_441188_587183_755638_280502.png
+Figures,How many blue circles?,6,5,7,figures_6_4_441188_587183_755638_280502.png
+Figures,How many figures?,24,22,28,figures_6_4_208004_361130_636080_276478.png
+Figures,How many columns?,6,7,5,figures_6_4_208004_361130_636080_276478.png
+Figures,How many rows?,4,2,3,figures_6_4_208004_361130_636080_276478.png
+Figures,How many triangles?,10,8,11,figures_6_4_208004_361130_636080_276478.png
+Figures,How many squares?,5,7,4,figures_6_4_208004_361130_636080_276478.png
+Figures,How many circles?,9,7,8,figures_6_4_208004_361130_636080_276478.png
+Figures,How many red figures?,13,11,9,figures_6_4_208004_361130_636080_276478.png
+Figures,How many green figures?,6,7,4,figures_6_4_208004_361130_636080_276478.png
+Figures,How many blue figures?,5,7,6,figures_6_4_208004_361130_636080_276478.png
+Figures,How many red triangles?,6,8,7,figures_6_4_208004_361130_636080_276478.png
+Figures,How many green triangles?,2,4,3,figures_6_4_208004_361130_636080_276478.png
+Figures,How many blue triangles?,2,0,4,figures_6_4_208004_361130_636080_276478.png
+Figures,How many red squares?,3,4,5,figures_6_4_208004_361130_636080_276478.png
+Figures,How many green squares?,2,3,4,figures_6_4_208004_361130_636080_276478.png
+Figures,How many blue squares?,0,2,1,figures_6_4_208004_361130_636080_276478.png
+Figures,How many red circles?,4,6,2,figures_6_4_208004_361130_636080_276478.png
+Figures,How many green circles?,2,0,1,figures_6_4_208004_361130_636080_276478.png
+Figures,How many blue circles?,3,1,2,figures_6_4_208004_361130_636080_276478.png
+Figures,How many figures?,24,20,21,figures_6_4_081208_880066_261354_573157.png
+Figures,How many columns?,6,4,8,figures_6_4_081208_880066_261354_573157.png
+Figures,How many rows?,4,5,2,figures_6_4_081208_880066_261354_573157.png
+Figures,How many triangles?,9,7,12,figures_6_4_081208_880066_261354_573157.png
+Figures,How many squares?,6,5,4,figures_6_4_081208_880066_261354_573157.png
+Figures,How many circles?,9,12,6,figures_6_4_081208_880066_261354_573157.png
+Figures,How many red figures?,9,7,6,figures_6_4_081208_880066_261354_573157.png
+Figures,How many green figures?,6,7,5,figures_6_4_081208_880066_261354_573157.png
+Figures,How many blue figures?,9,10,7,figures_6_4_081208_880066_261354_573157.png
+Figures,How many red triangles?,4,2,3,figures_6_4_081208_880066_261354_573157.png
+Figures,How many green triangles?,3,4,1,figures_6_4_081208_880066_261354_573157.png
+Figures,How many blue triangles?,2,0,1,figures_6_4_081208_880066_261354_573157.png
+Figures,How many red squares?,2,1,0,figures_6_4_081208_880066_261354_573157.png
+Figures,How many green squares?,1,2,0,figures_6_4_081208_880066_261354_573157.png
+Figures,How many blue squares?,3,4,1,figures_6_4_081208_880066_261354_573157.png
+Figures,How many red circles?,3,4,1,figures_6_4_081208_880066_261354_573157.png
+Figures,How many green circles?,2,4,0,figures_6_4_081208_880066_261354_573157.png
+Figures,How many blue circles?,4,6,3,figures_6_4_081208_880066_261354_573157.png
+Figures,How many figures?,24,27,25,figures_6_4_052760_682181_315414_817256.png
+Figures,How many columns?,6,4,5,figures_6_4_052760_682181_315414_817256.png
+Figures,How many rows?,4,6,3,figures_6_4_052760_682181_315414_817256.png
+Figures,How many triangles?,10,11,12,figures_6_4_052760_682181_315414_817256.png
+Figures,How many squares?,6,8,5,figures_6_4_052760_682181_315414_817256.png
+Figures,How many circles?,8,5,10,figures_6_4_052760_682181_315414_817256.png
+Figures,How many red figures?,6,4,8,figures_6_4_052760_682181_315414_817256.png
+Figures,How many green figures?,9,7,6,figures_6_4_052760_682181_315414_817256.png
+Figures,How many blue figures?,9,8,11,figures_6_4_052760_682181_315414_817256.png
+Figures,How many red triangles?,2,3,4,figures_6_4_052760_682181_315414_817256.png
+Figures,How many green triangles?,5,6,3,figures_6_4_052760_682181_315414_817256.png
+Figures,How many blue triangles?,3,2,4,figures_6_4_052760_682181_315414_817256.png
+Figures,How many red squares?,1,2,3,figures_6_4_052760_682181_315414_817256.png
+Figures,How many green squares?,2,1,0,figures_6_4_052760_682181_315414_817256.png
+Figures,How many blue squares?,3,4,5,figures_6_4_052760_682181_315414_817256.png
+Figures,How many red circles?,3,5,2,figures_6_4_052760_682181_315414_817256.png
+Figures,How many green circles?,2,0,4,figures_6_4_052760_682181_315414_817256.png
+Figures,How many blue circles?,3,1,4,figures_6_4_052760_682181_315414_817256.png
+Figures,How many figures?,24,22,20,figures_6_4_178616_018072_305205_427022.png
+Figures,How many columns?,6,5,4,figures_6_4_178616_018072_305205_427022.png
+Figures,How many rows?,4,6,2,figures_6_4_178616_018072_305205_427022.png
+Figures,How many triangles?,13,9,14,figures_6_4_178616_018072_305205_427022.png
+Figures,How many squares?,4,5,3,figures_6_4_178616_018072_305205_427022.png
+Figures,How many circles?,7,9,4,figures_6_4_178616_018072_305205_427022.png
+Figures,How many red figures?,8,5,10,figures_6_4_178616_018072_305205_427022.png
+Figures,How many green figures?,7,4,5,figures_6_4_178616_018072_305205_427022.png
+Figures,How many blue figures?,9,10,12,figures_6_4_178616_018072_305205_427022.png
+Figures,How many red triangles?,5,3,6,figures_6_4_178616_018072_305205_427022.png
+Figures,How many green triangles?,3,5,4,figures_6_4_178616_018072_305205_427022.png
+Figures,How many blue triangles?,5,4,6,figures_6_4_178616_018072_305205_427022.png
+Figures,How many red squares?,1,0,2,figures_6_4_178616_018072_305205_427022.png
+Figures,How many green squares?,1,0,3,figures_6_4_178616_018072_305205_427022.png
+Figures,How many blue squares?,2,3,0,figures_6_4_178616_018072_305205_427022.png
+Figures,How many red circles?,2,3,1,figures_6_4_178616_018072_305205_427022.png
+Figures,How many green circles?,3,1,5,figures_6_4_178616_018072_305205_427022.png
+Figures,How many blue circles?,2,3,0,figures_6_4_178616_018072_305205_427022.png
+Figures,How many figures?,24,19,23,figures_6_4_680388_248283_687124_640867.png
+Figures,How many columns?,6,7,4,figures_6_4_680388_248283_687124_640867.png
+Figures,How many rows?,4,5,6,figures_6_4_680388_248283_687124_640867.png
+Figures,How many triangles?,6,7,4,figures_6_4_680388_248283_687124_640867.png
+Figures,How many squares?,5,6,3,figures_6_4_680388_248283_687124_640867.png
+Figures,How many circles?,13,17,15,figures_6_4_680388_248283_687124_640867.png
+Figures,How many red figures?,8,7,6,figures_6_4_680388_248283_687124_640867.png
+Figures,How many green figures?,6,5,8,figures_6_4_680388_248283_687124_640867.png
+Figures,How many blue figures?,10,12,8,figures_6_4_680388_248283_687124_640867.png
+Figures,How many red triangles?,2,4,1,figures_6_4_680388_248283_687124_640867.png
+Figures,How many green triangles?,1,2,0,figures_6_4_680388_248283_687124_640867.png
+Figures,How many blue triangles?,3,4,2,figures_6_4_680388_248283_687124_640867.png
+Figures,How many red squares?,2,4,0,figures_6_4_680388_248283_687124_640867.png
+Figures,How many green squares?,3,5,2,figures_6_4_680388_248283_687124_640867.png
+Figures,How many blue squares?,0,1,2,figures_6_4_680388_248283_687124_640867.png
+Figures,How many red circles?,4,6,3,figures_6_4_680388_248283_687124_640867.png
+Figures,How many green circles?,2,3,4,figures_6_4_680388_248283_687124_640867.png
+Figures,How many blue circles?,7,10,5,figures_6_4_680388_248283_687124_640867.png
+Figures,How many figures?,24,27,28,figures_6_4_703042_654575_077087_166836.png
+Figures,How many columns?,6,8,5,figures_6_4_703042_654575_077087_166836.png
+Figures,How many rows?,4,3,6,figures_6_4_703042_654575_077087_166836.png
+Figures,How many triangles?,6,7,4,figures_6_4_703042_654575_077087_166836.png
+Figures,How many squares?,7,8,5,figures_6_4_703042_654575_077087_166836.png
+Figures,How many circles?,11,12,14,figures_6_4_703042_654575_077087_166836.png
+Figures,How many red figures?,10,8,12,figures_6_4_703042_654575_077087_166836.png
+Figures,How many green figures?,8,6,5,figures_6_4_703042_654575_077087_166836.png
+Figures,How many blue figures?,6,7,8,figures_6_4_703042_654575_077087_166836.png
+Figures,How many red triangles?,4,2,5,figures_6_4_703042_654575_077087_166836.png
+Figures,How many green triangles?,1,0,3,figures_6_4_703042_654575_077087_166836.png
+Figures,How many blue triangles?,1,3,0,figures_6_4_703042_654575_077087_166836.png
+Figures,How many red squares?,2,3,4,figures_6_4_703042_654575_077087_166836.png
+Figures,How many green squares?,2,3,0,figures_6_4_703042_654575_077087_166836.png
+Figures,How many blue squares?,3,5,2,figures_6_4_703042_654575_077087_166836.png
+Figures,How many red circles?,4,2,6,figures_6_4_703042_654575_077087_166836.png
+Figures,How many green circles?,5,6,3,figures_6_4_703042_654575_077087_166836.png
+Figures,How many blue circles?,2,1,4,figures_6_4_703042_654575_077087_166836.png
+Figures,How many figures?,24,20,27,figures_6_4_208012_081584_585206_363668.png
+Figures,How many columns?,6,4,7,figures_6_4_208012_081584_585206_363668.png
+Figures,How many rows?,4,5,6,figures_6_4_208012_081584_585206_363668.png
+Figures,How many triangles?,9,12,8,figures_6_4_208012_081584_585206_363668.png
+Figures,How many squares?,6,4,7,figures_6_4_208012_081584_585206_363668.png
+Figures,How many circles?,9,11,10,figures_6_4_208012_081584_585206_363668.png
+Figures,How many red figures?,10,7,11,figures_6_4_208012_081584_585206_363668.png
+Figures,How many green figures?,3,1,5,figures_6_4_208012_081584_585206_363668.png
+Figures,How many blue figures?,11,10,8,figures_6_4_208012_081584_585206_363668.png
+Figures,How many red triangles?,4,6,3,figures_6_4_208012_081584_585206_363668.png
+Figures,How many green triangles?,2,4,1,figures_6_4_208012_081584_585206_363668.png
+Figures,How many blue triangles?,3,5,1,figures_6_4_208012_081584_585206_363668.png
+Figures,How many red squares?,2,0,3,figures_6_4_208012_081584_585206_363668.png
+Figures,How many green squares?,1,0,3,figures_6_4_208012_081584_585206_363668.png
+Figures,How many blue squares?,3,2,4,figures_6_4_208012_081584_585206_363668.png
+Figures,How many red circles?,4,5,2,figures_6_4_208012_081584_585206_363668.png
+Figures,How many green circles?,0,2,1,figures_6_4_208012_081584_585206_363668.png
+Figures,How many blue circles?,5,3,4,figures_6_4_208012_081584_585206_363668.png
+Figures,How many figures?,24,21,27,figures_6_4_626477_712507_526771_650028.png
+Figures,How many columns?,6,8,7,figures_6_4_626477_712507_526771_650028.png
+Figures,How many rows?,4,3,2,figures_6_4_626477_712507_526771_650028.png
+Figures,How many triangles?,9,7,10,figures_6_4_626477_712507_526771_650028.png
+Figures,How many squares?,4,6,5,figures_6_4_626477_712507_526771_650028.png
+Figures,How many circles?,11,14,13,figures_6_4_626477_712507_526771_650028.png
+Figures,How many red figures?,7,5,10,figures_6_4_626477_712507_526771_650028.png
+Figures,How many green figures?,9,11,12,figures_6_4_626477_712507_526771_650028.png
+Figures,How many blue figures?,8,6,10,figures_6_4_626477_712507_526771_650028.png
+Figures,How many red triangles?,3,5,1,figures_6_4_626477_712507_526771_650028.png
+Figures,How many green triangles?,2,4,1,figures_6_4_626477_712507_526771_650028.png
+Figures,How many blue triangles?,4,6,5,figures_6_4_626477_712507_526771_650028.png
+Figures,How many red squares?,0,1,2,figures_6_4_626477_712507_526771_650028.png
+Figures,How many green squares?,1,0,3,figures_6_4_626477_712507_526771_650028.png
+Figures,How many blue squares?,3,4,2,figures_6_4_626477_712507_526771_650028.png
+Figures,How many red circles?,4,5,3,figures_6_4_626477_712507_526771_650028.png
+Figures,How many green circles?,6,8,4,figures_6_4_626477_712507_526771_650028.png
+Figures,How many blue circles?,1,2,3,figures_6_4_626477_712507_526771_650028.png
+Figures,How many figures?,24,22,23,figures_6_4_821055_582807_163043_425005.png
+Figures,How many columns?,6,5,7,figures_6_4_821055_582807_163043_425005.png
+Figures,How many rows?,4,3,5,figures_6_4_821055_582807_163043_425005.png
+Figures,How many triangles?,10,13,7,figures_6_4_821055_582807_163043_425005.png
+Figures,How many squares?,9,8,11,figures_6_4_821055_582807_163043_425005.png
+Figures,How many circles?,5,6,3,figures_6_4_821055_582807_163043_425005.png
+Figures,How many red figures?,8,9,7,figures_6_4_821055_582807_163043_425005.png
+Figures,How many green figures?,5,3,6,figures_6_4_821055_582807_163043_425005.png
+Figures,How many blue figures?,11,8,14,figures_6_4_821055_582807_163043_425005.png
+Figures,How many red triangles?,5,4,7,figures_6_4_821055_582807_163043_425005.png
+Figures,How many green triangles?,2,4,1,figures_6_4_821055_582807_163043_425005.png
+Figures,How many blue triangles?,3,4,5,figures_6_4_821055_582807_163043_425005.png
+Figures,How many red squares?,2,1,3,figures_6_4_821055_582807_163043_425005.png
+Figures,How many green squares?,2,1,3,figures_6_4_821055_582807_163043_425005.png
+Figures,How many blue squares?,5,3,7,figures_6_4_821055_582807_163043_425005.png
+Figures,How many red circles?,1,2,3,figures_6_4_821055_582807_163043_425005.png
+Figures,How many green circles?,1,2,3,figures_6_4_821055_582807_163043_425005.png
+Figures,How many blue circles?,3,5,4,figures_6_4_821055_582807_163043_425005.png
+Figures,How many figures?,24,28,19,figures_6_4_156668_556451_317345_333185.png
+Figures,How many columns?,6,7,4,figures_6_4_156668_556451_317345_333185.png
+Figures,How many rows?,4,2,5,figures_6_4_156668_556451_317345_333185.png
+Figures,How many triangles?,4,3,2,figures_6_4_156668_556451_317345_333185.png
+Figures,How many squares?,13,10,11,figures_6_4_156668_556451_317345_333185.png
+Figures,How many circles?,7,5,9,figures_6_4_156668_556451_317345_333185.png
+Figures,How many red figures?,9,8,11,figures_6_4_156668_556451_317345_333185.png
+Figures,How many green figures?,7,8,5,figures_6_4_156668_556451_317345_333185.png
+Figures,How many blue figures?,8,6,7,figures_6_4_156668_556451_317345_333185.png
+Figures,How many red triangles?,0,1,2,figures_6_4_156668_556451_317345_333185.png
+Figures,How many green triangles?,4,3,2,figures_6_4_156668_556451_317345_333185.png
+Figures,How many blue triangles?,0,1,2,figures_6_4_156668_556451_317345_333185.png
+Figures,How many red squares?,5,3,6,figures_6_4_156668_556451_317345_333185.png
+Figures,How many green squares?,2,0,1,figures_6_4_156668_556451_317345_333185.png
+Figures,How many blue squares?,6,5,8,figures_6_4_156668_556451_317345_333185.png
+Figures,How many red circles?,4,6,2,figures_6_4_156668_556451_317345_333185.png
+Figures,How many green circles?,1,3,2,figures_6_4_156668_556451_317345_333185.png
+Figures,How many blue circles?,2,3,4,figures_6_4_156668_556451_317345_333185.png

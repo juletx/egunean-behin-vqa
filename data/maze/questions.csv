@@ -1,5 +1,401 @@
 type,question,correct,wrong1,wrong2,image
-Maze,How many cells?,96,98,87,maze_0_12_8_0_2.png
-Maze,How many colums?,12,11,9,maze_0_12_8_0_2.png
-Maze,How many rows?,8,7,5,maze_0_12_8_0_2.png
+Maze,How many cells?,96,98,101,maze_0_12_8_0_2.png
+Maze,How many colums?,12,14,11,maze_0_12_8_0_2.png
+Maze,How many rows?,8,6,10,maze_0_12_8_0_2.png
 Maze,Which is the exit starting from green?,blue,red,yellow,maze_0_12_8_0_2.png
+Maze,How many cells?,96,105,91,maze_1_12_8_0_2.png
+Maze,How many colums?,12,10,11,maze_1_12_8_0_2.png
+Maze,How many rows?,8,10,7,maze_1_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_1_12_8_0_2.png
+Maze,How many cells?,96,101,104,maze_2_12_8_0_3.png
+Maze,How many colums?,12,13,9,maze_2_12_8_0_3.png
+Maze,How many rows?,8,6,9,maze_2_12_8_0_3.png
+Maze,Which is the exit starting from green?,yellow,red,blue,maze_2_12_8_0_3.png
+Maze,How many cells?,96,87,100,maze_3_12_8_0_2.png
+Maze,How many colums?,12,15,14,maze_3_12_8_0_2.png
+Maze,How many rows?,8,9,10,maze_3_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_3_12_8_0_2.png
+Maze,How many cells?,96,91,93,maze_4_12_8_0_3.png
+Maze,How many colums?,12,10,13,maze_4_12_8_0_3.png
+Maze,How many rows?,8,5,10,maze_4_12_8_0_3.png
+Maze,Which is the exit starting from green?,yellow,red,blue,maze_4_12_8_0_3.png
+Maze,How many cells?,96,90,95,maze_5_12_8_0_1.png
+Maze,How many colums?,12,15,11,maze_5_12_8_0_1.png
+Maze,How many rows?,8,9,7,maze_5_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_5_12_8_0_1.png
+Maze,How many cells?,96,88,103,maze_6_12_8_0_2.png
+Maze,How many colums?,12,14,10,maze_6_12_8_0_2.png
+Maze,How many rows?,8,9,7,maze_6_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_6_12_8_0_2.png
+Maze,How many cells?,96,103,104,maze_7_12_8_0_2.png
+Maze,How many colums?,12,13,11,maze_7_12_8_0_2.png
+Maze,How many rows?,8,11,10,maze_7_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_7_12_8_0_2.png
+Maze,How many cells?,96,98,92,maze_8_12_8_0_2.png
+Maze,How many colums?,12,15,11,maze_8_12_8_0_2.png
+Maze,How many rows?,8,7,10,maze_8_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_8_12_8_0_2.png
+Maze,How many cells?,96,102,98,maze_9_12_8_0_1.png
+Maze,How many colums?,12,14,15,maze_9_12_8_0_1.png
+Maze,How many rows?,8,7,9,maze_9_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_9_12_8_0_1.png
+Maze,How many cells?,96,105,89,maze_10_12_8_0_1.png
+Maze,How many colums?,12,10,15,maze_10_12_8_0_1.png
+Maze,How many rows?,8,11,5,maze_10_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_10_12_8_0_1.png
+Maze,How many cells?,96,86,89,maze_11_12_8_0_1.png
+Maze,How many colums?,12,11,13,maze_11_12_8_0_1.png
+Maze,How many rows?,8,7,11,maze_11_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_11_12_8_0_1.png
+Maze,How many cells?,96,89,95,maze_12_12_8_0_2.png
+Maze,How many colums?,12,13,9,maze_12_12_8_0_2.png
+Maze,How many rows?,8,7,9,maze_12_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_12_12_8_0_2.png
+Maze,How many cells?,96,87,97,maze_13_12_8_0_1.png
+Maze,How many colums?,12,11,15,maze_13_12_8_0_1.png
+Maze,How many rows?,8,7,6,maze_13_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_13_12_8_0_1.png
+Maze,How many cells?,96,89,95,maze_14_12_8_0_3.png
+Maze,How many colums?,12,15,13,maze_14_12_8_0_3.png
+Maze,How many rows?,8,5,11,maze_14_12_8_0_3.png
+Maze,Which is the exit starting from green?,yellow,red,blue,maze_14_12_8_0_3.png
+Maze,How many cells?,96,95,97,maze_15_12_8_0_2.png
+Maze,How many colums?,12,14,15,maze_15_12_8_0_2.png
+Maze,How many rows?,8,10,7,maze_15_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_15_12_8_0_2.png
+Maze,How many cells?,96,88,104,maze_16_12_8_0_2.png
+Maze,How many colums?,12,10,15,maze_16_12_8_0_2.png
+Maze,How many rows?,8,6,7,maze_16_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_16_12_8_0_2.png
+Maze,How many cells?,96,88,103,maze_17_12_8_0_1.png
+Maze,How many colums?,12,15,11,maze_17_12_8_0_1.png
+Maze,How many rows?,8,5,7,maze_17_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_17_12_8_0_1.png
+Maze,How many cells?,96,102,91,maze_18_12_8_0_2.png
+Maze,How many colums?,12,14,9,maze_18_12_8_0_2.png
+Maze,How many rows?,8,9,6,maze_18_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_18_12_8_0_2.png
+Maze,How many cells?,96,103,95,maze_19_12_8_0_1.png
+Maze,How many colums?,12,10,14,maze_19_12_8_0_1.png
+Maze,How many rows?,8,9,11,maze_19_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_19_12_8_0_1.png
+Maze,How many cells?,96,102,92,maze_20_12_8_0_2.png
+Maze,How many colums?,12,10,13,maze_20_12_8_0_2.png
+Maze,How many rows?,8,10,5,maze_20_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_20_12_8_0_2.png
+Maze,How many cells?,96,86,104,maze_21_12_8_0_1.png
+Maze,How many colums?,12,9,15,maze_21_12_8_0_1.png
+Maze,How many rows?,8,9,11,maze_21_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_21_12_8_0_1.png
+Maze,How many cells?,96,103,95,maze_22_12_8_0_1.png
+Maze,How many colums?,12,10,13,maze_22_12_8_0_1.png
+Maze,How many rows?,8,10,9,maze_22_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_22_12_8_0_1.png
+Maze,How many cells?,96,86,92,maze_23_12_8_0_1.png
+Maze,How many colums?,12,10,9,maze_23_12_8_0_1.png
+Maze,How many rows?,8,7,9,maze_23_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_23_12_8_0_1.png
+Maze,How many cells?,96,88,102,maze_24_12_8_0_2.png
+Maze,How many colums?,12,11,9,maze_24_12_8_0_2.png
+Maze,How many rows?,8,9,5,maze_24_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_24_12_8_0_2.png
+Maze,How many cells?,96,89,91,maze_25_12_8_0_1.png
+Maze,How many colums?,12,10,15,maze_25_12_8_0_1.png
+Maze,How many rows?,8,5,9,maze_25_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_25_12_8_0_1.png
+Maze,How many cells?,96,88,94,maze_26_12_8_0_1.png
+Maze,How many colums?,12,15,14,maze_26_12_8_0_1.png
+Maze,How many rows?,8,7,10,maze_26_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_26_12_8_0_1.png
+Maze,How many cells?,96,104,106,maze_27_12_8_0_2.png
+Maze,How many colums?,12,15,14,maze_27_12_8_0_2.png
+Maze,How many rows?,8,9,7,maze_27_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_27_12_8_0_2.png
+Maze,How many cells?,96,93,99,maze_28_12_8_0_1.png
+Maze,How many colums?,12,9,15,maze_28_12_8_0_1.png
+Maze,How many rows?,8,7,10,maze_28_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_28_12_8_0_1.png
+Maze,How many cells?,96,99,93,maze_29_12_8_0_1.png
+Maze,How many colums?,12,14,9,maze_29_12_8_0_1.png
+Maze,How many rows?,8,7,6,maze_29_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_29_12_8_0_1.png
+Maze,How many cells?,96,98,89,maze_30_12_8_0_1.png
+Maze,How many colums?,12,11,15,maze_30_12_8_0_1.png
+Maze,How many rows?,8,7,9,maze_30_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_30_12_8_0_1.png
+Maze,How many cells?,96,102,100,maze_31_12_8_0_1.png
+Maze,How many colums?,12,11,13,maze_31_12_8_0_1.png
+Maze,How many rows?,8,6,9,maze_31_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_31_12_8_0_1.png
+Maze,How many cells?,96,87,97,maze_32_12_8_0_1.png
+Maze,How many colums?,12,15,14,maze_32_12_8_0_1.png
+Maze,How many rows?,8,7,5,maze_32_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_32_12_8_0_1.png
+Maze,How many cells?,96,93,91,maze_33_12_8_0_2.png
+Maze,How many colums?,12,15,14,maze_33_12_8_0_2.png
+Maze,How many rows?,8,11,7,maze_33_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_33_12_8_0_2.png
+Maze,How many cells?,96,93,86,maze_34_12_8_0_2.png
+Maze,How many colums?,12,11,14,maze_34_12_8_0_2.png
+Maze,How many rows?,8,9,6,maze_34_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_34_12_8_0_2.png
+Maze,How many cells?,96,90,89,maze_35_12_8_0_1.png
+Maze,How many colums?,12,15,10,maze_35_12_8_0_1.png
+Maze,How many rows?,8,5,6,maze_35_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_35_12_8_0_1.png
+Maze,How many cells?,96,99,100,maze_36_12_8_0_1.png
+Maze,How many colums?,12,11,9,maze_36_12_8_0_1.png
+Maze,How many rows?,8,10,9,maze_36_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_36_12_8_0_1.png
+Maze,How many cells?,96,106,89,maze_37_12_8_0_1.png
+Maze,How many colums?,12,13,11,maze_37_12_8_0_1.png
+Maze,How many rows?,8,11,5,maze_37_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_37_12_8_0_1.png
+Maze,How many cells?,96,94,98,maze_38_12_8_0_3.png
+Maze,How many colums?,12,13,10,maze_38_12_8_0_3.png
+Maze,How many rows?,8,7,6,maze_38_12_8_0_3.png
+Maze,Which is the exit starting from green?,yellow,red,blue,maze_38_12_8_0_3.png
+Maze,How many cells?,96,105,104,maze_39_12_8_0_1.png
+Maze,How many colums?,12,11,10,maze_39_12_8_0_1.png
+Maze,How many rows?,8,5,10,maze_39_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_39_12_8_0_1.png
+Maze,How many cells?,96,86,88,maze_40_12_8_0_2.png
+Maze,How many colums?,12,13,9,maze_40_12_8_0_2.png
+Maze,How many rows?,8,5,10,maze_40_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_40_12_8_0_2.png
+Maze,How many cells?,96,88,100,maze_41_12_8_0_2.png
+Maze,How many colums?,12,10,9,maze_41_12_8_0_2.png
+Maze,How many rows?,8,9,7,maze_41_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_41_12_8_0_2.png
+Maze,How many cells?,96,97,95,maze_42_12_8_0_3.png
+Maze,How many colums?,12,11,9,maze_42_12_8_0_3.png
+Maze,How many rows?,8,7,9,maze_42_12_8_0_3.png
+Maze,Which is the exit starting from green?,yellow,red,blue,maze_42_12_8_0_3.png
+Maze,How many cells?,96,100,94,maze_43_12_8_0_1.png
+Maze,How many colums?,12,15,10,maze_43_12_8_0_1.png
+Maze,How many rows?,8,9,11,maze_43_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_43_12_8_0_1.png
+Maze,How many cells?,96,94,86,maze_44_12_8_0_1.png
+Maze,How many colums?,12,10,9,maze_44_12_8_0_1.png
+Maze,How many rows?,8,5,9,maze_44_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_44_12_8_0_1.png
+Maze,How many cells?,96,103,91,maze_45_12_8_0_2.png
+Maze,How many colums?,12,9,15,maze_45_12_8_0_2.png
+Maze,How many rows?,8,9,10,maze_45_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_45_12_8_0_2.png
+Maze,How many cells?,96,103,97,maze_46_12_8_0_1.png
+Maze,How many colums?,12,15,14,maze_46_12_8_0_1.png
+Maze,How many rows?,8,9,11,maze_46_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_46_12_8_0_1.png
+Maze,How many cells?,96,105,87,maze_47_12_8_0_3.png
+Maze,How many colums?,12,11,15,maze_47_12_8_0_3.png
+Maze,How many rows?,8,10,9,maze_47_12_8_0_3.png
+Maze,Which is the exit starting from green?,yellow,red,blue,maze_47_12_8_0_3.png
+Maze,How many cells?,96,99,105,maze_48_12_8_0_1.png
+Maze,How many colums?,12,14,9,maze_48_12_8_0_1.png
+Maze,How many rows?,8,7,6,maze_48_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_48_12_8_0_1.png
+Maze,How many cells?,96,103,98,maze_49_12_8_0_1.png
+Maze,How many colums?,12,15,11,maze_49_12_8_0_1.png
+Maze,How many rows?,8,9,11,maze_49_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_49_12_8_0_1.png
+Maze,How many cells?,96,98,87,maze_50_12_8_0_2.png
+Maze,How many colums?,12,15,13,maze_50_12_8_0_2.png
+Maze,How many rows?,8,5,10,maze_50_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_50_12_8_0_2.png
+Maze,How many cells?,96,88,101,maze_51_12_8_0_3.png
+Maze,How many colums?,12,11,14,maze_51_12_8_0_3.png
+Maze,How many rows?,8,11,5,maze_51_12_8_0_3.png
+Maze,Which is the exit starting from green?,yellow,red,blue,maze_51_12_8_0_3.png
+Maze,How many cells?,96,99,105,maze_52_12_8_0_2.png
+Maze,How many colums?,12,13,14,maze_52_12_8_0_2.png
+Maze,How many rows?,8,6,7,maze_52_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_52_12_8_0_2.png
+Maze,How many cells?,96,89,97,maze_53_12_8_0_2.png
+Maze,How many colums?,12,13,10,maze_53_12_8_0_2.png
+Maze,How many rows?,8,10,11,maze_53_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_53_12_8_0_2.png
+Maze,How many cells?,96,100,93,maze_54_12_8_0_3.png
+Maze,How many colums?,12,15,14,maze_54_12_8_0_3.png
+Maze,How many rows?,8,7,11,maze_54_12_8_0_3.png
+Maze,Which is the exit starting from green?,yellow,red,blue,maze_54_12_8_0_3.png
+Maze,How many cells?,96,92,88,maze_55_12_8_0_3.png
+Maze,How many colums?,12,9,13,maze_55_12_8_0_3.png
+Maze,How many rows?,8,10,9,maze_55_12_8_0_3.png
+Maze,Which is the exit starting from green?,yellow,red,blue,maze_55_12_8_0_3.png
+Maze,How many cells?,96,103,92,maze_56_12_8_0_2.png
+Maze,How many colums?,12,15,10,maze_56_12_8_0_2.png
+Maze,How many rows?,8,7,11,maze_56_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_56_12_8_0_2.png
+Maze,How many cells?,96,98,91,maze_57_12_8_0_1.png
+Maze,How many colums?,12,10,11,maze_57_12_8_0_1.png
+Maze,How many rows?,8,7,9,maze_57_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_57_12_8_0_1.png
+Maze,How many cells?,96,88,93,maze_58_12_8_0_1.png
+Maze,How many colums?,12,14,10,maze_58_12_8_0_1.png
+Maze,How many rows?,8,11,10,maze_58_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_58_12_8_0_1.png
+Maze,How many cells?,96,93,106,maze_59_12_8_0_1.png
+Maze,How many colums?,12,15,9,maze_59_12_8_0_1.png
+Maze,How many rows?,8,5,10,maze_59_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_59_12_8_0_1.png
+Maze,How many cells?,96,97,99,maze_60_12_8_0_1.png
+Maze,How many colums?,12,11,14,maze_60_12_8_0_1.png
+Maze,How many rows?,8,6,7,maze_60_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_60_12_8_0_1.png
+Maze,How many cells?,96,94,104,maze_61_12_8_0_1.png
+Maze,How many colums?,12,11,13,maze_61_12_8_0_1.png
+Maze,How many rows?,8,9,11,maze_61_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_61_12_8_0_1.png
+Maze,How many cells?,96,89,99,maze_62_12_8_0_1.png
+Maze,How many colums?,12,15,14,maze_62_12_8_0_1.png
+Maze,How many rows?,8,7,6,maze_62_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_62_12_8_0_1.png
+Maze,How many cells?,96,94,93,maze_63_12_8_0_2.png
+Maze,How many colums?,12,11,14,maze_63_12_8_0_2.png
+Maze,How many rows?,8,5,11,maze_63_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_63_12_8_0_2.png
+Maze,How many cells?,96,88,102,maze_64_12_8_0_1.png
+Maze,How many colums?,12,13,14,maze_64_12_8_0_1.png
+Maze,How many rows?,8,10,5,maze_64_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_64_12_8_0_1.png
+Maze,How many cells?,96,105,86,maze_65_12_8_0_1.png
+Maze,How many colums?,12,14,9,maze_65_12_8_0_1.png
+Maze,How many rows?,8,10,6,maze_65_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_65_12_8_0_1.png
+Maze,How many cells?,96,89,98,maze_66_12_8_0_2.png
+Maze,How many colums?,12,11,10,maze_66_12_8_0_2.png
+Maze,How many rows?,8,10,9,maze_66_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_66_12_8_0_2.png
+Maze,How many cells?,96,98,106,maze_67_12_8_0_2.png
+Maze,How many colums?,12,13,10,maze_67_12_8_0_2.png
+Maze,How many rows?,8,5,10,maze_67_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_67_12_8_0_2.png
+Maze,How many cells?,96,98,95,maze_68_12_8_0_1.png
+Maze,How many colums?,12,11,13,maze_68_12_8_0_1.png
+Maze,How many rows?,8,9,6,maze_68_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_68_12_8_0_1.png
+Maze,How many cells?,96,99,100,maze_69_12_8_0_3.png
+Maze,How many colums?,12,11,14,maze_69_12_8_0_3.png
+Maze,How many rows?,8,9,11,maze_69_12_8_0_3.png
+Maze,Which is the exit starting from green?,yellow,red,blue,maze_69_12_8_0_3.png
+Maze,How many cells?,96,93,90,maze_70_12_8_0_2.png
+Maze,How many colums?,12,9,14,maze_70_12_8_0_2.png
+Maze,How many rows?,8,9,7,maze_70_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_70_12_8_0_2.png
+Maze,How many cells?,96,106,91,maze_71_12_8_0_1.png
+Maze,How many colums?,12,13,15,maze_71_12_8_0_1.png
+Maze,How many rows?,8,11,7,maze_71_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_71_12_8_0_1.png
+Maze,How many cells?,96,89,88,maze_72_12_8_0_1.png
+Maze,How many colums?,12,9,13,maze_72_12_8_0_1.png
+Maze,How many rows?,8,6,10,maze_72_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_72_12_8_0_1.png
+Maze,How many cells?,96,86,103,maze_73_12_8_0_3.png
+Maze,How many colums?,12,9,13,maze_73_12_8_0_3.png
+Maze,How many rows?,8,5,10,maze_73_12_8_0_3.png
+Maze,Which is the exit starting from green?,yellow,red,blue,maze_73_12_8_0_3.png
+Maze,How many cells?,96,91,102,maze_74_12_8_0_1.png
+Maze,How many colums?,12,13,10,maze_74_12_8_0_1.png
+Maze,How many rows?,8,10,6,maze_74_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_74_12_8_0_1.png
+Maze,How many cells?,96,104,100,maze_75_12_8_0_2.png
+Maze,How many colums?,12,11,10,maze_75_12_8_0_2.png
+Maze,How many rows?,8,6,11,maze_75_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_75_12_8_0_2.png
+Maze,How many cells?,96,94,91,maze_76_12_8_0_1.png
+Maze,How many colums?,12,10,15,maze_76_12_8_0_1.png
+Maze,How many rows?,8,10,7,maze_76_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_76_12_8_0_1.png
+Maze,How many cells?,96,86,89,maze_77_12_8_0_1.png
+Maze,How many colums?,12,11,10,maze_77_12_8_0_1.png
+Maze,How many rows?,8,7,6,maze_77_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_77_12_8_0_1.png
+Maze,How many cells?,96,99,95,maze_78_12_8_0_1.png
+Maze,How many colums?,12,9,10,maze_78_12_8_0_1.png
+Maze,How many rows?,8,10,6,maze_78_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_78_12_8_0_1.png
+Maze,How many cells?,96,104,92,maze_79_12_8_0_1.png
+Maze,How many colums?,12,13,14,maze_79_12_8_0_1.png
+Maze,How many rows?,8,9,6,maze_79_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_79_12_8_0_1.png
+Maze,How many cells?,96,93,98,maze_80_12_8_0_1.png
+Maze,How many colums?,12,15,10,maze_80_12_8_0_1.png
+Maze,How many rows?,8,6,10,maze_80_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_80_12_8_0_1.png
+Maze,How many cells?,96,104,90,maze_81_12_8_0_1.png
+Maze,How many colums?,12,13,14,maze_81_12_8_0_1.png
+Maze,How many rows?,8,7,11,maze_81_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_81_12_8_0_1.png
+Maze,How many cells?,96,99,86,maze_82_12_8_0_1.png
+Maze,How many colums?,12,10,9,maze_82_12_8_0_1.png
+Maze,How many rows?,8,11,9,maze_82_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_82_12_8_0_1.png
+Maze,How many cells?,96,97,99,maze_83_12_8_0_1.png
+Maze,How many colums?,12,10,9,maze_83_12_8_0_1.png
+Maze,How many rows?,8,7,11,maze_83_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_83_12_8_0_1.png
+Maze,How many cells?,96,90,97,maze_84_12_8_0_1.png
+Maze,How many colums?,12,14,13,maze_84_12_8_0_1.png
+Maze,How many rows?,8,9,10,maze_84_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_84_12_8_0_1.png
+Maze,How many cells?,96,101,105,maze_85_12_8_0_1.png
+Maze,How many colums?,12,9,15,maze_85_12_8_0_1.png
+Maze,How many rows?,8,6,10,maze_85_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_85_12_8_0_1.png
+Maze,How many cells?,96,105,92,maze_86_12_8_0_1.png
+Maze,How many colums?,12,10,9,maze_86_12_8_0_1.png
+Maze,How many rows?,8,6,9,maze_86_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_86_12_8_0_1.png
+Maze,How many cells?,96,97,94,maze_87_12_8_0_3.png
+Maze,How many colums?,12,10,9,maze_87_12_8_0_3.png
+Maze,How many rows?,8,9,7,maze_87_12_8_0_3.png
+Maze,Which is the exit starting from green?,yellow,red,blue,maze_87_12_8_0_3.png
+Maze,How many cells?,96,103,86,maze_88_12_8_0_2.png
+Maze,How many colums?,12,14,11,maze_88_12_8_0_2.png
+Maze,How many rows?,8,7,6,maze_88_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_88_12_8_0_2.png
+Maze,How many cells?,96,106,99,maze_89_12_8_0_3.png
+Maze,How many colums?,12,10,14,maze_89_12_8_0_3.png
+Maze,How many rows?,8,5,6,maze_89_12_8_0_3.png
+Maze,Which is the exit starting from green?,yellow,red,blue,maze_89_12_8_0_3.png
+Maze,How many cells?,96,102,101,maze_90_12_8_0_1.png
+Maze,How many colums?,12,11,15,maze_90_12_8_0_1.png
+Maze,How many rows?,8,11,6,maze_90_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_90_12_8_0_1.png
+Maze,How many cells?,96,99,87,maze_91_12_8_0_2.png
+Maze,How many colums?,12,15,14,maze_91_12_8_0_2.png
+Maze,How many rows?,8,10,6,maze_91_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_91_12_8_0_2.png
+Maze,How many cells?,96,97,92,maze_92_12_8_0_1.png
+Maze,How many colums?,12,14,13,maze_92_12_8_0_1.png
+Maze,How many rows?,8,11,10,maze_92_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_92_12_8_0_1.png
+Maze,How many cells?,96,86,92,maze_93_12_8_0_1.png
+Maze,How many colums?,12,10,14,maze_93_12_8_0_1.png
+Maze,How many rows?,8,9,11,maze_93_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_93_12_8_0_1.png
+Maze,How many cells?,96,102,93,maze_94_12_8_0_1.png
+Maze,How many colums?,12,13,11,maze_94_12_8_0_1.png
+Maze,How many rows?,8,11,7,maze_94_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_94_12_8_0_1.png
+Maze,How many cells?,96,88,92,maze_95_12_8_0_1.png
+Maze,How many colums?,12,15,11,maze_95_12_8_0_1.png
+Maze,How many rows?,8,7,9,maze_95_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_95_12_8_0_1.png
+Maze,How many cells?,96,101,105,maze_96_12_8_0_1.png
+Maze,How many colums?,12,15,11,maze_96_12_8_0_1.png
+Maze,How many rows?,8,11,5,maze_96_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_96_12_8_0_1.png
+Maze,How many cells?,96,100,87,maze_97_12_8_0_1.png
+Maze,How many colums?,12,13,14,maze_97_12_8_0_1.png
+Maze,How many rows?,8,10,5,maze_97_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_97_12_8_0_1.png
+Maze,How many cells?,96,98,102,maze_98_12_8_0_2.png
+Maze,How many colums?,12,13,14,maze_98_12_8_0_2.png
+Maze,How many rows?,8,5,11,maze_98_12_8_0_2.png
+Maze,Which is the exit starting from green?,blue,red,yellow,maze_98_12_8_0_2.png
+Maze,How many cells?,96,92,90,maze_99_12_8_0_1.png
+Maze,How many colums?,12,13,9,maze_99_12_8_0_1.png
+Maze,How many rows?,8,7,5,maze_99_12_8_0_1.png
+Maze,Which is the exit starting from green?,red,yellow,blue,maze_99_12_8_0_1.png
